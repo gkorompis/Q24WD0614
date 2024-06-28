@@ -1,0 +1,1 @@
+export { default as HomeScreen1 } from './HomeScreen1';

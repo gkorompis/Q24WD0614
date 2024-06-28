@@ -1,0 +1,96 @@
+.w-pc-app-navbar{
+    /* background-color: #054449d3; */
+    display: grid;
+    grid-template-columns: 30% 65% 5%;
+    padding-inline: 2vw;
+    height: 10vh;
+    color: #fff;
+
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    transition: 0.3s ease-in;
+    box-sizing: border-box;
+}
+.w-pc-app-navbar.offset-screen-home1{
+    background-color:#07747B;
+}
+
+.w-pc-app-navbar>.anchor-group{
+    display: flex;
+    /* align-items: center; */
+
+    /* border: 0.3px dashed yellow; */
+}
+.w-pc-app-navbar>.anchor-group.bar-1{
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    
+}
+
+.w-pc-app-navbar>.anchor-group.bar-1>.figcap-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.w-pc-app-navbar>.anchor-group.bar-1>.figcap-wrapper>img{
+    height: 7vh;
+    margin-right: 0.8vw;
+    border-radius: 50%;
+}
+.w-pc-app-navbar>.anchor-group.bar-1>.figcap-wrapper>h1{
+    font-size: 4vh;
+    color: #fff
+}
+.w-pc-app-navbar>.anchor-group.bar-2 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+.w-pc-app-navbar>.anchor-group.bar-2>*{
+    margin-inline: 15px;
+    cursor: pointer;
+}
+.w-pc-app-navbar>.anchor-group.bar-3{
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    /* border: 1px solid white; */
+}
+.w-pc-app-navbar>.anchor-group.bar-3>p{
+    cursor: pointer;
+    color: #fff;
+}
+
+
+/* submenu */
+.w-pc-app-navbar>.anchor-group.bar-2>.business-submenu{
+    position: relative !important;
+    /* border: 0.5px white dashed; */
+}
+.w-pc-app-navbar>.anchor-group.bar-2>.business-submenu>.submenu-bar {
+    position: fixed;
+    /* height: 20vh; */
+    width: 170px;
+    background-color: #269CA4;
+    padding-block: 10px;
+    margin-top: 5px;
+    transition: 0.3s ease;
+    opacity: 0%;
+    /* display: none; */
+    /* top: 50%; */
+}
+.w-pc-app-navbar>.anchor-group.bar-2>.business-submenu>.submenu-bar.hover{
+    /* display: block; */
+    opacity: 100%;
+}
+.w-pc-app-navbar>.anchor-group.bar-2>.business-submenu>.submenu-bar>p{
+    padding-block: 10px;
+    font-size: 13px;
+    padding-inline: 18px;
+    transition: 0.3s ease;
+}
+.w-pc-app-navbar>.anchor-group.bar-2>.business-submenu>.submenu-bar>p:hover {
+    background-color: #07747B;
+}

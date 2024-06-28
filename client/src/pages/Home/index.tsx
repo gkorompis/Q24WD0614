@@ -1,6 +1,8 @@
 import { useContext } from "react";
 import globalStates from "../../utils/global";
 import "./Home.css";
+import { HomeScreen1 } from "../../containers";
+import { AppNavbar } from "../../components";
 
 const Home = () =>{
     const context = globalStates && globalStates.globalContext;
@@ -9,7 +11,9 @@ const Home = () =>{
     
     return(
         <div>
-            <h1>home Zillient</h1>
+            <AppNavbar/>
+            <HomeScreen1/>
+            {/* <HomeScreen1/> */}
         </div>
     )
 };

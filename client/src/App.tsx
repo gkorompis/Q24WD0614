@@ -14,13 +14,16 @@ function App() {
   const windowSize = useWindowSize() as {width: any, height: any};
   const windowWidth = windowSize && windowSize.width;
   const windowHeight = windowSize && windowSize.height;
+  const [screensOffset, setScreensOffset] = useState({} as any);
   
   return (
     <globalContext.Provider value={{
         windowSize, 
         windowWidthClass, 
         windowHeight,
-        windowWidth
+        windowWidth,
+        screensOffset,
+        setScreensOffset
       }}>
         <BrowserRouter>
           {/* <ScrollToTop/> */}
