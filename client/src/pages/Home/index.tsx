@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import globalStates from "../../utils/global";
 import "./Home.css";
-import { HomeScreen1 } from "../../containers";
+import { HomeScreen1, HomeScreen2 } from "../../containers";
 import { AppNavbar } from "../../components";
 
 const Home = () =>{
@@ -13,7 +13,7 @@ const Home = () =>{
         <div>
             <AppNavbar/>
             <HomeScreen1/>
-            {/* <HomeScreen1/> */}
+            <HomeScreen2/>
         </div>
     )
 };

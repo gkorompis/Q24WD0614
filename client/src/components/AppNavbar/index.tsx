@@ -1,7 +1,7 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext, useState } from "react";
 import globalStates from "../../utils/global";
 import "./AppNavbar.css";
-import { IconLogo } from "../../assets";
+import { IconBurger, IconLogo } from "../../assets";
 
 
 const AppNavbar = () =>{
@@ -19,12 +19,12 @@ const AppNavbar = () =>{
 
     const handleHoverBusinessSubmenu = (trigger:any)=>{
         console.log("hover", trigger)
-        if(trigger=="enter"){
+        if(trigger==="enter"){
             setIsHover({
                 businessSubmenu: true
             })
         }
-        if(trigger=="leave") {
+        if(trigger==="leave") {
             setIsHover({
                 businessSubmenu: false
             })
@@ -42,31 +42,42 @@ const AppNavbar = () =>{
                 </div>
             </div>
             <div className="anchor-group bar-2">
-                <p>Home</p>
-                <p>About Us</p>
-                <div className="business-submenu"
-                onMouseEnter={()=>handleHoverBusinessSubmenu("enter")}
-                onMouseLeave={()=>handleHoverBusinessSubmenu("leave")}>
-                    
-                    <p
-                        
-                    >Business</p>
-                    <div className={`submenu-bar
-                            ${isHoverBusinessSubmenu? "hover" : ""}
-                        `}>
-                        <p>Zillient Construction</p>
-                        <p>Zillient Farm</p>
-                        <p>Zillient Education</p>
-                        <p>Zillient Tour</p>
-                        <p>Zillient Consultation</p>
-                    </div>
+                {
+                    windowWidthClass==="w-mob"?
+                    <p>EN</p>
+                    : 
+                    <>
+                        <p>Home</p>
+                        <p>About Us</p>
+                        <div className="business-submenu"
+                        onMouseEnter={()=>handleHoverBusinessSubmenu("enter")}
+                        onMouseLeave={()=>handleHoverBusinessSubmenu("leave")}>
+                            
+                            <p
+                                
+                            >Business</p>
+                            <div className={`submenu-bar
+                                    ${isHoverBusinessSubmenu? "hover" : ""}
+                                `}>
+                                <p>Zillient Farm</p>
+                                <p>Zillient Education</p>
+                                <p>Zillient Construction</p>
+                                <p>Zillient Tour</p>
+                                <p>Zillient Consultation</p>
+                            </div>
 
-                </div>
-                <p>Careers</p>
-                <p>Contact Us</p>
+                        </div>
+                        <p>Careers</p>
+                        <p>Contact Us</p>
+                    </>
+                }
             </div>
             <div className="anchor-group bar-3">
-                <p>EN</p>
+                {
+                    windowWidthClass==="w-mob"?
+                    <img alt="icon burger zillient" src={IconBurger}/> :  <p>EN</p>
+                }
+               
             </div>
         </nav>
     )
