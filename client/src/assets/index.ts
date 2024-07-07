@@ -15,3 +15,9 @@ export { default as ImgBusinessEdu } from './img/homescreen3/z_edu.jpg';
 export { default as ImgBusinessConstruction } from './img/homescreen3/z_construction.png';
 export { default as ImgBusinessTour } from './img/homescreen3/z_tour.png';
 export { default as ImgBusinessConsultation } from './img/homescreen3/z_construction.png';
+
+export { default as ImgProjectFarm } from './img/homescreen4/business-farm.jpg';
+export { default as ImgProjectEdu } from './img/homescreen4/business-edu.jpg';
+export { default as ImgProjectCons } from './img/homescreen4/business-cons.jpg';
+export { default as ImgProjectTour } from './img/homescreen4/business-tour.jpg';
+export { default as ImgProjectLegal } from './img/homescreen4/business-legal.jpg';

@@ -2,6 +2,7 @@
     /* border: 1px solid red; */
     background-color: none;
     padding-top: 20vh;
+    color: var(--screen-text-color-alt);
 }
 .w-pc-home-screen3>.wrapper{
     display:flex;
@@ -40,6 +41,7 @@ img{
     /* border: 1px solid red; */
     background-color: none;
     padding-top: 10vh;
+    color: var(--screen-text-color-alt);
 }
 
 .w-tab-home-screen3>.wrapper {
@@ -81,6 +83,7 @@ img{
     /* border: 1px solid red; */
     background-color: none;
     padding-top: 10vh;
+    color: var(--screen-text-color-alt);
 }
 
 .w-mob-home-screen3>.wrapper {
