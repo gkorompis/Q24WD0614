@@ -3,3 +3,4 @@ export { default as HomeScreen2 } from './HomeScreen2';
 export { default as HomeScreen3 } from './HomeScreen3';
 export { default as HomeScreen4 } from './HomeScreen4';
 export { default as HomeScreen5 } from './HomeScreen5';
+export {default as HomeScreen6 } from './HomeScreen6';

@@ -24,3 +24,5 @@ export { default as ImgProjectLegal } from './img/homescreen4/business-legal.jpg
 
 export { default as ImgBannerFarm } from './img/homescreen5/banner-farm.jpg';
 export { default as ImgHexagons } from './img/homescreen5/icon-logos.png';
+
+export { default as ImgBannerConstruction2 } from './img/homescreen6/banner-construction-2.jpg';

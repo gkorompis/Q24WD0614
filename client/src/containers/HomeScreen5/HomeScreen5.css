@@ -59,6 +59,10 @@ p {
     width: 70%;
     margin-top: 1vh;
 }
+.w-pc-home-screen5>.wrapper>.content>.image>img {
+    height: 75vh;
+    /* border: 1px solid yellow;  */
+}
 
 
 /* tab view */

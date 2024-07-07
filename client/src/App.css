@@ -42,4 +42,8 @@
   --screen-bg-color: #2BB2BB;
   --screen-text-color: #fff;
   --screen-text-color-alt: #269CA4;
+  --screen-text-color-alt2: #B2CDD5;
+  --screen-button-color: #1D1D1B;
+  --screen-button-color-hover: #31312e;
+  --screen-button-color-active: #000000;
 }
