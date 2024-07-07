@@ -1,6 +1,7 @@
 .w-pc-home-screen4{
     padding-top: 20vh;
     color: var(--screen-text-color-alt);
+    padding-bottom: 10vh;
 }
 .w-pc-home-screen4>.section.header{
     display: flex;

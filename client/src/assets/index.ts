@@ -21,3 +21,6 @@ export { default as ImgProjectEdu } from './img/homescreen4/business-edu.jpg';
 export { default as ImgProjectCons } from './img/homescreen4/business-cons.jpg';
 export { default as ImgProjectTour } from './img/homescreen4/business-tour.jpg';
 export { default as ImgProjectLegal } from './img/homescreen4/business-legal.jpg';
+
+export { default as ImgBannerFarm } from './img/homescreen5/banner-farm.jpg';
+export { default as ImgHexagons } from './img/homescreen5/icon-logos.png';
