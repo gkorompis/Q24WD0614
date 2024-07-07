@@ -13,7 +13,8 @@
     box-sizing: border-box;
 }
 .w-pc-app-navbar.offset-screen-home1{
-    background-color:#07747B;
+    background-color:#061c1ec6;
+    backdrop-filter: blur(9px);
 }
 
 .w-pc-app-navbar>.anchor-group{

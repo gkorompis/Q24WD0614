@@ -10,11 +10,11 @@ export { default as IconCoreValue5 } from './img/homescreen2/icon-value-5.png';
 
 export { default as IconBurger } from './img/appnavbar/icon-burger.png';
 
-export { default as ImgBusinessFarm } from './img/homescreen3/z_farm.jpg';
-export { default as ImgBusinessEdu } from './img/homescreen3/z_edu.jpg';
+export { default as ImgBusinessFarm } from './img/homescreen3/z_farm.png';
+export { default as ImgBusinessEdu } from './img/homescreen3/z_edu.png';
 export { default as ImgBusinessConstruction } from './img/homescreen3/z_construction.png';
 export { default as ImgBusinessTour } from './img/homescreen3/z_tour.png';
-export { default as ImgBusinessConsultation } from './img/homescreen3/z_construction.png';
+export { default as ImgBusinessConsultation } from './img/homescreen3/z_consultation.png';
 
 export { default as ImgProjectFarm } from './img/homescreen4/business-farm.jpg';
 export { default as ImgProjectEdu } from './img/homescreen4/business-edu.jpg';
@@ -26,3 +26,5 @@ export { default as ImgBannerFarm } from './img/homescreen5/banner-farm.jpg';
 export { default as ImgHexagons } from './img/homescreen5/icon-logos.png';
 
 export { default as ImgBannerConstruction2 } from './img/homescreen6/banner-construction-2.jpg';
+
+export { default as ImgBannerAbout1 } from './img/aboutscreen1/business-legal.jpg';

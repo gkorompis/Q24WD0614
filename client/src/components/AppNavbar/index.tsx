@@ -2,10 +2,11 @@ import { useContext, useState } from "react";
 import globalStates from "../../utils/global";
 import "./AppNavbar.css";
 import { IconBurger, IconLogo } from "../../assets";
+import { useNavigate } from "react-router-dom";
 
 
 const AppNavbar = () =>{
-
+    const navigate = useNavigate();
     const context = globalStates && globalStates.globalContext;
     const globalContext:any = useContext(context);
     const windowWidthClass = globalContext && globalContext.windowWidthClass;
@@ -35,6 +36,10 @@ const AppNavbar = () =>{
     const handleCollapsed=()=>{
         setIsCollapsed(!isCollapsed);
     }
+    const handleNavigate=(path:string)=>{
+        const route = `/${(path || "")}`
+        navigate(route);
+    }
     
     return(
         <>
@@ -53,8 +58,8 @@ const AppNavbar = () =>{
                     <p>EN</p>
                     : 
                     <>
-                        <p>Home</p>
-                        <p>About Us</p>
+                        <p onClick={()=>handleNavigate('')}>Home</p>
+                        <p onClick={()=>handleNavigate('about')}>About Us</p>
                         <div className="business-submenu"
                         onMouseEnter={()=>handleHoverBusinessSubmenu("enter")}
                         onMouseLeave={()=>handleHoverBusinessSubmenu("leave")}>
@@ -65,7 +70,7 @@ const AppNavbar = () =>{
                             <div className={`submenu-bar
                                     ${isHoverBusinessSubmenu? "hover" : ""}
                                 `}>
-                                <p>Zillient Farm</p>
+                                <p >Zillient Farm</p>
                                 <p>Zillient Education</p>
                                 <p>Zillient Construction</p>
                                 <p>Zillient Tour</p>

@@ -4,7 +4,8 @@ import './App.css';
 import globalStates from './utils/global'
 import { useWindowSize } from '@uidotdev/usehooks';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Home } from './pages';
+import { About, Home } from './pages';
+import { ScrollToTop } from './components';
 
 
 function App() {
@@ -42,10 +43,10 @@ function App() {
         setScreensOffset
       }}>
         <BrowserRouter>
-          {/* <ScrollToTop/> */}
+          <ScrollToTop/>
           <Routes>
             <Route path="/" element={<Home/>} />
-            <Route path="/musics" element={<Home/>} />
+            <Route path="/about" element={<About/>} />
             <Route path="/store" element={<Home/>} />
             <Route path="/artist" element={<Home/>} />
           </Routes>

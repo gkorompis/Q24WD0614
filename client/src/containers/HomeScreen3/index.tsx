@@ -43,7 +43,10 @@ const HomeScreen3 = () =>{
                             const {title, imgSrc} = business;
                             return(
                                 <div key={index} className="grid-item">
-                                    <img alt={title + "zillient.com"} src={imgSrc}/>
+                                    <div className="frame">
+                                        <img alt={title + "zillient.com"} src={imgSrc}/>
+                                        <p>{title}</p>
+                                    </div>
                                 </div>
                             )
                         })

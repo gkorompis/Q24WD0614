@@ -14,7 +14,6 @@ const HomeScreen1 = () =>{
     // console.log(">>>",isOffsetScreenHome1, screensOffset);
 
     const screenHome1Ref = useRef(null) as any;
-    console.log({})
     useEffect(()=>{
         const handleScroll =()=>{
             const setScreensOffset = globalContext && globalContext.setScreensOffset;
