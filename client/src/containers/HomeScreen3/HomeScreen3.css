@@ -1,0 +1,118 @@
+.w-pc-home-screen3{
+    /* border: 1px solid red; */
+    background-color: none;
+    padding-top: 20vh;
+}
+.w-pc-home-screen3>.wrapper{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.w-pc-home-screen3>.wrapper>h2{
+    font-size:5vh;
+}
+.w-pc-home-screen3>.wrapper>
+.cardholder{
+    margin-block: 6vh;
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    row-gap: 3vh;
+
+}
+.w-pc-home-screen3>.wrapper>.cardholder>.grid-item{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.w-pc-home-screen3>.wrapper>.cardholder>.grid-item>
+img{
+    width: 15vw;
+    border-radius: 5px;
+}
+
+
+/* tab view */
+.w-tab-home-screen3 {
+    /* border: 1px solid red; */
+    background-color: none;
+    padding-top: 10vh;
+}
+
+.w-tab-home-screen3>.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-tab-home-screen3>.wrapper>h2 {
+    font-size: 3vh;
+}
+
+.w-tab-home-screen3>.wrapper>.cardholder {
+    margin-block: 6vh;
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows:15vh;
+    row-gap: 3vh;
+
+}
+
+.w-tab-home-screen3>.wrapper>.cardholder>.grid-item {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-tab-home-screen3>.wrapper>.cardholder>.grid-item>img {
+    height: 15vh;
+    border-radius: 5px;
+}
+
+/* mobile view */
+.w-mob-home-screen3 {
+    /* border: 1px solid red; */
+    background-color: none;
+    padding-top: 10vh;
+}
+
+.w-mob-home-screen3>.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-mob-home-screen3>.wrapper>h2 {
+    font-size: 5vh;
+}
+
+.w-mob-home-screen3>.wrapper>.cardholder {
+    margin-block: 6vh;
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: 30vh;
+    row-gap: 3vh;
+
+}
+
+.w-mob-home-screen3>.wrapper>.cardholder>.grid-item {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-mob-home-screen3>.wrapper>.cardholder>.grid-item>img {
+    height: 30vh;
+    border-radius: 5px;
+}
