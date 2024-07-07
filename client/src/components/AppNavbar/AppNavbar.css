@@ -330,3 +330,28 @@ img{
     height: 4vh;
     filter: invert(90%);
 }
+
+.w-mob-collapsed{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-out;
+    transform: translate(-100%,0);
+    background-color: #269CA4;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.w-mob-collapsed>p{
+    margin-block: 4px;
+}
+
+.w-mob-collapsed.collapsed{
+    transition: 0.3s ease-out;
+    transform: translate(0, 0);
+}

@@ -16,6 +16,8 @@ const AppNavbar = () =>{
     
     const isHoverBusinessSubmenu = isHover && isHover.businessSubmenu ;
 
+    const [isCollapsed, setIsCollapsed] = useState(false);
+
 
     const handleHoverBusinessSubmenu = (trigger:any)=>{
         console.log("hover", trigger)
@@ -30,8 +32,12 @@ const AppNavbar = () =>{
             })
         }
     };
+    const handleCollapsed=()=>{
+        setIsCollapsed(!isCollapsed);
+    }
     
     return(
+        <>
         <nav className={`${windowWidthClass}-app-navbar
             ${isOffsetScreenHome1 ? "offset-screen-home1": ""}
         `}>
@@ -75,11 +81,26 @@ const AppNavbar = () =>{
             <div className="anchor-group bar-3">
                 {
                     windowWidthClass==="w-mob"?
-                    <img alt="icon burger zillient" src={IconBurger}/> :  <p>EN</p>
+                    <img alt="icon burger zillient" src={IconBurger} onClick={handleCollapsed}/> :  <p>EN</p>
                 }
                
             </div>
         </nav>
+
+        {
+            <div className={`w-mob-collapsed
+                ${isCollapsed? "collapsed":""}
+            `}
+                onClick={handleCollapsed}
+            >
+                <p>Home</p>
+                <p>About Us</p>
+                <p>Business</p>
+                <p>Careers</p>
+                <p>Contact Us</p>
+            </div>
+        }
+        </>
     )
 };
 
