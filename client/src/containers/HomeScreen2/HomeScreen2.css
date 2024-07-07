@@ -54,6 +54,8 @@
 .w-mob-home-screen-2 {
     width: 100%;
     padding-top: 10vh;
+    background-color: var(--screen-bg-color);
+        color: var(--screen-text-color);
     /* border: 1px solid red; */
 }
 
@@ -97,6 +99,7 @@
 .w-mob-home-screen-2>.wrapper>.cardholder>.grid-item>.card>img {
     height: 8vh;
     margin-bottom: 1.7vh;
+    filter: invert(94%);
 }
 
 /* tab */

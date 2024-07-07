@@ -77,7 +77,7 @@ p{
     margin-block: 6vh;
     display: grid;
     width: 90%;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
     grid-template-rows:15vh;
     row-gap: 3vh;
 
@@ -91,8 +91,35 @@ p{
     justify-content: center;
 }
 
-.w-tab-home-screen3>.wrapper>.cardholder>.grid-item>img {
+/* .w-tab-home-screen3>.wrapper>.cardholder>.grid-item>img {
     height: 15vh;
+    border-radius: 5px;
+} */
+.w-tab-home-screen3>.wrapper>.cardholder>.grid-item>.frame {
+    overflow: hidden;
+    width: 15vw;
+    height: 20vw;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.w-tab-home-screen3>.wrapper>.cardholder>.grid-item>.frame>img {
+    height: 25vw;
+    border-radius: 5px;
+    transition: 0.5s ease;
+    z-index: 1;
+}
+
+.w-tab-home-screen3>.wrapper>.cardholder>.grid-item>.frame>p {
+    margin-top: 0.3vh;
+    font-size: 1vh;
+    text-align: center;
+}
+
+.w-tab-home-screen3>.wrapper>.cardholder>.grid-item>.frame>img:hover {
+    height: 16vw;
+    transition: 0.5s ease;
     border-radius: 5px;
 }
 
@@ -120,8 +147,8 @@ p{
     display: grid;
     width: 90%;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: 30vh;
-    row-gap: 3vh;
+    grid-auto-rows: 40vh;
+    row-gap: 0.8vh;
 
 }
 
@@ -133,7 +160,34 @@ p{
     justify-content: center;
 }
 
-.w-mob-home-screen3>.wrapper>.cardholder>.grid-item>img {
+/* .w-mob-home-screen3>.wrapper>.cardholder>.grid-item>img {
     height: 30vh;
+    border-radius: 5px;
+} */
+.w-mob-home-screen3>.wrapper>.cardholder>.grid-item>.frame {
+    overflow: hidden;
+    width: 30vh;
+    height: 40vh;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.w-mob-home-screen3>.wrapper>.cardholder>.grid-item>.frame>img {
+    height: 40vh;
+    border-radius: 5px;
+    transition: 0.5s ease;
+    z-index: 1;
+}
+
+.w-mob-home-screen3>.wrapper>.cardholder>.grid-item>.frame>p {
+    margin-top: 0.3vh;
+    font-size: 3vh;
+    text-align: center;
+}
+
+.w-mob-home-screen3>.wrapper>.cardholder>.grid-item>.frame>img:hover {
+    height: 30vh;
+    transition: 0.5s ease;
     border-radius: 5px;
 }
