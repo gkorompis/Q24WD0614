@@ -28,3 +28,11 @@ export { default as ImgHexagons } from './img/homescreen5/icon-logos.png';
 export { default as ImgBannerConstruction2 } from './img/homescreen6/banner-construction-2.jpg';
 
 export { default as ImgBannerAbout1 } from './img/aboutscreen1/business-legal.jpg';
+
+export { default as ImgBannerAbout2a } from './img/aboutscreen2/banner-construction.jpg';
+export { default as ImgBannerAbout2b } from './img/aboutscreen2/banner-construction-2.jpg';
+
+export { default as ImgBannerAboutWelcome } from './img/aboutscreen2/road.png';
+export { default as ImgBannerAboutLegality } from './img/aboutscreen2/legalities.png';
+
+export { default as ImgLogoFooter } from './img/appfooter/footer-logo.jpg'

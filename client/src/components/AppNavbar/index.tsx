@@ -98,8 +98,8 @@ const AppNavbar = () =>{
             `}
                 onClick={handleCollapsed}
             >
-                <p>Home</p>
-                <p>About Us</p>
+                <p onClick={()=>handleNavigate('')}>Home</p>
+                <p onClick={()=>handleNavigate('about')}>About Us</p>
                 <p>Business</p>
                 <p>Careers</p>
                 <p>Contact Us</p>

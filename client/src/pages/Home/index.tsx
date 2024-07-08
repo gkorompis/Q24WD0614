@@ -1,7 +1,7 @@
 
 import "./Home.css";
 import { HomeScreen1, HomeScreen2, HomeScreen3, HomeScreen4, HomeScreen5, HomeScreen6 } from "../../containers";
-import { AppNavbar } from "../../components";
+import { AppFooter, AppNavbar } from "../../components";
 
 const Home = () =>{
     
@@ -14,6 +14,7 @@ const Home = () =>{
             <HomeScreen4/>
             <HomeScreen5/>
             <HomeScreen6/>
+            {/* <AppFooter/> */}
         </div>
     )
 };

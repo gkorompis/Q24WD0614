@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { AppNavbar } from "../../components";
+import { AppFooter, AppNavbar } from "../../components";
 import { AboutScreen1, AboutScreen2 } from "../../containers";
 import globalStates from "../../utils/global";
 import "./About.css"
@@ -15,6 +15,7 @@ const About = () => {
             <AppNavbar/>
             <AboutScreen1/>
             <AboutScreen2/>
+            <AppFooter/>
         </div>
     )
 };
