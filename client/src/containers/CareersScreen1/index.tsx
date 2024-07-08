@@ -1,21 +1,21 @@
 import { useContext, useEffect, useRef } from "react";
 import globalStates from "../../utils/global";
-import "./AboutScreen1.css";
-import { ImgBannerAbout1 } from "../../assets";
+import "./CareersScreen1.css";
+import { ImgBannerAboutLegality, ImgProjectLegal } from "../../assets";
 
-const AboutScreen1 = ()=>{
+const CareersScreen1 = () =>{
 
     const context = globalStates && globalStates.globalContext;
     const globalContext:any = useContext(context);
     const windowWidthClass = globalContext && globalContext.windowWidthClass;
 
-    const screenAbout1Ref = useRef(null) as any;
+    const screenCareer1Ref = useRef(null) as any;
     useEffect(()=>{
         const handleScroll =()=>{
             const setScreensOffset = globalContext && globalContext.setScreensOffset;
-            const screenAbout1 = screenAbout1Ref.current.getBoundingClientRect();
-            const top = screenAbout1.top;
-            const bottom = screenAbout1.bottom;
+            const screenHome1 = screenCareer1Ref.current.getBoundingClientRect();
+            const top = screenHome1.top;
+            const bottom = screenHome1.bottom;
             const offset = globalContext && globalContext.windowHeight;
             setScreensOffset((prev:any)=>{return {...prev, 
                 isOffsetScreenHome1: false, bottom, offset, top
@@ -32,21 +32,37 @@ const AboutScreen1 = ()=>{
         window.removeEventListener('scroll', handleScroll);
         };
     }, [globalContext])
+    
     return(
-        <div ref={screenAbout1Ref} className={`${windowWidthClass}-about-screen1`}>
+        <div ref={screenCareer1Ref} className={`${windowWidthClass}-careers-screen1`}>
             <div className="wrapper">
                 <div className="background">
-                    <img alt="legal background" src={ImgBannerAbout1}/>
+                    <img alt="legal" src={ImgProjectLegal} />
                 </div>
                 <div className="shield">
 
                 </div>
                 <div className="content">
-                    <h1>PT ZILLIENT PROVA NUTRITAMA</h1>
+                    <div className="screen tagline">
+                        <h1>START YOUR CAREER WITH ZILLIENT FOR ACHIEVE BEST FUTURE</h1>
+                    </div>
+                    <div className="screen form">
+                        <div className="form">
+                            <input 
+                            className="position" 
+                            placeholder="All positions"></input>
+
+                            <input 
+                            className="dream-job" 
+                            placeholder="type your dream job here"></input>
+                        </div>
+                    </div>
                 </div>
+                
             </div>
+            
         </div>
     )
 };
 
-export default AboutScreen1;
+export default CareersScreen1;

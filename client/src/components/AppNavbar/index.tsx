@@ -78,7 +78,7 @@ const AppNavbar = () =>{
                             </div>
 
                         </div>
-                        <p>Careers</p>
+                        <p onClick={()=>handleNavigate('careers')}>Careers</p>
                         <p>Contact Us</p>
                     </>
                 }
@@ -101,7 +101,7 @@ const AppNavbar = () =>{
                 <p onClick={()=>handleNavigate('')}>Home</p>
                 <p onClick={()=>handleNavigate('about')}>About Us</p>
                 <p>Business</p>
-                <p>Careers</p>
+                <p onClick={()=>handleNavigate('careers')}>Careers</p>
                 <p>Contact Us</p>
             </div>
         }

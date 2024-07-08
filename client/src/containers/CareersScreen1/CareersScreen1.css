@@ -1,0 +1,311 @@
+.w-pc-careers-screen1{ 
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    /* padding-top: 10vh; */
+}
+.w-pc-careers-screen1>.wrapper{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.w-pc-careers-screen1>.wrapper>*{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.w-pc-careers-screen1>.wrapper>.background{
+    overflow: hidden;
+}
+.w-pc-careers-screen1>.wrapper>.background>img{
+    width: 100%;
+}
+
+.w-pc-careers-screen1>.wrapper>.shield{
+    background-color: black;
+    opacity: 39%;
+}
+
+.w-pc-careers-screen1>.wrapper>.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #fff;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen{
+    /* border: 1px solid red; */
+    height: 100%;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.tagline{
+    height: 100%;
+    width: 50vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.tagline>h1{
+    font-size: 7vh;
+    font-weight: bolder;
+}
+
+.w-pc-careers-screen1>.wrapper>.content>.screen.form {
+    height: 100%;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form {
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: center;
+    background-color: #043639db;
+    backdrop-filter: blur(9px);
+    height: 35vh;
+    width: 90%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-left: 3vw;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form>input{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    height: 6.9vh;
+    margin-block: 2vh;
+    padding-inline: 1.8vh;
+    padding-block: 0.7vh;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form>input.position{
+    width: 15vw;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form>input.dream-job {
+    width: 23vw;
+}
+
+
+/* tab view */
+.w-tab-careers-screen1 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    /* padding-top: 10vh; */
+}
+
+.w-tab-careers-screen1>.wrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.w-tab-careers-screen1>.wrapper>* {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.w-tab-careers-screen1>.wrapper>.background {
+    overflow: hidden;
+}
+
+.w-tab-careers-screen1>.wrapper>.background>img {
+    width: 100%;
+}
+
+.w-tab-careers-screen1>.wrapper>.shield {
+    background-color: black;
+    opacity: 39%;
+}
+
+.w-tab-careers-screen1>.wrapper>.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #fff;
+}
+
+.w-tab-careers-screen1>.wrapper>.content>.screen {
+    /* border: 1px solid red; */
+    height: 100%;
+}
+
+.w-tab-careers-screen1>.wrapper>.content>.screen.tagline {
+    height: 100%;
+    width: 50vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.w-tab-careers-screen1>.wrapper>.content>.screen.tagline>h1 {
+    font-size: 4vh;
+    font-weight: bolder;
+}
+
+.w-tab-careers-screen1>.wrapper>.content>.screen.form {
+    height: 100%;
+    width: 39vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.w-tab-careers-screen1>.wrapper>.content>.screen.form>.form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background-color: #043639db;
+    backdrop-filter: blur(9px);
+    height: 22vh;
+    width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-left: 3vw;
+}
+
+.w-tab-careers-screen1>.wrapper>.content>.screen.form>.form>input {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    height: 3vh;
+    margin-block: 2vh;
+    padding-inline: 1.8vh;
+    padding-block: 0.7vh;
+}
+
+.w-tab-careers-screen1>.wrapper>.content>.screen.form>.form>input.position {
+    width: 15vw;
+}
+
+.w-tab-careers-screen1>.wrapper>.content>.screen.form>.form>input.dream-job {
+    width: 23vw;
+}
+
+/* mobile view */
+.w-mob-careers-screen1 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    /* padding-top: 10vh; */
+}
+
+.w-mob-careers-screen1>.wrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.w-mob-careers-screen1>.wrapper>* {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.w-mob-careers-screen1>.wrapper>.background {
+    overflow: hidden;
+}
+
+.w-mob-careers-screen1>.wrapper>.background>img {
+    height: 100%;
+}
+
+.w-mob-careers-screen1>.wrapper>.shield {
+    background-color: black;
+    opacity: 39%;
+}
+
+.w-mob-careers-screen1>.wrapper>.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #fff;
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen {
+    /* border: 1px solid red; */
+    height: 100%;
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.tagline {
+    height: 50vh;
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.tagline>h1 {
+    font-size: 4.5vh;
+    font-weight: bolder;
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form {
+    height: 90%;
+    width:95vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 50vh;
+    padding-block: 4vh;
+    box-sizing: border-box;
+
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background-color: #043639db;
+    backdrop-filter: blur(9px);
+    height: 32vh;
+    width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-left: 5vw;
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form>input {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    height: 6.9vh;
+    margin-block: 2vh;
+    padding-inline: 1.8vh;
+    padding-block: 0.4vh;
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form>input.position {
+    width: 40vw;
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form>input.dream-job {
+    width: 72vw;
+}

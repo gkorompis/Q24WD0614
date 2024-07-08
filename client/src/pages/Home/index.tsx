@@ -14,7 +14,7 @@ const Home = () =>{
             <HomeScreen4/>
             <HomeScreen5/>
             <HomeScreen6/>
-            {/* <AppFooter/> */}
+            <AppFooter/>
         </div>
     )
 };

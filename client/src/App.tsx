@@ -6,6 +6,7 @@ import { useWindowSize } from '@uidotdev/usehooks';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { About, Home } from './pages';
 import { ScrollToTop } from './components';
+import Careers from './pages/Careers';
 
 
 function App() {
@@ -47,7 +48,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/about" element={<About/>} />
-            <Route path="/store" element={<Home/>} />
+            <Route path="/careers" element={<Careers/>} />
             <Route path="/artist" element={<Home/>} />
           </Routes>
         </BrowserRouter>
