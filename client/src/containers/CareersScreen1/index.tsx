@@ -1,7 +1,7 @@
 import { useContext, useEffect, useRef } from "react";
 import globalStates from "../../utils/global";
 import "./CareersScreen1.css";
-import { ImgBannerAboutLegality, ImgProjectLegal } from "../../assets";
+import { ImgProjectLegal } from "../../assets";
 
 const CareersScreen1 = () =>{
 
@@ -48,6 +48,8 @@ const CareersScreen1 = () =>{
                     </div>
                     <div className="screen form">
                         <div className="form">
+                            <h2>Search Jobs</h2>
+                            <p>86 available positions in 7 countries</p>
                             <input 
                             className="position" 
                             placeholder="All positions"></input>

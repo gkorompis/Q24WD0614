@@ -63,28 +63,36 @@
     flex-direction: column;
     align-items: start;
     justify-content: center;
+    /* border: 1px solid red; */
 }
 .w-pc-careers-screen1>.wrapper>.content>.screen.form>.form {
     display: flex;
     flex-direction: column;
     align-items:start;
     justify-content: center;
-    background-color: #043639db;
-    backdrop-filter: blur(9px);
-    height: 35vh;
+    background-color: #043639a3;
+        backdrop-filter: blur(8px);
+    height: 40vh;
     width: 90%;
     border-radius: 10px;
     box-sizing: border-box;
     padding-left: 3vw;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form>h2{
+    
+    font-size: 4vh;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form>p{
+    margin-bottom: 2vh;
 }
 .w-pc-careers-screen1>.wrapper>.content>.screen.form>.form>input{
     border: none;
     outline: none;
     border-radius: 10px;
     height: 6.9vh;
-    margin-block: 2vh;
-    padding-inline: 1.8vh;
-    padding-block: 0.7vh;
+    margin-block: 1vh;
+    padding-inline: 1.3vh;
+    padding-block: 0vh;
 }
 .w-pc-careers-screen1>.wrapper>.content>.screen.form>.form>input.position{
     width: 15vw;
@@ -173,8 +181,8 @@
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    background-color: #043639db;
-    backdrop-filter: blur(9px);
+    background-color: #043639a3;
+    backdrop-filter: blur(8px);
     height: 22vh;
     width: 100%;
     border-radius: 10px;
@@ -283,13 +291,13 @@
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    background-color: #043639db;
-    backdrop-filter: blur(9px);
-    height: 32vh;
-    width: 100%;
+    background-color: #043639a3;
+    backdrop-filter: blur(8px);
+    height: 29vh;
+    width: 95%;
     border-radius: 10px;
     box-sizing: border-box;
-    padding-left: 5vw;
+    padding-inline: 5vw;
 }
 
 .w-mob-careers-screen1>.wrapper>.content>.screen.form>.form>input {
@@ -297,9 +305,9 @@
     outline: none;
     border-radius: 10px;
     height: 6.9vh;
-    margin-block: 2vh;
     padding-inline: 1.8vh;
-    padding-block: 0.4vh;
+    padding-block: 0vh;
+    height: 6vh;
 }
 
 .w-mob-careers-screen1>.wrapper>.content>.screen.form>.form>input.position {

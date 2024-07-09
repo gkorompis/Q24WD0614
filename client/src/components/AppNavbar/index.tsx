@@ -79,7 +79,7 @@ const AppNavbar = () =>{
 
                         </div>
                         <p onClick={()=>handleNavigate('careers')}>Careers</p>
-                        <p>Contact Us</p>
+                        <p onClick={()=>handleNavigate('contacts')}>Contact Us</p>
                     </>
                 }
             </div>
@@ -102,7 +102,7 @@ const AppNavbar = () =>{
                 <p onClick={()=>handleNavigate('about')}>About Us</p>
                 <p>Business</p>
                 <p onClick={()=>handleNavigate('careers')}>Careers</p>
-                <p>Contact Us</p>
+                <p onClick={()=>handleNavigate('contacts')}>Contact Us</p>
             </div>
         }
         </>

@@ -9,3 +9,4 @@ export { default as AboutScreen1 } from './AboutScreen1';
 export { default as AboutScreen2 } from './AboutScreen2';
 
 export { default as CareersScreen1 } from './CareersScreen1';
+export { default as ContactsScreen1 } from './ContactsScreen1';
