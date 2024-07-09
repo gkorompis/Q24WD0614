@@ -4,7 +4,7 @@ import './App.css';
 import globalStates from './utils/global'
 import { useWindowSize } from '@uidotdev/usehooks';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { About, Home, Careers, Contacts } from './pages';
+import { About, Home, Careers, Contacts, Businesses } from './pages';
 import { ScrollToTop } from './components';
 
 
@@ -49,6 +49,7 @@ function App() {
             <Route path="/about" element={<About/>} />
             <Route path="/careers" element={<Careers/>} />
             <Route path="/contacts" element={<Contacts/>} />
+            <Route path="/businesses" element={<Businesses/>} />
           </Routes>
         </BrowserRouter>
     </globalContext.Provider>

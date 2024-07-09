@@ -10,3 +10,6 @@ export { default as AboutScreen2 } from './AboutScreen2';
 
 export { default as CareersScreen1 } from './CareersScreen1';
 export { default as ContactsScreen1 } from './ContactsScreen1';
+
+export { default as BusinessScreen1 } from './BusinessScreen1';
+export { default as BusinessScreen3 } from './BusinessScreen3';

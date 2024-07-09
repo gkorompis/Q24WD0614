@@ -35,4 +35,10 @@ export { default as ImgBannerAbout2b } from './img/aboutscreen2/banner-construct
 export { default as ImgBannerAboutWelcome } from './img/aboutscreen2/road.png';
 export { default as ImgBannerAboutLegality } from './img/aboutscreen2/legalities.png';
 
-export { default as ImgLogoFooter } from './img/appfooter/footer-logo.jpg'
+export { default as ImgLogoFooter } from './img/appfooter/footer-logo.jpg';
+
+export { default as ImgPageBusinessSectionFarm } from './img/businessscreen3/business-farm.jpg';
+export { default as ImgPageBusinessSectionEducation } from './img/businessscreen3/business-edu.jpg';
+export { default as ImgPageBusinessSectionConstruction } from './img/businessscreen3/business-cons.jpg';
+export { default as ImgPageBusinessSectionTour} from './img/businessscreen3/business-tour.jpg';
+export { default as ImgPageBusinessSectionConsultation } from './img/businessscreen3/business-legal.jpg';

@@ -70,11 +70,11 @@ const AppNavbar = () =>{
                             <div className={`submenu-bar
                                     ${isHoverBusinessSubmenu? "hover" : ""}
                                 `}>
-                                <p >Zillient Farm</p>
-                                <p>Zillient Education</p>
-                                <p>Zillient Construction</p>
-                                <p>Zillient Tour</p>
-                                <p>Zillient Consultation</p>
+                                <p onClick={()=>handleNavigate('businesses')} >Zillient Farm</p>
+                                <p onClick={()=>handleNavigate('businesses')}>Zillient Education</p>
+                                <p onClick={()=>handleNavigate('businesses')}>Zillient Construction</p>
+                                <p onClick={()=>handleNavigate('businesses')}>Zillient Tour</p>
+                                <p onClick={()=>handleNavigate('businesses')}>Zillient Consultation</p>
                             </div>
 
                         </div>
@@ -100,7 +100,7 @@ const AppNavbar = () =>{
             >
                 <p onClick={()=>handleNavigate('')}>Home</p>
                 <p onClick={()=>handleNavigate('about')}>About Us</p>
-                <p>Business</p>
+                <p onClick={()=>handleNavigate('businesses')}>Business</p>
                 <p onClick={()=>handleNavigate('careers')}>Careers</p>
                 <p onClick={()=>handleNavigate('contacts')}>Contact Us</p>
             </div>
