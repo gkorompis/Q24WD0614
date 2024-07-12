@@ -1,10 +1,16 @@
+
+/* SCREEN OUR VALUES */
 .w-pc-home-screen-2{
+    height: 63vh;
     width: 100%;
     padding-block: 10vh;
-    /* border: 1px solid red; */
     background-color: var(--screen-bg-color);
     color: var(--screen-text-color);
+    box-sizing: border-box;
 }
+
+
+
 .w-pc-home-screen-2>
 .wrapper {
     width: 100%;

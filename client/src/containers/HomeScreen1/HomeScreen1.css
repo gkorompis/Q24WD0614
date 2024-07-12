@@ -3,6 +3,7 @@
     height: 100vh;
     /* width: 100vw; */
     box-sizing: border-box;
+    
 };
 
 .w-pc-home-screen1>*{
@@ -15,6 +16,7 @@
     height: 100vh;
     position: relative;
     width: 100%;
+    /* border: 1px solid red; */
 }
 .w-pc-home-screen1>.wrapper>.screen{
     position: absolute;
@@ -41,10 +43,10 @@
     align-items: center;
 }
 .w-pc-home-screen1>.wrapper>.screen.content {
-    /* background-color: yellow; */
+    /* background-color: rgb(13, 0, 255); */
 
     display: grid;
-    grid-template-columns: 65% 35%;
+    grid-template-columns: 1fr;
 }
 
 .w-pc-home-screen1>.wrapper>.screen.content>div{
@@ -55,22 +57,27 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
+    width: 65%;
+    /* align-items: end; */
 }
 .w-pc-home-screen1>.wrapper>.screen.content>.tagline>h1{
     font-size: 10vh;
     color: #fff;
-    margin-bottom: 20vh;
+    /* margin-bottom: 20vh; */
 }
 .w-pc-home-screen1>.wrapper>.screen.content>.buttons{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
+    margin-top: 2vh;
 }
 .w-pc-home-screen1>.wrapper>.screen.content>.buttons>*{
     margin-inline:3px;
     cursor: pointer;
     transition: 0.4s ease;
+    border-radius: 7px;
+    user-select: none;
 }
 .w-pc-home-screen1>.wrapper>.screen.content>.buttons>.button:hover{
     background-color: #bdbdbd;

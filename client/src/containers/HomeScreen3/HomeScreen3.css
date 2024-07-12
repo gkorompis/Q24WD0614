@@ -1,14 +1,21 @@
+
+/* SCREEN OUR BUSINESS */
 .w-pc-home-screen3{
-    /* border: 1px solid red; */
-    background-color: none;
-    padding-top: 20vh;
+    height: 70vh;
+    padding-block: 5vh;
     color: var(--screen-text-color-alt);
+    box-sizing: border-box;
+    background-color: rgba(245, 245, 245, 0.461);
 }
+
+
 .w-pc-home-screen3>.wrapper{
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    /* border: 1px solid green; */
+    /* padding-inline: 2vw; */
 }
 .w-pc-home-screen3>.wrapper>h2{
     font-size:5vh;
@@ -17,9 +24,12 @@
 .cardholder{
     margin-block: 6vh;
     display: grid;
-    width: 80%;
+    width: 100%;
+    
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 40vh;
     row-gap: 3vh;
+    /* border: 1px solid black; */
 
 }
 .w-pc-home-screen3>.wrapper>.cardholder>.grid-item{
@@ -35,6 +45,11 @@
     height: 20vw;
     border-radius: 5px;
     cursor: pointer;
+    /* border: 1px dashed red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 .w-pc-home-screen3>.wrapper>.cardholder>.grid-item>.frame>
 img{
