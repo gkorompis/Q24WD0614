@@ -2,6 +2,7 @@ import { useContext } from "react";
 import globalStates from "../../utils/global";
 import "./AppFooter.css";
 import { ImgLogoFooter } from "../../assets";
+import { FloatingIcon } from "..";
 
 const AppFooter = () =>{
 
@@ -10,6 +11,7 @@ const AppFooter = () =>{
     const windowWidthClass = globalContext && globalContext.windowWidthClass;
     
     return(
+        <>
         <div className={`${windowWidthClass}-app-footer`}>
             <div className="footer-group bar-1">
                 <div className="image">
@@ -37,6 +39,8 @@ const AppFooter = () =>{
                 </div>
             </div>
         </div>
+        <FloatingIcon/>
+        </>
     )
 };
 

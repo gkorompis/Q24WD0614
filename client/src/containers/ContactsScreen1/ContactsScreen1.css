@@ -8,6 +8,7 @@
     height: 100%;
     width: 100%;
     position: relative;
+    box-sizing: border-box;
 }
 
 .w-pc-contacts-screen1>.wrapper>* {
@@ -39,30 +40,76 @@
     justify-content: center;
     height: 100%;
     color: #fff;
+    box-sizing: border-box;
+    padding-top: 30vh;
 }
 
-.w-pc-contacts-screen1>.wrapper>.content>.screen {
+.w-pc-contacts-screen1>.wrapper>.content>.screen{
+    /* border: 1px dashed white; */
+    width: 100%;;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.w-pc-contacts-screen1>.wrapper>.content>.screen>.grid-item.left>.text-span {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background-color: #269ca4cb;
+    background-color: #043639a3;
+    color: #fff;
+    width: 50%;
+    height: 30%;
+    padding-inline: 5vw;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.w-pc-contacts-screen1>.wrapper>.content>.screen>.grid-item.left>.text-span>* {
+    text-align: start;
+}
+
+.w-pc-contacts-screen1>.wrapper>.content>.screen>.grid-item.left>.text-span>h3 {
+    font-size: 5vh;
+    font-weight: bolder !important;
+}
+
+.w-pc-contacts-screen1>.wrapper>.content>.screen>.grid-item.left>.text-span>p {
+    font-size: 2.6vh;
+    margin-top: 1.5vh;
+}
+
+.w-pc-contacts-screen1>.wrapper>.content>.screen>.right {
     /* border: 1px solid red; */
     height: 100%;
     width: 100%;
-    padding-inline: 13vw;
+    padding-left: 4cqh;
     box-sizing: border-box;
-    padding-top: 25vh;
+    /* padding-top: 25vh; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    box-sizing: border-box;
 }
-.w-pc-contacts-screen1>.wrapper>.content>.screen>div{
-    margin-block: 4vh;
+.w-pc-contacts-screen1>.wrapper>.content>.screen>.right>div{
+    margin-bottom: 4vh;
+    /* border: 1px solid green; */
+    box-sizing: border-box;
 }
-.w-pc-contacts-screen1>.wrapper>.content>.screen>.title>h2{
+.w-pc-contacts-screen1>.wrapper>.content>.screen>.right>.title>h2{
     font-size: 8vh;
-    /* margin: 0px; */
+    margin: 0px;
     line-height: 9vh;
 }
-.w-pc-contacts-screen1>.wrapper>.content>.screen>.title>p{
+.w-pc-contacts-screen1>.wrapper>.content>.screen>.right>.title>p{
     font-size: 3.5vh;
     margin: 0px;
 }
 
-.w-pc-contacts-screen1>.wrapper>.content>.screen>.form{
+.w-pc-contacts-screen1>.wrapper>.content>.screen>.right>.form{
     background-color: #043639a3;
     backdrop-filter: blur(8px);
     width: 30vw;
@@ -71,13 +118,13 @@
     padding-block: 3vh;
     border-radius: 10px;
 }
-.w-pc-contacts-screen1>.wrapper>.content>.screen>.form>form>div{
+.w-pc-contacts-screen1>.wrapper>.content>.screen>.right>.form>form>div{
     margin-block: 4vh;
     display: flex;
     flex-direction: column;
 
 }
-.w-pc-contacts-screen1>.wrapper>.content>.screen>.form>form>div>input, select{
+.w-pc-contacts-screen1>.wrapper>.content>.screen>.right>.form>form>div>input, select{
     border: 0;
     outline: 0;
     font-size: 2.2vh;
@@ -87,13 +134,13 @@
     border-radius: 6px;
     margin-top: 1vh;
 }
-.w-pc-contacts-screen1>.wrapper>.content>.screen>.form>form>.submit-button{
+.w-pc-contacts-screen1>.wrapper>.content>.screen>.right>.form>form>.submit-button{
     margin-top: 8vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.w-pc-contacts-screen1>.wrapper>.content>.screen>.form>form>div>button{
+.w-pc-contacts-screen1>.wrapper>.content>.screen>.right>.form>form>div>button{
     height: 7vh;
     font-size: 2.2vh;
     border-radius: 10px;
@@ -103,11 +150,11 @@
     transition: 0.2s ease;
     cursor: pointer;
 }
-.w-pc-contacts-screen1>.wrapper>.content>.screen>.form>form>div>button:hover{
+.w-pc-contacts-screen1>.wrapper>.content>.screen>.right>.form>form>div>button:hover{
     background-color: #031a1b;
     color: #fff;
 }
-.w-pc-contacts-screen1>.wrapper>.content>.screen>.form>form>div>button:active {
+.w-pc-contacts-screen1>.wrapper>.content>.screen>.right>.form>form>div>button:active {
     background-color: #032122;
     color: #fff;
 }

@@ -42,3 +42,6 @@ export { default as ImgPageBusinessSectionEducation } from './img/businessscreen
 export { default as ImgPageBusinessSectionConstruction } from './img/businessscreen3/business-cons.jpg';
 export { default as ImgPageBusinessSectionTour} from './img/businessscreen3/business-tour.jpg';
 export { default as ImgPageBusinessSectionConsultation } from './img/businessscreen3/business-legal.jpg';
+
+export { default as IconChat } from './img/appfooter/icon-chat.png';
+export { default as IconWa } from './img/appfooter/icon-wa.png';
