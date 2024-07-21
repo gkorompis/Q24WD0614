@@ -1,7 +1,7 @@
 import "./HomeScreen3.css";
 import globalStates from "../../utils/global";
 import { useContext } from "react";
-import { ImgBusinessConstruction, ImgBusinessConsultation, ImgBusinessEdu, ImgBusinessFarm, ImgBusinessTour } from "../../assets";
+import { IconLabelCons, IconLabelConstr, IconLabelEduc, IconLabelFarm, IconLabelTour, ImgBusinessConstruction, ImgBusinessConsultation, ImgBusinessEdu, ImgBusinessFarm, ImgBusinessTour } from "../../assets";
 
 const HomeScreen3 = () =>{
 
@@ -13,23 +13,33 @@ const HomeScreen3 = () =>{
     const dataBusiness=[
         {
             title: "Zillient Farm",
-            imgSrc: ImgBusinessFarm
+            label: "Farm",
+            imgSrc: ImgBusinessFarm,
+            iconSrc: IconLabelFarm
         },
         {
             title: "Zillient Education",
-            imgSrc: ImgBusinessEdu
+            label: "Educ",
+            imgSrc: ImgBusinessEdu,
+            iconSrc: IconLabelEduc
         },
         {
             title: "Zillient Construction",
-            imgSrc: ImgBusinessConstruction
+            label: "Constr",
+            imgSrc: ImgBusinessConstruction,
+            iconSrc: IconLabelConstr
         },
         {
             title: "Zillient Tour",
-            imgSrc: ImgBusinessTour
+            label: "Tour",
+            imgSrc: ImgBusinessTour,
+            iconSrc: IconLabelTour
         },
         {
             title: "Zillient Counseling",
-            imgSrc: ImgBusinessConsultation
+            label: "Cons",
+            imgSrc: ImgBusinessConsultation,
+            iconSrc: IconLabelCons
         },
     ];
 
@@ -40,13 +50,22 @@ const HomeScreen3 = () =>{
                 <div className="cardholder">
                     {
                         dataBusiness.map((business:any, index:any)=>{
-                            const {title, imgSrc} = business;
+                            const {title, label, imgSrc, iconSrc} = business;
                             return(
                                 <div key={index} className="grid-item">
-                                    <div className="frame">
-                                        <img alt={title + "zillient.com"} src={imgSrc}/>
-                                        <p>{title}</p>
+                                    <div className="card">
+                                        
+                                        <div className="frame">
+                                            <img alt={title + "zillient.com"} src={imgSrc}/>
+                                        </div>
+                                        <div className="label-wrapper">
+                                            <img alt={`${title}`} src={iconSrc} />
+                                            <p className="main">Zillient</p>
+                                            <p className="label">{label}</p>
+                                        </div>
+                                        
                                     </div>
+                                    
                                 </div>
                             )
                         })

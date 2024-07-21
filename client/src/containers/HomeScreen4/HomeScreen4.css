@@ -1,19 +1,22 @@
 .w-pc-home-screen4{
-    padding-top: 20vh;
-    color: var(--screen-text-color-alt);
+    
+    color: var(--screen-text-color);
     padding-bottom: 10vh;
+    
 }
 .w-pc-home-screen4>.section.header{
+    padding-top: 5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-inline: 3vw;
     box-sizing: border-box;
+    background-color: #22939b;
     /* border: 1px solid red; */
 }
 .w-pc-home-screen4>.section.header>h2 {
-    font-size: 5vh;
-    margin-bottom: 3vh;
+    font-size: 7vh;
+        font-family: "CustomPoppinsBold";
 }
 .w-pc-home-screen4>.section.header>.wrapper{
     display: flex;
@@ -44,7 +47,7 @@
 
 
 .w-pc-home-screen4>.section.ladders{
-    padding-block: 1vh;
+    /* padding-block: 1vh; */
     display: flex;
     flex-direction: column;
     align-items: center;

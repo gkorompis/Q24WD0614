@@ -1,7 +1,7 @@
 import { useContext, useEffect, useRef } from "react";
 import globalStates from "../../utils/global";
 import "./HomeScreen1.css";
-import { BannerConstruction, ImgZTour } from "../../assets";
+import { ImgHomeScreen1 } from "../../assets";
 
 const HomeScreen1 = () =>{
 
@@ -40,7 +40,7 @@ const HomeScreen1 = () =>{
         <div ref={screenHome1Ref} className={`${windowWidthClass}-home-screen1`}>
             <div className="wrapper">
                 <div className="screen bg">
-                    <img src={BannerConstruction}/>
+                    <img src={ImgHomeScreen1}/>
                 </div>
                 <div className="screen  shield">
                     <h2>shield</h2>
@@ -50,8 +50,8 @@ const HomeScreen1 = () =>{
                         <h1>EXPERTS IN BUILDING AND DEVELOPING YOUR BUSINESS</h1>
                     </div>
                     <div className="buttons">
-                        <p className="button button-1">GET QUOTE</p>
-                        <p className="button button-2">VIEW PROJECT</p>
+                        <p className="button button-1">Get Quote</p>
+                        <p className="button button-2">View Project</p>
                     </div>
                 </div>
 

@@ -1,0 +1,41 @@
+.w-pc-home-screen5-alt {
+    height: 100vh;
+    width: 100%;
+}
+
+.w-pc-home-screen5-alt>.wrapper {
+    height: 100vh;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 100%;
+    padding-inline: 5vw;
+    box-sizing: border-box;
+    
+}
+
+.w-pc-home-screen5-alt>.wrapper>.section{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.w-pc-home-screen5-alt>.wrapper>.section>.text-wrapper>h2{
+    font-size: 6vh;
+    font-family: "CustomPoppinsBold";
+    line-height: 7vh;
+    color: #22939b;
+}
+.w-pc-home-screen5-alt>.wrapper>.section>.text-wrapper>p {
+    font-size: 4vh;
+    /* font-family: "CustomPoppinsBold"; */
+    line-height: 4.5vh;
+    margin-top: 1vh;
+}
+
+.w-pc-home-screen5-alt>.wrapper>.section>img{
+    height: 70vh;
+}

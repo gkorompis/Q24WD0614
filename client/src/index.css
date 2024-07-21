@@ -4,6 +4,11 @@
   src: url('./assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'CustomPoppinsBold';
+  src: url('./assets/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+}
+
 body {
   margin: 0;
   font-family: 'CustomPoppins';

@@ -1,0 +1,26 @@
+.w-pc-home-screen-2-alt{
+    /* height: 100vh; */
+    width: 100%;
+    /* background-color: #0cacb7; */
+    background-color: var(--screen-bg-color);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-block: 3vh;
+}
+.w-pc-home-screen-2-alt>.wrapper{
+    /* border: 1px solid white; */
+    height: 80vh;
+    width: 90vw;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.w-pc-home-screen-2-alt>.wrapper>img{
+    height: 100%;
+}
