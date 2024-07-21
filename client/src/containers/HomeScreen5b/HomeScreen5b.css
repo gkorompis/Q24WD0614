@@ -1,0 +1,82 @@
+.w-pc-home-screen5b{
+    height: 80vh;
+    width: 100%;
+    background-color: #22939b;
+}
+
+.w-pc-home-screen5b>.wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: #22939b;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 24vw);
+    grid-template-rows: 100%;
+    box-sizing: border-box;
+
+    align-items: center;   
+    justify-content: center;
+    /* border: 0.5px solid red; */
+    padding-block: 7vh;
+}
+
+.w-pc-home-screen5b>.wrapper>.grid-item{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    box-sizing: border-box;
+    padding-inline: 1.5vw;
+}
+
+.w-pc-home-screen5b>.wrapper>.grid-item>.card{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40% 60%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.w-pc-home-screen5b>.wrapper>.grid-item>.card>div{
+    /* border: 1px solid green; */
+    overflow: hidden;
+}
+
+.w-pc-home-screen5b>.wrapper>.grid-item>.card>.image{
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.w-pc-home-screen5b>.wrapper>.grid-item>.card>.image>img{
+    height: 130%;
+}
+
+.w-pc-home-screen5b>.wrapper>.grid-item>.card>.content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    box-sizing: border-box;
+    padding-inline: 1vw;
+    padding-top: 3.5vh;
+}
+
+.w-pc-home-screen5b>.wrapper>.grid-item>.card>.content>h4{
+    color: #fff;
+    background-color: #22939b;
+    border-radius: 30px;
+    padding-block: 0.9vh;
+    width: 8vw;
+    text-align: center;
+    font-size: 11px;
+
+}
+.w-pc-home-screen5b>.wrapper>.grid-item>.card>.content>h2{
+    font-size: 30px
+}
+.w-pc-home-screen5b>.wrapper>.grid-item>.card>.content>p {
+    font-size: 12px;
+    line-height: 25px;
+    text-align: justify;
+}

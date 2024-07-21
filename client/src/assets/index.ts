@@ -36,6 +36,7 @@ export { default as ImgHexagons } from './img/homescreen5/icon-logos.png';
 export { default as ImgHomeScreen5 } from './img/homescreen5/homescreen5img.png';
 
 export { default as ImgBannerConstruction2 } from './img/homescreen6/banner-construction-2.jpg';
+export { default as ImgBannerHomeScreen6 } from './img/homescreen6/ImgBannerHomescreen6.png';
 
 export { default as ImgBannerAbout1 } from './img/aboutscreen1/business-legal.jpg';
 
