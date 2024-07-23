@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import globalStates from "../../utils/global";
 import "./HomeScreen2alt.css";
-import { ImgBannerHomeScreen2 } from "../../assets";
+import { ImgBannerHomeScreen2, ImgBannerHomeScreen2Mob1, ImgBannerHomeScreen2Mob2 } from "../../assets";
 
 
 
@@ -16,7 +16,20 @@ const HomeScreen2 = () =>{
     return(
         <div className={`${windowWidthClass}-home-screen-2-alt`}>
             <div className="wrapper">
-                  <img alt="zillient core values" src={ImgBannerHomeScreen2} />
+                {
+                    windowWidthClass === "w-pc" || windowWidthClass === "w-tab"  ?
+                    <img alt="zillient core values" src={ImgBannerHomeScreen2} /> :
+                    <>
+                        <div className="frame top">
+                            <img alt="zillient core values mobile 1" src={ImgBannerHomeScreen2Mob1} />
+                        </div>
+                        <div className="frame bottom">
+                            <img alt="zillient core values mobile 2" src={ImgBannerHomeScreen2Mob2} />
+                        </div>
+                    </>
+
+                }
+                  
             </div>
         </div>
     )

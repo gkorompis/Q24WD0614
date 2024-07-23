@@ -21,7 +21,6 @@ const HomeScreen5 = ()=>{
                 <div className="section image">
                     <img alt="zillient sustainibility values" src={ImgHomeScreen5}/>
                 </div>
-               
             </div>
         </div>
     )

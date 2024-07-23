@@ -36,7 +36,7 @@
 }
 .w-pc-home-screen1>.wrapper>.screen.shield {
     background-color: black;
-    opacity: 39%;
+    opacity: 0%;
 
     display: flex;
     flex-direction: column;
@@ -110,9 +110,8 @@
     height: 100vh;
     /* width: 100vw; */
     box-sizing: border-box;
-}
 
-;
+}
 
 .w-tab-home-screen1>* {
     /* width: 100%; */
@@ -124,6 +123,7 @@
     height: 100vh;
     position: relative;
     width: 100%;
+    /* border: 1px solid red; */
 }
 
 .w-tab-home-screen1>.wrapper>.screen {
@@ -142,12 +142,13 @@
 }
 
 .w-tab-home-screen1>.wrapper>.screen.bg>img {
-    width: 150%;
+   width: 120%;
+   /* height: 100%; */
 }
 
 .w-tab-home-screen1>.wrapper>.screen.shield {
     background-color: black;
-    opacity: 39%;
+    opacity: 20%;
 
     display: flex;
     flex-direction: column;
@@ -155,7 +156,7 @@
 }
 
 .w-tab-home-screen1>.wrapper>.screen.content {
-    /* background-color: yellow; */
+    /* background-color: rgb(13, 0, 255); */
 
     display: grid;
     grid-template-columns: 1fr;
@@ -170,49 +171,58 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
+    width: 70%;
+    /* align-items: end; */
 }
 
 .w-tab-home-screen1>.wrapper>.screen.content>.tagline>h1 {
-    font-size: 6vh;
-    line-height: 8vh;
+    font-size: 5vw;
     color: #fff;
-    width: 70%;
-    /* margin-bottom: 0vh; */
+    font-family: "CustomPoppinsBold";
+    line-height: 6vw;
+    /* margin-bottom: 20vh; */
 }
 
 .w-tab-home-screen1>.wrapper>.screen.content>.buttons {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
+    margin-top: 2vh;
 }
 
 .w-tab-home-screen1>.wrapper>.screen.content>.buttons>* {
     margin-inline: 3px;
     cursor: pointer;
-    transition: 0.4s ease;
+    transition: 0.3s ease;
+    border-radius: 30px;
+    user-select: none;
+    font-size: 19px;
 }
 
 .w-tab-home-screen1>.wrapper>.screen.content>.buttons>.button:hover {
-    background-color: #bdbdbd;
-    color: #292828;
+    background-color: #161616;
+    color: #f7f7f7;
 }
 
 .w-tab-home-screen1>.wrapper>.screen.content>.buttons>.button-1 {
-    padding-block: 20px;
+    padding-block: 15px;
     padding-inline: 30px;
-    background-color: #292828;
+    background-color: #fff;
     text-align: center;
-    color: #fff;
+    color: #0cacb7;
+    font-family: "CustomPoppinsBold";
 }
 
 .w-tab-home-screen1>.wrapper>.screen.content>.buttons>.button-2 {
-    padding-block: 20px;
-    padding-inline: 20px;
-    background-color: #07747B;
+    padding-block: 15px;
+    padding-inline: 30px;
+    background-color: #0cacb7;
     text-align: center;
     color: #fff;
+    font-family: "CustomPoppinsBold";
 }
+
 
 /* mobile */
 .w-mob-home-screen1 {
@@ -220,9 +230,8 @@
     height: 100vh;
     /* width: 100vw; */
     box-sizing: border-box;
-}
 
-;
+}
 
 .w-mob-home-screen1>* {
     /* width: 100%; */
@@ -234,6 +243,7 @@
     height: 100vh;
     position: relative;
     width: 100%;
+    /* border: 1px solid red; */
 }
 
 .w-mob-home-screen1>.wrapper>.screen {
@@ -252,12 +262,13 @@
 }
 
 .w-mob-home-screen1>.wrapper>.screen.bg>img {
+    /* width: 110%; */
     height: 100%;
 }
 
 .w-mob-home-screen1>.wrapper>.screen.shield {
     background-color: black;
-    opacity: 39%;
+    opacity: 20%;
 
     display: flex;
     flex-direction: column;
@@ -265,7 +276,7 @@
 }
 
 .w-mob-home-screen1>.wrapper>.screen.content {
-    /* background-color: yellow; */
+    /* background-color: rgb(13, 0, 255); */
 
     display: grid;
     grid-template-columns: 1fr;
@@ -280,45 +291,55 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
+    width: 80%;
+    /* align-items: end; */
 }
 
 .w-mob-home-screen1>.wrapper>.screen.content>.tagline>h1 {
-    font-size: 5vh;
-    line-height: 7vh;
+    font-size: 10vw;
     color: #fff;
-    /* margin-bottom: 0vh; */
+    font-family: "CustomPoppinsBold";
+    line-height: 11vw;
+    /* margin-bottom: 20vh; */
 }
 
 .w-mob-home-screen1>.wrapper>.screen.content>.buttons {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
+    margin-top: 2vh;
 }
 
 .w-mob-home-screen1>.wrapper>.screen.content>.buttons>* {
     margin-inline: 3px;
     cursor: pointer;
-    transition: 0.4s ease;
+    transition: 0.3s ease;
+    border-radius: 30px;
+    user-select: none;
+    font-size: 4vw;
 }
 
 .w-mob-home-screen1>.wrapper>.screen.content>.buttons>.button:hover {
-    background-color: #bdbdbd;
-    color: #292828;
+    background-color: #161616;
+    color: #f7f7f7;
 }
 
 .w-mob-home-screen1>.wrapper>.screen.content>.buttons>.button-1 {
-    padding-block: 20px;
+    padding-block: 2.9vw;
     padding-inline: 30px;
-    background-color: #292828;
+    background-color: #fff;
     text-align: center;
-    color: #fff;
+    color: #0cacb7;
+    font-family: "CustomPoppinsBold";
 }
 
 .w-mob-home-screen1>.wrapper>.screen.content>.buttons>.button-2 {
-    padding-block: 20px;
-    padding-inline: 20px;
-    background-color: #07747B;
+    padding-block: 2.9vw;
+    padding-inline: 30px;
+    background-color: #0cacb7;
     text-align: center;
     color: #fff;
+    font-family: "CustomPoppinsBold";
 }
+

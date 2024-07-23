@@ -1,7 +1,7 @@
 import { useContext, useEffect, useRef } from "react";
 import globalStates from "../../utils/global";
 import "./HomeScreen1.css";
-import { ImgHomeScreen1 } from "../../assets";
+import { ImgHomeScreen1, ImgHomeScreen1Tab } from "../../assets";
 
 const HomeScreen1 = () =>{
 
@@ -14,6 +14,7 @@ const HomeScreen1 = () =>{
     // console.log(">>>",isOffsetScreenHome1, screensOffset);
 
     const screenHome1Ref = useRef(null) as any;
+    const screenImageBackground = windowWidthClass === "w-pc" ? ImgHomeScreen1 : ImgHomeScreen1Tab;
     useEffect(()=>{
         const handleScroll =()=>{
             const setScreensOffset = globalContext && globalContext.setScreensOffset;
@@ -40,7 +41,7 @@ const HomeScreen1 = () =>{
         <div ref={screenHome1Ref} className={`${windowWidthClass}-home-screen1`}>
             <div className="wrapper">
                 <div className="screen bg">
-                    <img src={ImgHomeScreen1}/>
+                    <img src={screenImageBackground}/>
                 </div>
                 <div className="screen  shield">
                     <h2>shield</h2>

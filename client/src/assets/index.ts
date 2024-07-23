@@ -3,8 +3,11 @@ export { default as ImgZTour } from './img/z_tour.png';
 export { default as BannerConstruction } from './img/banner-construction.jpg'
 
 export { default as ImgHomeScreen1 } from './img/homescreen1/homescreen1.png';
+export { default as ImgHomeScreen1Tab } from './img/homescreen1/homescreen1-tab.png';
 export { default as IconZillientGroupLogo } from './img/homescreen1/zilliengrouplogo.png';
 export { default as ImgBannerHomeScreen2 } from './img/homescreen2/ImgBannerHomeScreen2.png';
+export { default as ImgBannerHomeScreen2Mob1 } from './img/homescreen2/ImgBannerHomeScreen2mob1.png';
+export { default as ImgBannerHomeScreen2Mob2 } from './img/homescreen2/ImgBannerHomeScreen2mob2.png'
 
 export { default as IconCoreValue1 } from './img/homescreen2/icon-value-1.png';
 export { default as IconCoreValue2 } from './img/homescreen2/icon-value-2.png';

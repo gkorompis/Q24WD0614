@@ -39,3 +39,101 @@
 .w-pc-home-screen5-alt>.wrapper>.section>img{
     height: 70vh;
 }
+
+
+
+/* tab */
+.w-tab-home-screen5-alt {
+    height: 60vw;
+    width: 100%;
+}
+
+.w-tab-home-screen5-alt>.wrapper {
+    height: 60vw;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    padding-inline: 5vw;
+    box-sizing: border-box;
+    
+
+}
+
+.w-tab-home-screen5-alt>.wrapper>.section {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.w-tab-home-screen5-alt>.wrapper>.section>.text-wrapper>h2 {
+    font-size: 4vw;
+    font-family: "CustomPoppinsBold";
+    line-height: 5vw;
+    color: #22939b;
+}
+
+.w-tab-home-screen5-alt>.wrapper>.section>.text-wrapper>p {
+    font-size: 3vw;
+    /* font-family: "CustomPoppinsBold"; */
+    line-height: 3.6vw;
+    margin-top: 1vw;
+}
+
+.w-tab-home-screen5-alt>.wrapper>.section>img {
+    height: 50vw;
+}
+
+/* mobile */
+.w-mob-home-screen5-alt {
+    height: 120vw;
+    width: 100%;
+    padding-block: 7vw;
+}
+
+.w-mob-home-screen5-alt>.wrapper {
+    height: 120vw;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30% 70%;
+    padding-inline: 5vw;
+    box-sizing: border-box;
+
+}
+
+.w-mob-home-screen5-alt>.wrapper>.section {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.w-mob-home-screen5-alt>.wrapper>.section>.text-wrapper>h2 {
+    font-size: 6vw;
+    font-family: "CustomPoppinsBold";
+    line-height: 6.5vw;
+    color: #22939b;
+}
+
+.w-mob-home-screen5-alt>.wrapper>.section>.text-wrapper>p {
+    font-size: 4.5vw;
+    /* font-family: "CustomPoppinsBold"; */
+    line-height: 5vw;
+    margin-top: 2vw;
+}
+
+.w-mob-home-screen5-alt>.wrapper>.section.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.w-mob-home-screen5-alt>.wrapper>.section>img {
+    height: 100%;
+}

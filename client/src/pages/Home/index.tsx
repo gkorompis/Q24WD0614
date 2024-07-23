@@ -10,15 +10,11 @@ const Home = () =>{
             <AppNavbar/>
             <HomeScreen1/>
             <HomeScreen1b/>
-            {/* <HomeScreen2/> */}
             <HomeScreen2alt/>
             <HomeScreen3/>
-            {/* <HomeScreen4/> */}
             <HomeScreen4alt/>
-            {/* <HomeScreen5/> */}
             <HomeScreen5alt/>
             <HomeScreen5b/>
-            {/* <HomeScreen6/> */}
             <HomeScreen6alt/>
 
             <AppFooter/>

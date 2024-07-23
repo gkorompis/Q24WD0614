@@ -140,6 +140,7 @@
     justify-content: center;
     box-sizing: border-box;
     padding-block: 4vh;
+    padding-left: 3vw;
     
 }
 
@@ -169,10 +170,11 @@ img{
 }
 
 .w-pc-home-screen4-alt>.section.ladders>.grid-item>.folder>.content>.section>.text-wrapper>h2 {
-    font-size: 6vh;
-    margin-bottom: 3vh;
+    font-size: 5.5vh;
+    margin-bottom: 1vh;
     font-family: "CustomPoppinsBold";
     color: #22939b;
+    line-height: 6vh;
 }
 
 .w-pc-home-screen4-alt>.section.ladders>.grid-item>.folder>.content>.section>.text-wrapper>h3 {
@@ -182,7 +184,7 @@ img{
 }
 
 .w-pc-home-screen4-alt>.section.ladders>.grid-item>.folder>.content>.section>.text-wrapper>p {
-    font-size: 2.6vh;
+    font-size: 2.4vh;
 }
 
 .w-pc-home-screen4-alt>.section.ladders>.grid-item>.folder>.content>.section>.text-wrapper>p.button {
@@ -204,3 +206,464 @@ img{
     
 
 
+/* tab */
+.w-tab-home-screen4-alt {
+
+    color: var(--screen-text-color);
+    /* padding-bottom: 10vh; */
+    /* background-color: red; */
+
+}
+
+.w-tab-home-screen4-alt>.section.header {
+    padding-block: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 3vw;
+    box-sizing: border-box;
+    background-color: #22939b;
+    /* border: 1px solid red; */
+}
+
+.w-tab-home-screen4-alt>.section.header>h2 {
+    font-size: 6vw;
+    font-family: "CustomPoppinsBold";
+}
+
+.w-tab-home-screen4-alt>.section.header>.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2vh;
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+.w-tab-home-screen4-alt>.section.header>.wrapper>.desc {
+    font-size: 2vw;
+    width: 40%;
+    /* line-height: 4.3vh; */
+}
+
+.w-tab-home-screen4-alt>.section.header>.wrapper>.button {
+    /* padding-block: 1vh; */
+    padding-inline: 3vw;
+    
+    background-color: var(--screen-bg-color);
+    color: var(--screen-text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    font-weight: 700;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #22939b;
+    background-color: #fff;
+    transition: 0.3s ease;
+    height: 4vw;
+    
+}
+
+.w-tab-home-screen4-alt>.section.header>.wrapper>.button:hover {
+    background-color: #161616;
+    color: #f7f7f7;
+}
+
+
+.w-tab-home-screen4-alt>.section.ladders {
+    padding-block: 5vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100%);
+    grid-template-rows: repeat(5, 50vw);
+    height: 260vw;
+    background-color: var(--screen-bg-color);
+    box-sizing: border-box;
+}
+
+.w-tab-home-screen4-alt>.section.ladders>.grid-item {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100%);
+    grid-template-rows: 12% 88%;
+    /* border: 0.3px solid white; */
+    box-sizing: border-box;
+    padding-block: 1.8vh;
+    padding-inline: 5vw;
+    
+}
+
+
+
+.w-tab-home-screen4-alt>.section.ladders>.grid-item>.folder>.tab {
+    width: 20vw;
+    background-color: #f8f8f8;
+    
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.w-tab-home-screen4-alt>.section.ladders>.grid-item>.folder>.tab>.label-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    /* background-color: red; */
+}
+
+.w-tab-home-screen4-alt>.section.ladders>.grid-item>.folder>.tab>.label-wrapper>img {
+    height: 3.3vw;
+}
+
+.w-tab-home-screen4-alt>.section.ladders>.grid-item>.folder>.tab>.label-wrapper>p.main {
+    /* margin-top: 1vh; */
+    font-size: 2.5vw;
+    font-family: "CustomPoppinsBold";
+    color: #22939b;
+    /* background-color: red; */
+    /* color: #fff; */
+}
+
+.w-tab-home-screen4-alt>.section.ladders>.grid-item>.folder>.tab>.label-wrapper>p.label {
+    font-size: 2vw;
+    /* font-family: "CustomPoppinsBold"; */
+    color: #1D1D1B;
+}
+
+.w-tab-home-screen4-alt>.section.ladders>.grid-item>.folder>.content {
+    height: 100%;
+    width: 100%;
+    ;
+    /* height: 100px; */
+    background-color: #fff;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    box-sizing: border-box;
+
+    padding-block: 0vw;
+    padding-inline: 5vw;
+}
+
+.w-tab-home-screen4-alt>.section.ladders>.grid-item>.folder>.content>.section {
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-block: 3vw;
+    padding-left: 3vw;
+
+}
+
+.w-tab-home-screen4-alt>.section.ladders>.grid-item>.folder>.content>.section>.frame {
+    overflow: hidden;
+    /* height: 100%; */
+    height: 100%;
+    border-radius: 13px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.w-tab-home-screen4-alt>.section.ladders>.grid-item>.folder>.content>.section>.frame>img {
+    height: 100%;
+
+}
+
+.w-tab-home-screen4-alt>.section.ladders>.grid-item>.folder>.content>.section>.text-wrapper {
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    color: #161616;
+    /* background-color: red; */
+
+}
+
+.w-tab-home-screen4-alt>.section.ladders>.grid-item>.folder>.content>.section>.text-wrapper>h2 {
+    font-size: 3.5vw;
+    margin-bottom: 1vw;
+    font-family: "CustomPoppinsBold";
+    color: #22939b;
+    line-height: 4vw;
+}
+
+.w-tab-home-screen4-alt>.section.ladders>.grid-item>.folder>.content>.section>.text-wrapper>h3 {
+    font-size: 2vw;
+    margin-bottom: 2vw;
+    font-family: "CustomPoppinsBold";
+}
+
+.w-tab-home-screen4-alt>.section.ladders>.grid-item>.folder>.content>.section>.text-wrapper>p {
+    font-size: 1vw;
+}
+
+.w-tab-home-screen4-alt>.section.ladders>.grid-item>.folder>.content>.section>.text-wrapper>p.button {
+    margin-top: 2vw;
+    background-color: #22939b;
+    color: #fff;
+    border-radius: 30px;
+    padding-block: 1.3vh;
+    padding-inline: 3vw;
+    user-select: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.w-tab-home-screen4-alt>.section.ladders>.grid-item>.folder>.content>.section>.text-wrapper>p.button:hover {
+    background-color: #161616;
+    color: #f7f7f7;
+}
+
+/* mobile */
+.w-mob-home-screen4-alt {
+
+    color: var(--screen-text-color);
+    /* padding-bottom: 10vh; */
+
+}
+
+.w-mob-home-screen4-alt>.section.header {
+    padding-block: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 3vw;
+    box-sizing: border-box;
+    background-color: #22939b;
+    /* border: 1px solid red; */
+}
+
+.w-mob-home-screen4-alt>.section.header>h2 {
+    font-size: 6vw;
+    font-family: "CustomPoppinsBold";
+}
+
+.w-mob-home-screen4-alt>.section.header>.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2vh;
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+.w-mob-home-screen4-alt>.section.header>.wrapper>.desc {
+    font-size: 2vw;
+    width: 40%;
+    /* line-height: 4.3vh; */
+}
+
+.w-mob-home-screen4-alt>.section.header>.wrapper>.button {
+    /* padding-block: 1vh; */
+    padding-inline: 3vw;
+
+    background-color: var(--screen-bg-color);
+    color: var(--screen-text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    font-weight: 700;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #22939b;
+    background-color: #fff;
+    transition: 0.3s ease;
+    height: 4vw;
+
+}
+
+.w-mob-home-screen4-alt>.section.header>.wrapper>.button:hover {
+    background-color: #161616;
+    color: #f7f7f7;
+}
+
+
+.w-mob-home-screen4-alt>.section.ladders {
+    padding-block: 5vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100%);
+    grid-template-rows: repeat(5, 110vw);
+    height: 560vw;
+    background-color: var(--screen-bg-color);
+    box-sizing: border-box;
+}
+
+.w-mob-home-screen4-alt>.section.ladders>.grid-item {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100%);
+    grid-template-rows: 10% 90%;
+    /* border: 0.3px solid white; */
+    box-sizing: border-box;
+    padding-block: 1.8vh;
+    padding-inline: 5vw;
+
+}
+
+
+
+.w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.tab {
+    width: 20vw;
+    background-color: #f8f8f8;
+
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.tab>.label-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    /* background-color: red; */
+}
+
+.w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.tab>.label-wrapper>img {
+    height: 3.3vw;
+}
+
+.w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.tab>.label-wrapper>p.main {
+    /* margin-top: 1vh; */
+    font-size: 2.5vw;
+    font-family: "CustomPoppinsBold";
+    color: #22939b;
+    /* background-color: red; */
+    /* color: #fff; */
+}
+
+.w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.tab>.label-wrapper>p.label {
+    font-size: 2vw;
+    /* font-family: "CustomPoppinsBold"; */
+    color: #1D1D1B;
+}
+
+.w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.content {
+    height: 100%;
+    width: 100%;
+    ;
+    /* height: 100px; */
+    background-color: #fff;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 55% 45%;
+    box-sizing: border-box;
+
+    padding-block: 1vw;
+    padding-inline: 5vw;
+}
+
+.w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.content>.section {
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    /* padding-block: 3vw; */
+    /* padding-left: 3vw; */
+
+}
+
+.w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.content>.section.image {
+    padding-block: 3vw;
+}
+.w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.content>.section>.frame {
+    overflow: hidden;
+    /* height: 100%; */
+    height: 100%;
+    border-radius: 13px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.content>.section>.frame>img {
+    height: 100%;
+
+}
+
+
+
+.w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.content>.section>.text-wrapper {
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    color: #161616;
+    /* padding-block: 0vw; */
+    /* background-color: red; */
+
+}
+
+.w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.content>.section.text>.text-wrapper{
+    /* background-color: gold; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.content>.section>.text-wrapper>h2 {
+    font-size: 5vw;
+    margin-bottom: 1vw;
+    font-family: "CustomPoppinsBold";
+    color: #22939b;
+    line-height: 6vw;
+    
+}
+
+.w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.content>.section>.text-wrapper>h3 {
+    font-size: 4vw;
+    margin-bottom: 2vw;
+    font-family: "CustomPoppinsBold";
+}
+
+.w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.content>.section>.text-wrapper>p {
+    font-size: 2vw;
+}
+
+.w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.content>.section>.text-wrapper>p.button {
+    margin-top: 2vw;
+    background-color: #22939b;
+    color: #fff;
+    border-radius: 30px;
+    padding-block: 1.3vw;
+    padding-inline: 3vw;
+    user-select: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-size: 2.2vw;
+}
+
+.w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.content>.section>.text-wrapper>p.button:hover {
+    background-color: #161616;
+    color: #f7f7f7;
+}

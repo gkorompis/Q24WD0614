@@ -99,12 +99,12 @@
 
 /* tab view */
 .w-tab-app-navbar {
-    background-color: #082d2fd3;
+    /* background-color: #082d2fd3; */
     display: grid;
     grid-template-columns: 30% 65% 5%;
     padding-inline: 2vw;
     /* padding-block: 10px; */
-    height: 10vh;
+    height: 7.5vh;
     color: #fff;
 
     position: fixed;
@@ -115,7 +115,9 @@
 }
 
 .w-tab-app-navbar.offset-screen-home1 {
-    background-color: #07747B;
+    /* background-color: #07747B; */
+    background-color: #061c1ec6;
+    backdrop-filter: blur(9px);
 }
 
 .w-tab-app-navbar>.anchor-group {
@@ -139,13 +141,13 @@
 }
 
 .w-tab-app-navbar>.anchor-group.bar-1>.figcap-wrapper>img {
-    height: 7vh;
+    height: 3vh;
     margin-right: 0.8vw;
     border-radius: 50%;
 }
 
 .w-tab-app-navbar>.anchor-group.bar-1>.figcap-wrapper>h1 {
-    font-size: 4vh;
+    font-size:2.5vh;
     color: #fff
 }
 
@@ -213,7 +215,7 @@
 
 /* mobile */
 .w-mob-app-navbar {
-    background-color: #082d2fd3;
+    /* background-color: #082d2fd3; */
     display: grid;
     grid-template-columns: 76% 12% 12%;
     padding-inline: 2vw;
@@ -229,8 +231,8 @@
 }
 
 .w-mob-app-navbar.offset-screen-home1 {
-    background-color: #082d2fd3;
-    backdrop-filter: blur(9px);
+    background-color: #061c1ec6;
+        backdrop-filter: blur(9px);
 }
 
 .w-mob-app-navbar>.anchor-group {
