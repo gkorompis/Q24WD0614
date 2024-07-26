@@ -59,3 +59,9 @@ export { default as ImgPageBusinessSectionConsultation } from './img/businessscr
 
 export { default as IconChat } from './img/appfooter/icon-chat.png';
 export { default as IconWa } from './img/appfooter/icon-wa.png';
+
+export { default as ImgAboutUsScreen1 } from './img/aboutusscreen1/ImgAboutUsScreen1.png';
+export { default as ImgAboutUsScreen2 } from './img/aboutusscreen2/ImgAboutUsScreen2.png';
+export { default as ImgAboutUsScreen3 } from './img/aboutusscreen3/ImgAboutUsScreen3.png';
+export { default as ImgAboutUsScreen3a } from './img/aboutusscreen3/ImgAboutUsScreen3a.png';
+export { default as ImgAboutUsScreen3b } from './img/aboutusscreen3/ImgAboutUsScreen3b.png';

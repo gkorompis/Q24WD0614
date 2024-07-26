@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { AppFooter, AppNavbar } from "../../components";
-import { AboutScreen1, AboutScreen2 } from "../../containers";
+import { AboutScreen1, AboutScreen2, AboutUsScreen1, AboutUsScreen2, AboutUsScreen3 } from "../../containers";
 import globalStates from "../../utils/global";
 import "./About.css"
 
@@ -13,8 +13,9 @@ const About = () => {
     return(
         <div className={`${windowWidthClass}-about-screen1`}>
             <AppNavbar/>
-            <AboutScreen1/>
-            <AboutScreen2/>
+            <AboutUsScreen1/>
+            <AboutUsScreen2/>
+            <AboutUsScreen3/>
             <AppFooter/>
         </div>
     )

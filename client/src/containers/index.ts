@@ -19,3 +19,8 @@ export { default as ContactsScreen1 } from './ContactsScreen1';
 
 export { default as BusinessScreen1 } from './BusinessScreen1';
 export { default as BusinessScreen3 } from './BusinessScreen3';
+
+
+export { default as AboutUsScreen1 } from './AboutUsScreen1';
+export { default as AboutUsScreen2 } from './AboutUsScreen2';
+export { default as AboutUsScreen3 } from './AboutUsScreen3';
