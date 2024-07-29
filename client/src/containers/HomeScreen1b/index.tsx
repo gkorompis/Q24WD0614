@@ -16,7 +16,7 @@ const HomeScreen1b = () =>{
                     <img alt="logo zillient group" src={IconZillientGroupLogo} />
                 </div>
                 <div className="grid-item text-wrapper">
-                    {/* <h2>Zillient Group</h2> */}
+                    <h2>Zillient Group</h2>
                     <p>Zillient Group is a start-up that is committed to providing the best service through innovation and use of technology to partners by realizing sustainable and inclusive economic transformation.</p>
                 </div>  
             </div>

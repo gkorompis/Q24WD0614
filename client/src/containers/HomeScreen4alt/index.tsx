@@ -84,8 +84,10 @@ const HomeScreen4 = ()=>{
                                         <div className="tab">
                                             <div className="label-wrapper">
                                                 <img alt={`${business}`} src={iconSrc} />
-                                                <p className="main">Zillient</p>
-                                                <p className="label">{label}</p>
+                                                <div className="text-wrapper">
+                                                    <p className="main">Zillient</p>
+                                                    <p className="label">{label}</p>
+                                                </div>
                                             </div>
                                             
                                         </div>

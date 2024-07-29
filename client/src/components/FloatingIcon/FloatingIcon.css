@@ -3,6 +3,7 @@
     bottom: 4vh;
     right: 4vw;
     box-sizing: border-box;
+    z-index: 90000;
   
 
 }
@@ -10,15 +11,17 @@
 .w-pc-floating-icon>
 .image{
     /* border: 1px dashed red; */
-    height: 10vh;
-    width: 10vh;
+    height: 6.2vh;
+    width: 6.2vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    background-color: #061c1ee7;
-    box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.59);
+    /* background-color: #061c1ee7; */
+    /* border: 2px solid #fff; */
+    /* box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.928); */
+    /* box-shadow: 0px 1px 20px rgb(255, 255, 255); */
     transition: 0.3s ease;
     cursor: pointer;
 }
@@ -26,14 +29,14 @@
 .w-pc-floating-icon>
 .image:hover{
     transform: scale(1.1);
-    box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.784);
+    box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.569);
 }
 
 .w-pc-floating-icon>
 .image>
 img{
-    height: 5vh;
-    filter: invert(90%);
+    height: 100%;
+    /* filter: invert(90%); */
 }
 
 
@@ -145,6 +148,8 @@ p{
     transform: translateY(0%);
     transition: 0.4s ease;
     box-shadow: 0px 0px 5px rgba(27, 27, 27, 0.246);
+    z-index: 90001;
+
 }
 
 

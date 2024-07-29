@@ -66,3 +66,4 @@ export { default as ImgAboutUsScreen3 } from './img/aboutusscreen3/ImgAboutUsScr
 export { default as ImgAboutUsScreen3a } from './img/aboutusscreen3/ImgAboutUsScreen3a.png';
 export { default as ImgAboutUsScreen3b } from './img/aboutusscreen3/ImgAboutUsScreen3b.png';
 export { default as ImgAboutUsScreen4 } from './img/aboutusscreen4/ImgAboutUsScreen4.png'
+export { default as IconFloatingWa } from './img/appnavbar/wa-green.png'

@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import globalStates from "../../utils/global";
 import "./FloatingIcon.css";
-import { IconChat, IconWa } from "../../assets";
+import { IconFloatingWa, IconWa } from "../../assets";
 
 const FloatingIcon = () =>{
     
@@ -34,7 +34,7 @@ const FloatingIcon = () =>{
             <div className="image"
                 onClick={handleFloatingBar}
             >
-                <img alt="chat icon zillient" src={IconChat} />
+                <img alt="chat icon zillient" src={IconFloatingWa} />
             </div>
         </div>
            

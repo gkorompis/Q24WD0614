@@ -1,21 +1,30 @@
 .w-pc-home-screen6-alt{
     height: 100vh;
     width: 100%;
+    background-image: url("../../assets/img/homescreen6/ImgBannerHomescreen6.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     
 }
 .w-pc-home-screen6-alt>.wrapper{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     position: relative;
+    
+    /* background-color: red; */
 }
 
 .w-pc-home-screen6-alt>.wrapper>.background{
     position: absolute;
-    top: 0;
-    left: 0;
+    /* top: -5px; */
+    /* left: -5px; */
     height: 100%;
-    width: 100%;
-    z-index: 1000;
+    width: 110%;
+    /* z-index: 1000; */
+    /* background-color: yellow; */
+    
+    padding:0;
 }
 .w-pc-home-screen6-alt>.wrapper>.background>.frame{
     height: 100%;
@@ -23,9 +32,11 @@
     /* border: 1px solid red; */
     box-sizing: border-box;
     overflow: hidden;
+    /* background-color: green;; */
 }
 .w-pc-home-screen6-alt>.wrapper>.background>.frame>img{
-    height: 100%;
+    height: 140%;
+    /* width: 100%; */
 }
 
 .w-pc-home-screen6-alt>.wrapper>.content{

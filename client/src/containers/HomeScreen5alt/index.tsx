@@ -14,8 +14,8 @@ const HomeScreen5 = ()=>{
             <div className="wrapper">
                 <div className="section text">
                     <div className="text-wrapper">
-                        <h2>OUR BUSINESS WILL ALWAYS PRIORITIZE SUSTAINABILITY AND PROSPERITY</h2>
-                        <p>This Has Been Our Commitment Since Founded</p>
+                        <h2>Sustainable Business</h2>
+                        <p>Our Business Will Always Prioritize Sustainability and Propserity, This Has Been Our Commitment Since It Was Founded.</p>
                     </div>
                 </div>
                 <div className="section image">

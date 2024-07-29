@@ -32,9 +32,9 @@ const HomeScreen6 = ()=>{
         <div className={`${windowWidthClass}-home-screen6-alt`} >
             <div className="wrapper">
                <div className='background'>
-                    <div className='frame'>
+                    {/* <div className='frame'>
                         <img alt="zillient let's get started" src={ImgBannerHomeScreen6}/>
-                    </div>
+                    </div> */}
                </div>
                 <div className='content'>
                     <div className='section tagline'>
