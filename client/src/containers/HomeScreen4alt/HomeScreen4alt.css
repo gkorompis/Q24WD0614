@@ -1,9 +1,5 @@
 .w-pc-home-screen4-alt {
-
     color: var(--screen-text-color);
-    /* padding-bottom: 10vh; */
-    /* background-color: green; */
-
 }
 
 .w-pc-home-screen4-alt>.section.header {
@@ -14,7 +10,6 @@
     padding-inline: 3vw;
     box-sizing: border-box;
     background-color: #22939b;
-    /* border: 1px solid red; */
 }
 .w-pc-home-screen4-alt>.section.header>h2 {
     font-size: 7vh;

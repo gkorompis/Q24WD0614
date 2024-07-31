@@ -25,3 +25,6 @@ export { default as AboutUsScreen1 } from './AboutUsScreen1';
 export { default as AboutUsScreen2 } from './AboutUsScreen2';
 export { default as AboutUsScreen3 } from './AboutUsScreen3';
 export { default as AboutUsScreen4 } from './AboutUsScreen4';
+
+
+export { default as AboutUsScreen1Alt } from './AboutUsScreen1Alt'
