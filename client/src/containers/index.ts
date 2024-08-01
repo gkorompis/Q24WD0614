@@ -6,7 +6,7 @@ export { default as HomeScreen3 } from './HomeScreen3';
 export { default as HomeScreen4 } from './HomeScreen4';
 export { default as HomeScreen4alt } from './HomeScreen4alt';
 export { default as HomeScreen5 } from './HomeScreen5';
-export { default as HomeScreen5alt } from './HomeScreen5alt';
+export { default as HomeScreen5alt } from './HomeScreen5Alt';
 export { default as HomeScreen5b } from './HomeScreen5b';
 export { default as HomeScreen6 } from './HomeScreen6';
 export { default as HomeScreen6alt } from './HomeScreen6alt';
@@ -28,3 +28,7 @@ export { default as AboutUsScreen4 } from './AboutUsScreen4';
 
 
 export { default as AboutUsScreen1Alt } from './AboutUsScreen1Alt'
+export { default as AboutUsScreen4Alt } from './AboutUsScreen4Alt'
+export { default as AboutUsScreen5Alt } from './AboutUsScreen5Alt'
+export { default as AboutUsScreen6 } from './AboutUsScreen6'
+export { default as AboutUsScreen7 } from './AboutUsScreen7'

@@ -11,21 +11,20 @@ const AboutUsScreen1Alt = () =>{
     const globalContext:any = useContext(context);
     const windowWidthClass = globalContext && globalContext.windowWidthClass;
 
-    const screenAboutUs1AltRef = useRef(null) as any;
-    // console.log({})
+    const screenHome1Ref = useRef(null) as any;
     useEffect(()=>{
         const handleScroll =()=>{
             const setScreensOffset = globalContext && globalContext.setScreensOffset;
-            const screenAboutUs1Alt = screenAboutUs1AltRef.current.getBoundingClientRect();
-            const top = screenAboutUs1Alt.top;
-            const bottom = screenAboutUs1Alt.bottom;
+            const screenHome1 = screenHome1Ref.current.getBoundingClientRect();
+            const top = screenHome1.top;
+            const bottom = screenHome1.bottom;
             const offset = globalContext && globalContext.windowHeight;
             setScreensOffset((prev:any)=>{return {...prev, 
-                isOffsetscreenAboutUs1Alt: false, bottom, offset, top
+                isOffsetScreenHome1: false, bottom, offset, top
             }});
             if(top < (-1*0.005*offset) ){
                 setScreensOffset((prev:any)=>{return {...prev, bottom, offset, top,
-                    isOffsetscreenAboutUs1Alt: true,
+                    isOffsetScreenHome1: true,
                 }});
             };
         
@@ -35,7 +34,6 @@ const AboutUsScreen1Alt = () =>{
         window.removeEventListener('scroll', handleScroll);
         };
     }, [globalContext])
-
     const componentData = {
         backround: {
             image: {
@@ -63,7 +61,7 @@ const AboutUsScreen1Alt = () =>{
     };
     
     return(
-        <div ref={screenAboutUs1AltRef} className={`${windowWidthClass}-about-us-screen-1-alt`}>
+        <div ref={screenHome1Ref}  className={`${windowWidthClass}-about-us-screen-1-alt`}>
             <div className="wrapper">
                 <div className="background">
                     <div className="frame">

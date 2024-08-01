@@ -69,4 +69,8 @@ export { default as ImgAboutUsScreen4 } from './img/aboutusscreen4/ImgAboutUsScr
 export { default as IconFloatingWa } from './img/appnavbar/wa-green.png'
 
 
-export { default as ImgAboutUsScreen1Joseph } from './img/aboutusscreen1/ImgAboutUsScreen1Joseph.jpeg'
+export { default as ImgAboutUsScreen1Joseph } from './img/aboutusscreen1/ImgAboutUsScreen1Joseph.jpeg';
+export { default as ImgAboutUsScreen4ss } from './img/aboutusscreen4/ImgAboutUsScreen4ss.png'
+export { default as IconAboutUsScreen5 } from './img/aboutusscreen5/IconAboutUsScreen5.png'
+export { default as ImgAboutUsScreen6 } from './img/aboutusscreen6/ImgAboutUsScreen6.png'
+export { default as ImgAboutUsScreen7 } from './img/aboutusscreen7/ImgAboutUsScreen7.png'

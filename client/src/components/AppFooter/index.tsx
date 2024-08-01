@@ -19,24 +19,22 @@ const AppFooter = () =>{
                 </div>
             </div>
             <div className="footer-group bar-2">
-                <div className="anchor-group follow">
+                {/* <div className="anchor-group follow">
                     <h3>Follow Us</h3>
                     <p>lorem ipsum</p>
                     <p>lorem ipsum</p>
                     <p>lorem ipsum</p>
-                </div>
+                </div> */}
                 <div className="anchor-group sitemap">
-                    <h3>Site Map</h3>
-                    <p>lorem ipsum</p>
-                    <p>lorem ipsum</p>
-                    <p>lorem ipsum</p>
+                    <h3>Our Office</h3>
+                    <p>Jl. Kayu Manis, Canggu, Kec. Kuta Utara, Kabupaten Badung, Bali 80351</p>
                 </div>
-                <div className="anchor-group quicklinks">
+                {/* <div className="anchor-group quicklinks">
                     <h3>Quick Links</h3>
                     <p>lorem ipsum</p>
                     <p>lorem ipsum</p>
                     <p>lorem ipsum</p>
-                </div>
+                </div> */}
             </div>
         </div>
         <FloatingIcon/>

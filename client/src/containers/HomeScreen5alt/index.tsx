@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import globalStates from "../../utils/global";
-import "./HomeScreen5alt.css";
+import "./HomeScreen5Alt.css";
 import { ImgBannerFarm, ImgHexagons, ImgHomeScreen5 } from "../../assets";
 
 const HomeScreen5 = ()=>{
