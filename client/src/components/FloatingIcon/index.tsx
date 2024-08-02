@@ -25,7 +25,7 @@ const FloatingIcon = () =>{
     }
 
     const data = {
-        whatsapp: ""
+        whatsapp: "6282229161270"
     }
 
     return (

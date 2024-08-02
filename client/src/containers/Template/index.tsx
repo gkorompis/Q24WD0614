@@ -35,19 +35,30 @@ const Template = () =>{
     }, [globalContext])
 
     const componentData = {
-        alt: "background",
-        imgSrcBackground : "",
-        tagline: "Heartfull to make you smile"
+        background: {
+            image: {
+                alt: "",
+                src: ""
+            }
+        }, 
+        content: {
+            screen: {
+                image: {
+                    alt: "",
+                    src: ""
+                }
+            }
+        }
     };
     
     return(
         <div ref={screenTemplateRef} className={`${windowWidthClass}-home-screen1`}>
             <div className="wrapper">
-                <div className="background">
+                <div className="background display">
                     <div className="frame">
                         <img
-                            alt= {componentData.alt}
-                            src = {componentData.imgSrcBackground}
+                            alt= {componentData.background.image.alt}
+                            src = {componentData.background.image.src}
                          />
                     </div>
                 </div>
@@ -55,11 +66,12 @@ const Template = () =>{
                     
                 </div>
                 <div className="content">
-                    <h1>
-                        {
-                            componentData.tagline
-                        }
-                    </h1>
+                    <div className="frame">
+                        <img 
+                            alt = {componentData.content.screen.image.alt}
+                            src = {componentData.content.screen.image.src}
+                        />
+                    </div>
                 </div>
             </div>
         </div>

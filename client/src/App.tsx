@@ -6,6 +6,7 @@ import { useWindowSize } from '@uidotdev/usehooks';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { About, Home, Careers, Contacts, Businesses } from './pages';
 import { ScrollToTop } from './components';
+import BusinessZillient from './pages/BusinessZillient';
 
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
             <Route path="/careers" element={<Careers/>} />
             <Route path="/contacts" element={<Contacts/>} />
             <Route path="/businesses" element={<Businesses/>} />
+            <Route path="/businesses/:businessId" element={<BusinessZillient/>}/>
           </Routes>
         </BrowserRouter>
     </globalContext.Provider>

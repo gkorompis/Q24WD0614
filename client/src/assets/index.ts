@@ -74,3 +74,7 @@ export { default as ImgAboutUsScreen4ss } from './img/aboutusscreen4/ImgAboutUsS
 export { default as IconAboutUsScreen5 } from './img/aboutusscreen5/IconAboutUsScreen5.png'
 export { default as ImgAboutUsScreen6 } from './img/aboutusscreen6/ImgAboutUsScreen6.png'
 export { default as ImgAboutUsScreen7 } from './img/aboutusscreen7/ImgAboutUsScreen7.png'
+export { default as ImgAboutUsScreen3Peter } from './img/aboutusscreen3/ImgAboutUsScreen3Peter.png';
+export { default as ImgAboutUsScreen4Bg } from './img/aboutusscreen4/ImgAboutUsScreen4Bg.png';
+export { default as ImgAboutUsSCreen4Logo } from './img/aboutusscreen4/zilliengrouplogo.png';
+export { default as ImgAboutUsScreen6Chart } from './img/aboutusscreen6/ImgOrgChart.png'

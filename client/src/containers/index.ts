@@ -32,3 +32,6 @@ export { default as AboutUsScreen4Alt } from './AboutUsScreen4Alt'
 export { default as AboutUsScreen5Alt } from './AboutUsScreen5Alt'
 export { default as AboutUsScreen6 } from './AboutUsScreen6'
 export { default as AboutUsScreen7 } from './AboutUsScreen7'
+
+export { default as ZillientScreenBanner } from './ZillientScreenBanner';
+export { default as ZillientScreenList } from './ZillientScreenList';

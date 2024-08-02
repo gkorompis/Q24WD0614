@@ -1,7 +1,7 @@
 import { useContext, useEffect, useRef } from "react";
 import globalStates from "../../utils/global";
 import "./AboutUsScreen4Alt.css";
-import { ImgAboutUsScreen4ss } from "../../assets";
+import { ImgAboutUsScreen4Bg, ImgAboutUsSCreen4Logo, ImgAboutUsScreen4ss } from "../../assets";
 // import { BannerCoffee1, BannerCoffee2 } from "../../assets";
 
 const AboutUsScreen4Alt = () =>{
@@ -12,8 +12,25 @@ const AboutUsScreen4Alt = () =>{
 
     const componentData = {
         alt: "background",
-        imgSrcBackground : ImgAboutUsScreen4ss,
-        tagline: "Heartfull to make you smile"
+        imgSrcBackground : ImgAboutUsScreen4Bg,
+        tagline: "Heartfull to make you smile",
+
+        content: {
+            image: {
+                alt: "zillient group logo",
+                src: ImgAboutUsSCreen4Logo
+            },
+            text_1: "Zillient Group",
+            text_2: "is a start-up that is committed to providing the best service through innovation and use of technology to partners by realizing sustainable and inclusive economic transformation.",
+
+
+            screen: {
+                right: {
+                    title: "OUR MOTTO",
+                    value: "POWER OF CURIOSITY"
+                }
+            }
+        }
     };
     
     return(
@@ -30,12 +47,39 @@ const AboutUsScreen4Alt = () =>{
                 <div className="shield">
                     
                 </div>
-                <div className="content">
-                    {/* <h1>
-                        {
-                            componentData.tagline
-                        }
-                    </h1> */}
+                <div className="content display">
+                    <div className="screen left">
+                        <div className="object-wrapper child-grid-y">
+                            <div className="grid-item top">
+                                <div className="frame">
+                                    <img 
+                                        alt = {componentData.content.image.alt}
+                                        src= {componentData.content.image.src}
+                                    />
+                                </div>
+                            </div>
+                            <div className="grid-item bottom">
+                                <p>
+                                    <b>{componentData.content.text_1}</b>
+                                    {componentData.content.text_2}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="screen right">
+                        <div className="text-wrapper">
+                            <h2>
+                                {
+                                    componentData.content.screen.right.title
+                                }
+                            </h2>
+                             <p>
+                                {
+                                    componentData.content.screen.right.value
+                                }
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

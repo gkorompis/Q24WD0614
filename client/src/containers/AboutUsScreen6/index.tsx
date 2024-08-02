@@ -1,7 +1,7 @@
 import { useContext, useEffect, useRef } from "react";
 import globalStates from "../../utils/global";
 import "./AboutUsScreen6.css";
-import { ImgAboutUsScreen4ss, ImgAboutUsScreen6 } from "../../assets";
+import { ImgAboutUsScreen4ss, ImgAboutUsScreen6, ImgAboutUsScreen6Chart } from "../../assets";
 // import { BannerCoffee1, BannerCoffee2 } from "../../assets";
 
 const AboutUsScreen6 = () =>{
@@ -11,31 +11,43 @@ const AboutUsScreen6 = () =>{
     const windowWidthClass = globalContext && globalContext.windowWidthClass;
 
     const componentData = {
-        alt: "background",
-        imgSrcBackground : ImgAboutUsScreen6,
-        tagline: "Heartfull to make you smile"
+        background: {
+            image: {
+                alt: "",
+                src: ""
+            }
+        }, 
+        content: {
+            screen: {
+                image: {
+                    alt: "organization chart zillient group",
+                    src: ImgAboutUsScreen6Chart
+                }
+            }
+        }
     };
     
     return(
         <div  className={`${windowWidthClass}-about-us-screen-6`}>
             <div className="wrapper">
-                <div className="background">
+                <div className="background display">
                     <div className="frame">
                         <img
-                            alt= {componentData.alt}
-                            src = {componentData.imgSrcBackground}
+                            alt= {componentData.background.image.alt}
+                            src = {componentData.background.image.src}
                          />
                     </div>
                 </div>
                 <div className="shield">
                     
                 </div>
-                <div className="content">
-                    {/* <h1>
-                        {
-                            componentData.tagline
-                        }
-                    </h1> */}
+                <div className="content display">
+                    <div className="frame">
+                        <img 
+                            alt = {componentData.content.screen.image.alt}
+                            src = {componentData.content.screen.image.src}
+                        />
+                    </div>
                 </div>
             </div>
         </div>

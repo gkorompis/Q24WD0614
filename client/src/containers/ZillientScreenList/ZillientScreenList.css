@@ -1,0 +1,67 @@
+.w-pc-business-zillient-list {
+    /* background-color: rgb(226, 226, 226); */
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.w-pc-business-zillient-list>.wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: wheat; */
+    position: relative;
+}
+
+.w-pc-business-zillient-list>.wrapper>.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(95, 199, 255);
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 101;
+}
+
+.w-pc-business-zillient-list>.wrapper>.background>.frame {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.w-pc-business-zillient-list>.wrapper>.background>.frame>img {
+    width: 100%;
+}
+
+.w-pc-business-zillient-list>.wrapper>.shield {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: salmon; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+
+.w-pc-business-zillient-list>.wrapper>.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: cadetblue; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+.w-pc-business-zillient-list>.wrapper>.content.display {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: 100%;
+    box-sizing: border-box;
+    border: 1px solid red
+}
+.w-pc-business-zillient-list>.wrapper>.content.display>.grid-item {
+    box-sizing: border-box;
+    border: 1px solid black;
+}

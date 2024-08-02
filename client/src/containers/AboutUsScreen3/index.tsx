@@ -1,7 +1,7 @@
 import { useContext, useEffect, useRef } from "react";
 import globalStates from "../../utils/global";
 import "./AboutUsScreen3.css";
-import { ImgAboutUsScreen3 } from "../../assets";
+import { ImgAboutUsScreen3, ImgAboutUsScreen3Peter } from "../../assets";
 
 const AboutUsScreen3 = () =>{
 
@@ -13,6 +13,20 @@ const AboutUsScreen3 = () =>{
 
     const screenImageBackground = windowWidthClass === "w-pc" ? ImgAboutUsScreen3 : ImgAboutUsScreen3;
    
+    const componentData ={
+        content: {
+            objectWrapper: {
+                image: {
+                    src: ImgAboutUsScreen3Peter,
+                    alt:"Peter Michael Senge",
+                },
+                text: {
+                    value: `"When teams are truly learning, not only are they producing extraordinary results, but the individual members are growing more rapidly than could have occurred otherwise"  -  `,
+                    value2: "Peter Michael Senge"
+                }
+            }
+        }
+    }
     return(
         <div className={`${windowWidthClass}-about-us-screen3`}>
             <div className="wrapper">
@@ -32,10 +46,31 @@ const AboutUsScreen3 = () =>{
                             <p>Transdisiplin akan menjadi ciri khas para zillient untuk menghasilkan mahakarya yang luar biasa dan bermanfaat untuk sesama berdasarkan Karya, Cipta, dan Karsa.</p>
                         </div>
                     </div>
-                    <div className="grid-item right">
-                        <div className="frame"> 
-                            <img alt="bendera merah putih" src={ImgAboutUsScreen3} />
-                        </div>
+                    <div className="grid-item right display">
+                  
+                            <div className="child-background">
+                                 <div className="frame"> 
+                                    <img alt="bendera merah putih" src={ImgAboutUsScreen3} />
+                                </div>
+                            </div>
+                            <div className="child-content">
+                                <div className="object-wrapper grid">
+                                    <div className="grid-item image">
+                                        <div className="frame">
+                                            <img  
+                                            alt={componentData && componentData.content.objectWrapper.image.alt} 
+                                            src={componentData && componentData.content.objectWrapper.image.src} />
+                                        </div>
+                                    </div>
+                                    <div className="grid-item text">
+                                        <p>{componentData && componentData.content.objectWrapper.text.value} 
+                                            <b>{componentData && componentData.content.objectWrapper.text.value2} </b>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                
+                       
                     </div>
                 </div>
             </div>

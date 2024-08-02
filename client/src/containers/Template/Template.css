@@ -1,18 +1,18 @@
-.w-pc-template {
-    background-color: rgb(226, 226, 226);
+.w-pc-about-us-template {
+    /* background-color: rgb(226, 226, 226); */
     height: 100vh;
     width: 100%;
     box-sizing: border-box;
 }
 
-.w-pc-template>.wrapper {
+.w-pc-about-us-template>.wrapper {
     height: 100%;
     width: 100%;
-    background-color: wheat;
+    /* background-color: wheat; */
     position: relative;
 }
 
-.w-pc-template>.wrapper>.background {
+.w-pc-about-us-template>.wrapper>.background {
     position: absolute;
     top: 0;
     left: 0;
@@ -23,22 +23,32 @@
     z-index: 101;
 }
 
-.w-pc-template>.wrapper>.shield {
+.w-pc-about-us-template>.wrapper>.background>.frame {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.w-pc-about-us-template>.wrapper>.background>.frame>img {
+    width: 100%;
+}
+
+.w-pc-about-us-template>.wrapper>.shield {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: salmon;
+    /* background-color: salmon; */
     height: 100%;
     width: 100%;
     box-sizing: border-box;
     z-index: 102;
 }
 
-.w-pc-template>.wrapper>.content {
+.w-pc-about-us-template>.wrapper>.content {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     height: 100%;
     width: 100%;
     box-sizing: border-box;
