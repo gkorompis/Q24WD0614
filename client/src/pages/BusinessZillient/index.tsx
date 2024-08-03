@@ -19,7 +19,11 @@ const BusinessZillient = () =>{
             <AppNavbar/>
             {/* <BusinessScreen1/> */}
             <BannerScreen data={{
-                title: businessDetail.title
+                title: businessDetail.title,
+                image: {
+                    src: businessDetail.images.screenListBg.src,
+                    alt: businessDetail.title
+                }
             }} />
             <ZillientScreenBanner data={businessDetail}/>
             <ZillientScreenList data={businessDetail}/>

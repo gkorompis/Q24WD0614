@@ -38,11 +38,12 @@
     top: 0;
     left: 0;
     /* background-color: salmon; */
-    background-color: rgba(0, 0, 0, 0.069);
+    background-color: rgba(0, 0, 0, 0.36);
     height: 100%;
     width: 100%;
     box-sizing: border-box;
     z-index: 102;
+    backdrop-filter: blur(3px);
 }
 
 .w-pc-banner-screen>.wrapper>.content {

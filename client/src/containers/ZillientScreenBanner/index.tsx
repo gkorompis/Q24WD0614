@@ -9,29 +9,29 @@ const ZillientScreenBanner = ({data}:any) =>{
     const globalContext:any = useContext(context);
     const windowWidthClass = globalContext && globalContext.windowWidthClass;
 
-    const screenHome1Ref = useRef(null) as any;
-    useEffect(()=>{
-        const handleScroll =()=>{
-            const setScreensOffset = globalContext && globalContext.setScreensOffset;
-            const screenHome1 = screenHome1Ref.current.getBoundingClientRect();
-            const top = screenHome1.top;
-            const bottom = screenHome1.bottom;
-            const offset = globalContext && globalContext.windowHeight;
-            setScreensOffset((prev:any)=>{return {...prev, 
-                isOffsetScreenHome1: false, bottom, offset, top
-            }});
-            if(top < (-1*0.005*offset) ){
-                setScreensOffset((prev:any)=>{return {...prev, bottom, offset, top,
-                    isOffsetScreenHome1: true,
-                }});
-            };
+    // const screenHome1Ref = useRef(null) as any;
+    // useEffect(()=>{
+    //     const handleScroll =()=>{
+    //         const setScreensOffset = globalContext && globalContext.setScreensOffset;
+    //         const screenHome1 = screenHome1Ref.current.getBoundingClientRect();
+    //         const top = screenHome1.top;
+    //         const bottom = screenHome1.bottom;
+    //         const offset = globalContext && globalContext.windowHeight;
+    //         setScreensOffset((prev:any)=>{return {...prev, 
+    //             isOffsetScreenHome1: false, bottom, offset, top
+    //         }});
+    //         if(top < (-1*0.005*offset) ){
+    //             setScreensOffset((prev:any)=>{return {...prev, bottom, offset, top,
+    //                 isOffsetScreenHome1: true,
+    //             }});
+    //         };
         
-        };
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-        window.removeEventListener('scroll', handleScroll);
-        };
-    }, [globalContext])
+    //     };
+    //     window.addEventListener('scroll', handleScroll);
+    //     return () => {
+    //     window.removeEventListener('scroll', handleScroll);
+    //     };
+    // }, [globalContext])
 
 
     const componentData = {
@@ -59,7 +59,7 @@ const ZillientScreenBanner = ({data}:any) =>{
     }
     
     return(
-        <div ref={screenHome1Ref} className={`${windowWidthClass}-business-zillient`}>
+        <div className={`${windowWidthClass}-business-zillient`}>
             <div className="wrapper">
                 <div className="background display">
                     <div className="frame">

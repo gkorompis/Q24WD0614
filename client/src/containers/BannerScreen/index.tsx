@@ -34,12 +34,12 @@ const BannerScreen = ({data}:any) =>{
         };
     }, [globalContext])
 
-    
+    const dataImage =(data && data.image) || {src:"", alt:""}
     const componentData = {
         background: {
             image: {
-                src:ImgAboutUsScreen1,
-                alt: "background about us"
+                src:(dataImage.src)|| ImgAboutUsScreen1,
+                alt:(dataImage.alt)|| "background about us"
             }
         }, 
         content: {

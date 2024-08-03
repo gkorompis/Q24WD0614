@@ -23,7 +23,7 @@ const Careers =()=>{
             <AppNavbar/>
             {/* <BusinessScreen1/> */}
             <BannerScreen data={{
-                title: "Business"
+                title: "Business",
             }} />
             <HomeScreen3/>
             <ZillientScreenBanner data={businessDetailFarm}/>
