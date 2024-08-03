@@ -1,22 +1,28 @@
 import { createContext } from "react";
+import { IconBusinessConstruction, IconBusinessConsultation, IconBusinessEducation, IconBusinessFarm, IconBusinessTour, ImgBusinessConstruction, ImgBusinessConsultation, ImgBusinessEdu, ImgBusinessFarm, ImgBusinessTour, ImgBusinessZillientConstruction, ImgBusinessZillientConsultation, ImgBusinessZillientEducation, ImgBusinessZillientFarm, ImgBusinessZillientTour } from "../assets";
 
 
 const zillientFarm = {
     businessId: "zillient-farm",
     title: "Zillient Farm",
+    code: "Farm",
     description: "Create 1 million modern farmers, breeders, and fishermen in Indonesia, helping partners with capital, input requirements, cultivation guidance, and marketing.",
     images: {
         screenBannerImg: {
-            src: "",
-            alt: ""
+            src: ImgBusinessFarm,
+            alt: "background zillient farm"
         },
         screenListBg: {
-            src: "",
-            alt: ""
+            src: ImgBusinessZillientFarm,
+            alt: "background zillient farm"
         },
         screenBannerIcon: {
             src: "",
             alt: ""
+        },
+        headerLogo: {
+            src: IconBusinessFarm,
+            alt: "icon logo zillient farm"
         }
     },
     serviceList: [
@@ -60,19 +66,24 @@ const zillientFarm = {
 const zillientEducation = {
     businessId: "zillient-education",
     title: "Zillient Education",
+    code: "Education",
     description: "Focuses on providing training, certification and consultation to partners personally and non-personally as well as supporting and connecting the skills development of Indonesian youth on an international scale.",
     images: {
         screenBannerImg: {
-            src: "",
-            alt: ""
+            src: ImgBusinessEdu,
+            alt: "background zillient education"
         },
         screenListBg: {
-            src: "",
-            alt: ""
+            src: ImgBusinessZillientEducation,
+            alt: "background zillient education"
         },
         screenBannerIcon: {
             src: "",
             alt: ""
+        },
+        headerLogo: {
+            src: IconBusinessEducation,
+            alt: "icon logo zillient education"
         }
     },
     serviceList: [
@@ -116,19 +127,24 @@ const zillientEducation = {
 const zillientConstruction = {
     businessId: "zillient-construction",
     title: "Zillient Construction",
+    code: "Construction",
     description: "Provide construction service based on professional, hight integrity, and dedicated to partners orientation excellence.",
     images: {
         screenBannerImg: {
-            src: "",
-            alt: ""
+            src: ImgBusinessConstruction,
+            alt: "background zillient construction"
         },
         screenListBg: {
-            src: "",
-            alt: ""
+            src: ImgBusinessZillientConstruction,
+            alt: "background zillient construction"
         },
         screenBannerIcon: {
             src: "",
             alt: ""
+        },
+        headerLogo: {
+            src: IconBusinessConstruction,
+            alt: "icon logo zillient construction"
         }
     },
     serviceList: [
@@ -156,19 +172,24 @@ const zillientConstruction = {
 const zillientTour = {
     businessId: "zillient-tour",
     title: "Zillient Tour",
+    code: "Tour",
     description: "Create one village one youtuber, introducing the potential and natural beauty of every village corner, providing collaborative tourism services to lift the tourism sector of Indonesia.",
     images: {
         screenBannerImg: {
-            src: "",
-            alt: ""
+            src: ImgBusinessTour,
+            alt: "background zillient tour"
         },
         screenListBg: {
-            src: "",
-            alt: ""
+            src: ImgBusinessZillientTour,
+            alt: "background zillient tour"
         },
         screenBannerIcon: {
             src: "",
             alt: ""
+        },
+        headerLogo: {
+            src: IconBusinessTour,
+            alt: "icon logo zillient tour"
         }
     },
     serviceList: [
@@ -189,19 +210,24 @@ const zillientTour = {
 const zillientConsultation = {
     businessId: "zillient-consultation",
     title: "Zillient Consultation",
+    code: "Consultation",
     description: "Providing consultations to partners regarding legality and building an inclusive and integrated business that has an impact on the environment.",
     images: {
         screenBannerImg: {
-            src: "",
-            alt: ""
+            src: ImgBusinessConsultation,
+            alt: "background zillient consultation"
         },
         screenListBg: {
-            src: "",
-            alt: ""
+            src: ImgBusinessZillientConsultation,
+            alt: "background zillient consultation"
         },
         screenBannerIcon: {
             src: "",
             alt: ""
+        },
+        headerLogo: {
+            src: IconBusinessConsultation,
+            alt: "icon logo zillient consultation"
         }
     },
     serviceList: [

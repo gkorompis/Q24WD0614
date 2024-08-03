@@ -21,6 +21,18 @@ const ZillientScreenList = ({data}:any) =>{
             icon: {
                  src: data && data.images.screenBannerIcon.src,
                  alt: data && data.images.screenBannerIcon.alt,
+            },
+            imgHeaderLogo: {
+                alt: data && data.images.headerLogo.src,
+                src: data && data.images.headerLogo.src
+            },
+            title: {
+                value: "Zillient",
+                tag: data && data.code,
+                image: {
+                    src: "",
+                    alt: ""
+                }
             }
         },
     }
@@ -30,10 +42,10 @@ const ZillientScreenList = ({data}:any) =>{
             <div className="wrapper">
                 <div className="background display">
                     <div className="frame">
-                        {/* <img
+                        <img
                             alt= {componentData.background.image.alt}
                             src = {componentData.background.image.src}
-                         /> */}
+                         />
                     </div>
                 </div>
                 <div className="shield">
@@ -42,18 +54,16 @@ const ZillientScreenList = ({data}:any) =>{
                 <div className="content display grid-x">
                         <div className="grid-item left">
                             <div className="object-wrapper grid-y">
-                                <div className="tab grid-x">
-                                    <div className="image">
-                                        <div className="frame">
-                                            <img 
-                                                alt={componentData.screen.icon.alt}
-                                                src={componentData.screen.icon.src}
-                                            />
-                                        </div>
+                                <div className="tab-logo grid-x">
+                                    <div className="frame">
+                                        <img
+                                            alt={componentData.screen.imgHeaderLogo.alt}
+                                            src={componentData.screen.imgHeaderLogo.src}
+                                        />
                                     </div>
-                                    <div className="text flex-row">
-                                        <h2>Zillient</h2>
-                                        <p>Code</p>
+                                    <div className="text grid-y">
+                                        <h2>{componentData.screen.title.value}</h2>
+                                        <p>{componentData.screen.title.tag}</p>
                                     </div>
                                 </div>
                                 <div className="list-text">

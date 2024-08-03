@@ -77,4 +77,16 @@ export { default as ImgAboutUsScreen7 } from './img/aboutusscreen7/ImgAboutUsScr
 export { default as ImgAboutUsScreen3Peter } from './img/aboutusscreen3/ImgAboutUsScreen3Peter.png';
 export { default as ImgAboutUsScreen4Bg } from './img/aboutusscreen4/ImgAboutUsScreen4Bg.png';
 export { default as ImgAboutUsSCreen4Logo } from './img/aboutusscreen4/zilliengrouplogo.png';
-export { default as ImgAboutUsScreen6Chart } from './img/aboutusscreen6/ImgOrgChart.png'
+export { default as ImgAboutUsScreen6Chart } from './img/aboutusscreen6/ImgOrgChart.png';
+
+export { default as IconBusinessFarm } from './img/icons/icon_farm.png';
+export { default as IconBusinessEducation } from './img/icons/icon_educ.png';
+export { default as IconBusinessConstruction } from './img/icons/icon_const.png';
+export { default as IconBusinessTour } from './img/icons/icon_tour.png';
+export { default as IconBusinessConsultation } from './img/icons/icon_consu.png';
+
+export { default as ImgBusinessZillientFarm } from './img/business/business_farm.png';
+export { default as ImgBusinessZillientEducation } from './img/business/business_education.png';
+export { default as ImgBusinessZillientConstruction } from './img/business/business_const.png';
+export { default as ImgBusinessZillientTour } from './img/business/business_tour.png';
+export { default as ImgBusinessZillientConsultation } from './img/business/business_consu.png';

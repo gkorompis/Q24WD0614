@@ -1,4 +1,5 @@
-import { ZillientScreenBanner, ZillientScreenList } from "../../containers";
+import { AppNavbar } from "../../components";
+import { BusinessScreen1, ZillientScreenBanner, ZillientScreenList } from "../../containers";
 import globalStates from "../../utils/global";
 import "./BusinessZillient.css";
 import { useParams } from 'react-router-dom'
@@ -15,6 +16,8 @@ const BusinessZillient = () =>{
 
     return (
         <div className="business-zillient">
+            <AppNavbar/>
+            <BusinessScreen1/>
             <ZillientScreenBanner data={businessDetail}/>
             <ZillientScreenList data={businessDetail}/>
         </div>

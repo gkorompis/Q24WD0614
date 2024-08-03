@@ -65,7 +65,7 @@ const AppNavbar = () =>{
                         onMouseLeave={()=>handleHoverBusinessSubmenu("leave")}>
                             
                             <p
-                                
+                               onClick={()=>handleNavigate('businesses')} 
                             >Business</p>
                             <div className={`submenu-bar
                                     ${isHoverBusinessSubmenu? "hover" : ""}

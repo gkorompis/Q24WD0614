@@ -37,11 +37,20 @@ const ZillientScreenBanner = ({data}:any) =>{
     const componentData = {
         screen: {
             title: {
-                value: data && data.title
+                value: "Zillient",
+                tag: data && data.code,
+                image: {
+                    src: "",
+                    alt: ""
+                }
             },
             image: {
                 src: data && data.images.screenBannerImg.src,
                 alt: data && data.images.screenBannerImg.alt
+            },
+            imgHeaderLogo: {
+                alt: data && data.images.headerLogo.src,
+                src: data && data.images.headerLogo.src
             },
             description: {
                 value: data && data.description
@@ -65,8 +74,20 @@ const ZillientScreenBanner = ({data}:any) =>{
                 </div>
                 <div className="content display grid-x">
                         <div className="grid-item left">
-                            <div className="text-wrapper">
-                                <h2>{componentData.screen.title.value}</h2>
+                            <div className="object-wrapper grid-x">
+                                <div className="tab-logo grid-x">
+                                    <div className="frame">
+                                        <img
+                                            alt={componentData.screen.imgHeaderLogo.alt}
+                                            src={componentData.screen.imgHeaderLogo.src}
+                                        />
+                                    </div>
+                                    <div className="text">
+                                        <h2>{componentData.screen.title.value}</h2>
+                                        <p>{componentData.screen.title.tag}</p>
+                                    </div>
+                                    
+                                </div>
                                 <p>{componentData.screen.description.value}</p>
                             </div>
                             
