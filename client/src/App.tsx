@@ -7,6 +7,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { About, Home, Careers, Contacts, Businesses } from './pages';
 import { ScrollToTop } from './components';
 import BusinessZillient from './pages/BusinessZillient';
+import ZillientCardHolder from './containers/ZillientScreenCardholder';
+import { ZillientScreenDetails } from './containers';
 
 
 function App() {
@@ -52,6 +54,8 @@ function App() {
             <Route path="/contacts" element={<Contacts/>} />
             <Route path="/businesses" element={<Businesses/>} />
             <Route path="/businesses/:businessId" element={<BusinessZillient/>}/>
+            <Route path="/service-list/:businessId/:serviceId" element={<ZillientCardHolder/>} />
+            <Route path="/details-list/:businessId/:serviceId/:cardId" element={<ZillientScreenDetails />} />
           </Routes>
         </BrowserRouter>
     </globalContext.Provider>

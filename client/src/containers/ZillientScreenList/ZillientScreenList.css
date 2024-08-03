@@ -135,5 +135,10 @@
 }
 .w-pc-business-zillient-list>.wrapper>.content.display>.grid-item.left>.object-wrapper>.list-text>p {
     font-size: 1.1vw;
-    line-height: 170%;
+    line-height: 200%;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.w-pc-business-zillient-list>.wrapper>.content.display>.grid-item.left>.object-wrapper>.list-text>p:hover{
+    color: rgb(72, 72, 72);
 }

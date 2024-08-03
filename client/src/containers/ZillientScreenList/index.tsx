@@ -1,6 +1,7 @@
 import { useContext, useEffect, useRef } from "react";
 import globalStates from "../../utils/global";
 import "./ZillientScreenList.css";
+import { useNavigate } from "react-router-dom";
 // import { BannerCoffee1, BannerCoffee2 } from "../../assets";
 
 const ZillientScreenList = ({data}:any) =>{
@@ -8,6 +9,13 @@ const ZillientScreenList = ({data}:any) =>{
     const context = globalStates && globalStates.globalContext;
     const globalContext:any = useContext(context);
     const windowWidthClass = globalContext && globalContext.windowWidthClass;
+
+    const navigate = useNavigate();
+
+    const handleNavigate = (route:string, index:string)=>{
+        const path = `/service-list/${route}/${index}`
+        navigate(path);
+    }
 
     const componentData = {
         background: {
@@ -71,8 +79,12 @@ const ZillientScreenList = ({data}:any) =>{
                                         componentData.screen.services.map((service:any, index:any)=>{
                                             const serviceId = (service && service.id) || 0;
                                             const serviceValue = (service && service.service) || "service name";
+                                            const businessId = data && data.businessId;
                                             return (
-                                                <p className="item">
+                                                <p 
+                                                className="item"
+                                                onClick={()=>handleNavigate(businessId, serviceId)}
+                                                >
                                                     {`${serviceId}. ${serviceValue}`}
                                                 </p>
                                             )
