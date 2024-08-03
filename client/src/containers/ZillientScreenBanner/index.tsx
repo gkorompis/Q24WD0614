@@ -82,11 +82,10 @@ const ZillientScreenBanner = ({data}:any) =>{
                                             src={componentData.screen.imgHeaderLogo.src}
                                         />
                                     </div>
-                                    <div className="text">
+                                    <div className="text grid-y">
                                         <h2>{componentData.screen.title.value}</h2>
                                         <p>{componentData.screen.title.tag}</p>
                                     </div>
-                                    
                                 </div>
                                 <p>{componentData.screen.description.value}</p>
                             </div>

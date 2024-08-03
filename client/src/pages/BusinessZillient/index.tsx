@@ -1,5 +1,5 @@
-import { AppNavbar } from "../../components";
-import { BusinessScreen1, ZillientScreenBanner, ZillientScreenList } from "../../containers";
+import { AppFooter, AppNavbar } from "../../components";
+import { BannerScreen, BusinessScreen1, ZillientScreenBanner, ZillientScreenList } from "../../containers";
 import globalStates from "../../utils/global";
 import "./BusinessZillient.css";
 import { useParams } from 'react-router-dom'
@@ -17,9 +17,13 @@ const BusinessZillient = () =>{
     return (
         <div className="business-zillient">
             <AppNavbar/>
-            <BusinessScreen1/>
+            {/* <BusinessScreen1/> */}
+            <BannerScreen data={{
+                title: businessDetail.title
+            }} />
             <ZillientScreenBanner data={businessDetail}/>
             <ZillientScreenList data={businessDetail}/>
+            <AppFooter/>
         </div>
     )
 };

@@ -35,3 +35,5 @@ export { default as AboutUsScreen7 } from './AboutUsScreen7'
 
 export { default as ZillientScreenBanner } from './ZillientScreenBanner';
 export { default as ZillientScreenList } from './ZillientScreenList';
+
+export { default as BannerScreen } from './BannerScreen'
