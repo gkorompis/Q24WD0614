@@ -4,7 +4,7 @@ import "./BannerScreen2.css";
 import { ImgAboutUsScreen1 } from "../../assets";
 // import { BannerCoffee1, BannerCoffee2 } from "../../assets";
 
-const BannerScreen = ({data}:any) =>{
+const BannerScreen2 = ({data}:any) =>{
 
     const context = globalStates && globalStates.globalContext;
     const globalContext:any = useContext(context);
@@ -75,4 +75,4 @@ const BannerScreen = ({data}:any) =>{
     )
 };
 
-export default BannerScreen;
+export default BannerScreen2;

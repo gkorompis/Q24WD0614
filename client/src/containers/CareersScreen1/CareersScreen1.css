@@ -37,6 +37,10 @@
     justify-content: center;
     height: 100%;
     color: #fff;
+    background-image: url('../../assets/img/career/career.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
 }
 .w-pc-careers-screen1>.wrapper>.content>.screen{
     /* border: 1px solid red; */

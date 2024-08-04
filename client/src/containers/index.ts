@@ -40,3 +40,5 @@ export { default as BannerScreen } from './BannerScreen';
 export { default as BannerScreen2 } from './BannerScreen2';
 export { default as ZillientScreenCardholder } from './ZillientScreenCardholder';
 export { default as ZillientScreenDetails } from './ZillientScreenDetails';
+
+export { default as ContactScreen1Alt } from './ContactScreen1Alt'
