@@ -1010,40 +1010,325 @@ const zillientEducation = {
             list: [
                 {
                     id: 1,
-                    item: "CERTIFIED COMPLIANCE PROFESSIONAL (CCP)",
+                    item: "Certified Compliance Professional (CCP)",
+                    details:[
+  {
+    id: 1,
+    name: "Certified Compliance Professional (CCP)",
+    desc: [
+      "Organisasi membutuhkan individu yang memiliki kompetensi di bidang kepatuhan (Compliance) untuk menjaga integritas dan ketaatan peraturan.",
+      "Keberadaan Certified Compliance Professional (CCP) berbasis ISO 19600/37301:2021 menjadi kunci dalam menjamin bahwa organisasi beroperasi sesuai dengan standar internasional, meminimalkan risiko pelanggaran, dan membangun reputasi yang solid."
+    ]
+  },
+  {
+    id: 2,
+    name: "Topik",
+    desc: [
+      "Merancang Sistem Manajemen Kepatuhan Organisasi sesuai ISO 19600.",
+      "Menerapkan Sistem Manajemen Kepatuhan sesuai ISO 19600.",
+      "Merencanakan Integrasi Sistem Manajemen Kepatuhan Berbasis ISO 19600 dalam Penerapan GRC (Governance-Risk Management-Compliance) Organisasi.",
+      "Menerapkan Integrasi Sistem Manajemen Kepatuhan Berbasis ISO 19600 dalam Penerapan GRC (Governance-Risk Management-Compliance) Organisasi.",
+      "Membangun Budaya Kepatuhan dan Etis dalam Sistem Manajemen Kepatuhan berbasis ISO 19600.",
+      "Menerapkan Pengelolaan Kepatuhan dalam Sistem Manajemen Kepatuhan berbasis ISO 19600."
+    ]
+  },
+  {
+    id: 3,
+    name: "Peserta Pelatihan",
+    desc: [
+      "Para Profesional yang berasal baik dari institusi pemerintah, BUMN, BUMD, BLU maupun Swasta yang berpengalaman di bidang Kepatuhan."
+    ]
+  },
+  {
+    id: 4,
+    name: "Persyaratan Peserta Ujian",
+    desc: [
+      "Pendidikan Minimal S1.",
+      "Menjabat sebagai kepala Departemen atau Manajer/Penyelia/Pejabat di sektor publik setingkat eselon 3 atau 4, minimal 2 tahun.",
+      "Memiliki sertifikat pelatihan CCP."
+    ]
+  },
+  {
+    id: 5,
+    name: "Ujian Sertifikasi",
+    desc: [
+      "1. Tertulis (120 menit).",
+      "2. Demonstrasi (100 menit)."
+    ]
+  }
+]
+                },
+                {
+                    id: 2,
+                    item: "Certified Internal Audit Officer (CIAO)",
                     details: [
-                        {
-                            id: 1,
-                            name: "Pengadaan Barang/Jasa Pemerintah bagi Pejabat Pembuat Komitmen (PPK) Tipe C",
-                            desc: [
-                                "PPK Memiliki fungsi strategis dalam pengelolaan keuangan negara, berwenang untuk mengambil keputusan dan tindakan yang berakibat pada pengeluaran anggaran dan bertanggung jawab atas pelaksanaan pengadaan barang /jasa. Oleh karenanya PPK harus memiliki kompetensi yang mumpuni guna menjamin pelaksanaan pengelolaan anggaran Lembaga/organisasi pengadaan barang/jasa sesuai dengan peraturan yang berlaku."
-                            ]
-                        },
-                        {
-                            id: 2, 
-                            name: "Topik",
-                            desc: [
-                                "1. Perencanaan PBJ meliputi: Indentifikasi kebutuhan dan penetapan PBJ, Penyusunan Spesifikasi Teknis dan Kerangka Acuan Kerja (KAK) Jasa Konsultansi Perorangan, Penyusunan Perkiraan Harga.",
-                                "2. Pengelolaan Kontrak PBJ meliputi: perumusan kontrak dalam bentuk SPK, Pengendalian Pelaksanaan Kontrak, Pekerjaan Serah Terima Hasil PBJ, Evaluasi kinerja penyedia.",
-                                "3. Pengelolaan PBJ secara swakelola: Perencanaan, persiapan, pelaksanaan, pengawasan dan serah terima pekerjaan PBJ."
-                            ]
-                        },
-                        {
-                            id: 3, 
-                            name: "Peserta Pelatihan",
-                            desc: [
-                                "Pejabat Pembuat Komitmen (PPK) yang berasal baik dari Institusi pemerintah, BUMN, BUMD & BLU yang telah memiliki Sertifikasi Pengadaan Barang/ Jasa tingkat dasar atau Level 1",
-                                "Peserta diharapkan membawa laptop."
-                            ]
-                        },
-                        {
-                            id: 4, 
-                            name: "Metode Program",
-                            desc: [
-                                "Metode program menggunakan Blended Learning yaitu kombinasi pembelajaran yang diawali dengan pembelajaran mandiri dalam LMS dilanjutkan dengan metode In-class/tatap muka."
-                            ]
-                        }
-                    ]
+  {
+    id: 1,
+    name: "Certified Internal Audit Officer (CIAO)",
+    desc: [
+      "Organisasi membutuhkan individu dengan kompetensi di bidang audit internal untuk memastikan keberlanjutan dan efektivitas operasional.",
+      "Keberadaan Certified Internal Audit Officer (CIAO) menjadi kunci dalam menyediakan penilaian independen dan objektif terhadap sistem kontrol internal.",
+      "Hal ini tidak hanya membantu mengidentifikasi potensi risiko, tetapi juga memastikan kepatuhan terhadap regulasi dan standar perusahaan."
+    ]
+  },
+  {
+    id: 2,
+    name: "Topik",
+    desc: [
+      "Merancang tugas, kewenangan, dan tanggungjawab audit internal.",
+      "Merancang kriteria independensi dan objektivitas dalam audit internal.",
+      "Merancang aspek pengelolaan fungsi audit Internal.",
+      "Merancang perwujudan sifat dasar pekerjaan audit internal.",
+      "Merencanakan penugasan audit internal.",
+      "Mengkomunikasikan hasil penugasan audit internal dan penerimaan risiko."
+    ]
+  },
+  {
+    id: 3,
+    name: "Peserta Pelatihan",
+    desc: [
+      "Praktisi auditor baik bidang keuangan, operasional dan yang terlibat secara langsung/tidak dalam perencanaan dan praktik internal audit."
+    ]
+  },
+  {
+    id: 4,
+    name: "Persyaratan Peserta Ujian",
+    desc: [
+      "Pendidikan Minimal S1.",
+      "Menjabat sebagai Penyelia/Asisten Manajer/Kepala Unit/Leader/Pejabat di sektor publik setingkat eselon 4.",
+      "Memiliki surat penugasan sebagai auditor minimal 2 kali proyek/tugas.",
+      "Memiliki sertifikat pelatihan CIAO."
+    ]
+  },
+  {
+    id: 5,
+    name: "Ujian Sertifikasi",
+    desc: [
+      "1. Tertulis (120 menit).",
+      "2. Demonstrasi (60 menit)."
+    ]
+  }
+]
+                },
+                {
+                    id: 3,
+                    item: "Qualified Risk Governance Professional (QRGP)",
+                    details: [
+  {
+    id: 1,
+    name: "Qualified Risk Governance Professional (QRGP)",
+    desc: [
+      "Organisasi membutuhkan individu berkompetensi di bidang tata kelola untuk mengelola risiko dan mencapai tujuan dengan efektif.",
+      "Kehadiran Qualified Risk Governance Professional (QRGP) menjadi kunci dalam membentuk kerangka kerja tata kelola risiko yang optimal.",
+      "QRGP membantu tidak hanya mengidentifikasi dan menilai risiko, tetapi juga meningkatkan kemampuan organisasi dalam mengambil keputusan yang tepat dalam menghadapi ketidakpastian.",
+      "Qualified Risk Governance Professional (QRGP) yang berbasis ISO 31000 memberikan fondasi pada standar internasional untuk tata kelola risiko.",
+      "Dengan merujuk pada pedoman ini, QRGP dapat mengintegrasikan praktik terbaik dalam pengelolaan risiko yang sesuai dengan konteks organisasi."
+    ]
+  },
+  {
+    id: 2,
+    name: "Topik",
+    desc: [
+      "Mengembangkan penerapan prinsip-prinsip manajemen risiko sesuai SNI ISO 31000.",
+      "Mengembangkan penerapan kerangka kerja manajemen risiko.",
+      "Mengembangkan praktik penerapan proses manajemen risiko sesuai SNI ISO 31000.",
+      "Mengembangkan struktur tata kelola risiko dan model pertahanan 3 lapis yang mendukung penerapan SNI.",
+      "Memperkuat kepemimpinan manajemen risiko dengan penerapan SNI ISO 31000.",
+      "Mengembangkan manajemen risiko hukum dan kepatuhan yang mendukung penerapan SNI ISO 31000.",
+      "Mengembangkan manajemen risiko strategis penerapan SNI ISO 31000."
+    ]
+  },
+  {
+    id: 3,
+    name: "Peserta Pelatihan",
+    desc: [
+      "Manajemen puncak (Direksi/Komisaris/Komite di bawah Dewan Komisaris/Jabatan Pimpinan Tinggi di Sektor Publik setingkat eselon 1 atau 2), atau",
+      "Satu level dibawah direksi (BOD-1) khusus pada perusahaan holding."
+    ]
+  },
+  {
+    id: 4,
+    name: "Persyaratan Peserta Ujian",
+    desc: [
+      "Pendidikan Minimal S1.",
+      "Berpengalaman pada tingkatan manajemen puncak minimal 2 tahun.",
+      "Memiliki sertifikat pelatihan QRGP."
+    ]
+  },
+  {
+    id: 5,
+    name: "Ujian Sertifikasi",
+    desc: [
+      "Wawancara portofolio / tugas (90 Menit)."
+    ]
+  }
+]
+                },
+                {
+                    id: 4,
+                    item: "Qualified Risk Management Professional (QRMP)",
+                    details: [
+  {
+    id: 1,
+    name: "Qualified Risk Management Professional (QRMP)",
+    desc: [
+      "Qualified Risk Management Professional (QRMP) menjadi esensial dalam menyusun strategi manajemen risiko yang proaktif.",
+      "QRMP tidak hanya memahami identifikasi dan mitigasi risiko, tetapi juga dapat meningkatkan daya saing organisasi melalui pengelolaan risiko yang terintegrasi.",
+      "Qualified Risk Management Professional (QRMP) yang berbasis ISO 31000 menetapkan standar internasional untuk praktik manajemen risiko.",
+      "Dengan merujuk pada kerangka kerja ini, QRMP mampu menyusun dan mengimplementasikan kebijakan risiko yang adaptif sesuai dengan kebutuhan dan tujuan organisasi."
+    ]
+  },
+  {
+    id: 2,
+    name: "Topik",
+    desc: [
+      "Mengaplikasikan prinsip-prinsip manajemen risiko sesuai SNI ISO 31000.",
+      "Mengaplikasikan kerangka kerja manajemen risiko sesuai SNI ISO 31000.",
+      "Mengaplikasikan proses manajemen risiko sesuai SNI ISO 31000.",
+      "Merancang struktur tata kelola risiko yang mendukung penerapan SNI ISO 31000.",
+      "Merancang peran dan akuntabilitas direksi dan dewan komisaris yang mendorong kepemimpinan manajemen risiko dalam penerapan SNI ISO 31000.",
+      "Mengaplikasikan kepemimpinan bidang manajemen risiko dalam penerapan SNI ISO 31000.",
+      "Merancang pelaksanaan manajemen risiko hukum dan kepatuhan dalam penerapan SNI ISO 31000.",
+      "Merancang pelaksanaan manajemen risiko strategis yang mendukung penerapan-penerapan SNI ISO 31000.",
+      "Mengaplikasikan manajemen risiko strategis yang mendukung penerapan-penerapan SNI ISO 31000."
+    ]
+  },
+  {
+    id: 3,
+    name: "Peserta Pelatihan",
+    desc: [
+      "Manajer / Senior Manajer di Unit Semua Unit Kerja termasuk Unit Manajemen Risiko.",
+      "Profesional Manajemen risiko."
+    ]
+  },
+  {
+    id: 4,
+    name: "Persyaratan Peserta Ujian",
+    desc: [
+      "Pendidikan Min S1.",
+      "Berpengalaman Minimal 2 Tahun sebagai Manajer/Senior Manajer/Jabatan fungsional setara.",
+      "Memiliki sertifikat pelatihan QRMP."
+    ]
+  },
+  {
+    id: 5,
+    name: "Ujian Sertifikasi",
+    desc: [
+      "Uji Tertulis (120 Menit).",
+      "Uji Demonstrasi (120 Menit)."
+    ]
+  }
+]
+                },
+                {
+                    id: 5,
+                    item: "Qualified Risk Management Officer (QRMO)",
+                    details: [
+  {
+    id: 1,
+    name: "Qualified Risk Management Officer (QRMO)",
+    desc: [
+      "Organisasi memerlukan individu dengan keahlian manajemen risiko untuk mengoptimalkan kinerja dan menjaga kelangsungan usaha.",
+      "Karyawan yang kompeten di bidang ini dapat memberikan kontribusi besar dalam mengidentifikasi, mengevaluasi, dan mengelola risiko yang mungkin timbul dalam berbagai aspek operasional.",
+      "Kemampuan untuk merancang dan melaksanakan strategi manajemen risiko dengan tepat membuat individu tersebut menjadi aset berharga, membantu organisasi menghadapi ketidakpastian bisnis dan melindungi nilai perusahaan secara efektif.",
+      "Qualified Risk Management Officer (QRMO) berbasis ISO 31000 membawa organisasi pada tingkat kematangan manajemen risiko yang lebih tinggi.",
+      "Dengan merujuk pada pedoman ini, QRMO mampu menghadapi tantangan bisnis dengan pendekatan yang terstruktur dan holistik."
+    ]
+  },
+  {
+    id: 2,
+    name: "Topik",
+    desc: [
+      "Memaparkan Prinsip-prinsip manajemen risiko bagi perusahaan sesuai SNI ISO 31000.",
+      "Memaparkan Penerapan kerangka kerja manajemen risiko sesuai SNI ISO 31000.",
+      "Memaparkan Penerapan proses manajemen risiko sesuai SNI ISO 31000.",
+      "Mengaplikasikan proses manajemen risiko sesuai SNI ISO 31000.",
+      "Membangun pemahaman struktur organisasi yang mengacu pada GCG di Indonesia.",
+      "Kepemimpinan manajemen secara umum."
+    ]
+  },
+  {
+    id: 3,
+    name: "Peserta Pelatihan",
+    desc: [
+      "Staf (Officer)/ Senior Staf di Semua Unit Kerja termasuk Unit Manajemen Risiko.",
+      "Memiliki sertifikat pelatihan QRMO."
+    ]
+  },
+  {
+    id: 4,
+    name: "Persyaratan Peserta Ujian",
+    desc: [
+      "Pendidikan Minimal S1 dengan jabatan Staf/Senior Staf/ Jabatan Fungsional yang setara."
+    ]
+  },
+  {
+    id: 5,
+    name: "Ujian Sertifikasi",
+    desc: [
+      "Uji Tertulis (120 Menit).",
+      "Uji Demonstrasi (90 Menit)."
+    ]
+  }
+]
+                },
+                {
+                    id: 6,
+                    item: "Certified Corporate Forensic Auditor (CCFA)",
+                    details: [
+  {
+    id: 1,
+    name: "Certified Corporate Forensic Auditor (CCFA)",
+    desc: [
+      "Organisasi membutuhkan tenaga kerja yang mahir dalam bidang audit forensik untuk melindungi keuangan dan reputasi organisasi.",
+      "Karyawan dengan kompetensi ini dapat mengidentifikasi, menganalisis, dan mencegah tindakan kecurangan dan pelanggaran hukum yang dapat merugikan perusahaan.",
+      "Certified Corporate Forensic Auditor (CCFA) menjadi penanda penting untuk profesional dalam bidang audit forensik yang memiliki pengetahuan mendalam dan keterampilan terkini.",
+      "CCFA adalah sertifikasi yang mengukuhkan keahlian seorang auditor forensik dengan mengacu pada standar dan praktik terbaik."
+    ]
+  },
+  {
+    id: 2,
+    name: "Topik",
+    desc: [
+      "Fraud dan strategi pengendaliannya.",
+      "Aspek hukum fraud (jenis dan modus operandi fraud).",
+      "Mengukur efektivitas SPI dalam mencegah dan mendeteksi fraud.",
+      "Konsepsi akuntansi dan audit dalam menangani fraud.",
+      "Identifikasi awal fraud dan teknik penanganannya.",
+      "Proses audit forensik.",
+      "Pembuktian.",
+      "Rekonstruksi bukti, simpulan audit, dan pelaporan.",
+      "Pemberian keterangan ahli.",
+      "Penghitungan kerugian dan penelusuran aset."
+    ]
+  },
+  {
+    id: 3,
+    name: "Peserta Pelatihan",
+    desc: [
+      "Praktisi auditor baik bidang keuangan, operasional dan yang terlibat secara langsung/tidak dalam pencegahan dan pendeteksian kecurangan."
+    ]
+  },
+  {
+    id: 4,
+    name: "Persyaratan Peserta Ujian",
+    desc: [
+      "Pendidikan minimal S1 semua jurusan.",
+      "Peserta pelatihan audit forensik (dibuktikan dengan sertifikat pelatihan).",
+      "Memiliki pengalaman minimal 3 tahun dalam satu atau lebih bidang:",
+      "  - Audit keuangan, audit operasional atau penyelidikan/penyidikan kasus kecurangan.",
+      "  - Pencegahan dan pendeteksian kecurangan (dibuktikan dengan surat keterangan dari perusahaan)."
+    ]
+  },
+  {
+    id: 5,
+    name: "Ujian Sertifikasi",
+    desc: [
+      "Uji Tertulis (60 Menit).",
+      "Uji Presentasi & Wawancara (120 menit)."
+    ]
+  }
+]
                 }
             ]
         },
@@ -1098,38 +1383,621 @@ const zillientEducation = {
                     id: 1,
                     item: "Certified Human Resource General Manager",
                     details: [
+  {
+    id: 1,
+    name: "Certified Human Resource General Manager (CHRGM)",
+    desc: [
+      "Organisasi membutuhkan tenaga profesional manajemen SDM hingga level general manager untuk memastikan keberlanjutan strategi SDM.",
+      "Seorang Certified Human Resource General Manager (CHRGM) di level ini berperan kunci dalam merumuskan kebijakan SDM yang mendukung visi dan misi organisasi, sambil memimpin perubahan melalui manajemen kinerja dan pengembangan sumber daya manusia.",
+      "Peraturan Kepmennaker No.115 tahun 2022 mewajibkan pelaku SDM memiliki sertifikasi kompetensi SDM, menegaskan perlunya standar kompetensi tinggi dalam manajemen sumber daya manusia.",
+      "CHRGM menjadi relevan sesuai dengan tuntutan regulasi yang berlaku."
+    ]
+  },
+  {
+    id: 2,
+    name: "Topik",
+    desc: [
+      "Merumuskan Strategi dan Kebijakan Manajemen Sumber Daya Manusia (MSDM).",
+      "Merumuskan Proses Bisnis serta Tugas dan Fungsi dalam Organisasi.",
+      "Merumuskan Perubahan Strategis Organisasi.",
+      "Merumuskan Budaya Organisasi.",
+      "Mengevaluasi Efektivitas Struktur Organisasi.",
+      "Membangun Komunikasi Organisasi yang Efektif.",
+      "Mengevaluasi Efektivitas Strategi dan Kebijakan MSDM.",
+      "Menetapkan Rencana Kegiatan dan Anggaran MSDM.",
+      "Merancang Desain Organisasi.",
+      "Mengelola Proses Perubahan (Change Management).",
+      "Mengelola Proses Pengembangan Budaya Organisasi.",
+      "Menyusun Sistem Remunerasi.",
+      "Menyusun Kelompok Pekerja Bertalenta (Talent Pool).",
+      "Merancang Jalur Karir Pekerja.",
+      "Mengelola Program Suksesi."
+    ]
+  },
+  {
+    id: 3,
+    name: "Persyaratan Peserta Ujian",
+    desc: [
+      "Pendidikan setara S1 dengan pengalaman kerja minimal 2 tahun, sebagai manajer SDM, atau",
+      "Pendidikan setara S2 dengan pengalaman kerja minimal 1 tahun, sebagai manajer SDM.",
+      "Memiliki sertifikat pelatihan berbasis kompetensi."
+    ]
+  }
+]
+                },
+                {
+                    id: 2,
+                    item: "Certified Training Practitioner",
+                    details: [
+  {
+    id: 1,
+    name: "Certified Training Practitioner (CTP)",
+    desc: [
+      "Penting memiliki kompetensi sebagai praktisi tenaga pelatih untuk menjadi efektif dalam mengembangkan potensi individu dan organisasi.",
+      "Certified Training Practitioner (CTP) adalah sertifikasi yang memastikan Anda memiliki keterampilan dan pengetahuan yang diperlukan sebagai fasilitator pelatihan yang berkualitas.",
+      "Pelatihan persiapan uji sertifikasi CTP melibatkan pembelajaran 6 unit kompetensi yang akan diuji oleh Lembaga Sertifikasi Profesi.",
+      "Ini mencakup berbagai aspek, mulai dari perencanaan pelatihan hingga evaluasi hasil, memastikan bahwa Anda memiliki pemahaman mendalam dalam menyampaikan materi pelatihan dengan efektif."
+    ]
+  },
+  {
+    id: 2,
+    name: "Topik",
+    desc: [
+      "Mengaplikasikan Keterampilan Dasar Komunikasi.",
+      "Melakukan Presentasi.",
+      "Merencanakan Penyajian Materi pelatihan Kerja.",
+      "Merancang Media Pembelajaran.",
+      "Melaksanakan Pelatihan tatap Muka (Face to Face).",
+      "Melaksanakan Pelatihan Jarak Jauh (Distance Learning)."
+    ]
+  },
+  {
+    id: 3,
+    name: "Persyaratan Peserta Ujian",
+    desc: [
+      "Pendidikan Minimal D3.",
+      "Memiliki sertifikat pelatihan berbasis kompetensi."
+    ]
+  }
+]
+                },
+                {
+                    id: 3,
+                    item: "Certified Recruitment & Selection (CRS)",
+                    details: [
+  {
+    id: 1,
+    name: "Certified Recruitment & Selection (CRS)",
+    desc: [
+      "Organisasi memerlukan tenaga rekrutmen dan seleksi yang unggul untuk memastikan perekrutan karyawan yang tepat dan berkontribusi maksimal.",
+      "Certified Recruitment and Selection (CRS) adalah pelatihan yang memberikan kompetensi kunci dalam proses rekrutmen dan seleksi, memastikan bahwa para profesional memiliki pemahaman mendalam tentang metode yang efektif dan etis.",
+      "Pelatihan persiapan uji sertifikasi CRS melibatkan pembelajaran 10 unit kompetensi yang akan diuji oleh Lembaga Sertifikasi Profesi.",
+      "Ini mencakup aspek-aspek seperti analisis kebutuhan tenaga kerja, desain proses seleksi yang adil, dan evaluasi hasil rekrutmen."
+    ]
+  },
+  {
+    id: 2,
+    name: "Topik",
+    desc: [
+      "Menyusun Uraian Jabatan.",
+      "Menyusun Standar Operasional Prosedur (SOP) MSDM.",
+      "Mengelola Proses Perumusan Indikator Kinerja Individu.",
+      "Menyusun Kebutuhan Pembelajaran dan Pengembangan.",
+      "Menyusun kebutuhan SDM.",
+      "Melakukan proses Rekrutmen.",
+      "Melakukan Proses Seleksi.",
+      "Menyusun Rekomendasi Hasil Seleksi.",
+      "Melakukan Penawaran Kerja Kepada Calon Pekerja.",
+      "Mengelola Kegiatan Assesmen."
+    ]
+  },
+  {
+    id: 3,
+    name: "Persyaratan Peserta Ujian",
+    desc: [
+      "Minimal D3.",
+      "Pengalaman kerja sebagai berikut: Minimal 2 tahun sebagai Supervisor SDM, atau Minimal 6 bulan sebagai Kepala Bagian Rekrutmen & Seleksi.",
+      "Memiliki sertifikat pelatihan berbasis kompetensi."
+    ]
+  }
+]
+                },
+                {
+                    id: 4,
+                    item: "Assessment Center Assessor Certification (ACAC)",
+                    details: [
+  {
+    id: 1,
+    name: "Assessment Center Assessor Certification (ACAC)",
+    desc: [
+      "Pemanfaatan metode Assessment Center untuk memetakan kompetensi pegawai maupun mencari kader pimpinan telah semakin meluas.",
+      "Validitas dari metode Assessment Center memang relatif tinggi, namun hal ini juga ditentukan oleh keterampilan para assessor yang menjalankan metode ini.",
+      "Program Assessment Center Assessor yang diselenggarakan oleh PPM Manajemen merupakan program pelatihan menuju Sertifikasi Assesor Assessment Center dengan memperhatikan prinsip-prinsip pelatihan assessor yang termuat dalam The Guidelines and Ethical Considerations for Assessment Center Operation.",
+      "Dipandu oleh instruktur yang memiliki sertifikat internasional sebagai Assessment Center Assessor Trainer, program ini akan membantu Anda dalam membangun keterampilan fundamental sebagai Assessment Center Assessor, mulai dari prinsip dasar penilaian kompetensi, pengenalan jenis-jenis perangkat dalam metode Assessment Center, keterampilan observasi, assessor meeting, dan penulisan laporan."
+    ]
+  },
+  {
+    id: 2,
+    name: "Topik",
+    desc: [
+      "Kompetensi (Konsep Kompetensi).",
+      "Konsep Assessment Center.",
+      "Latihan Leaderless Group Discussion (LGD), Problem Analysis (PA), In Tray (IT), Klasifikasi, Evaluasi dan Penulisan Laporan.",
+      "Assessor Meeting, Penulisan Laporan dan feedback.",
+      "Umpan balik kepada setiap peserta pada akhir program.",
+      "Standar-standar profesional."
+    ]
+  },
+  {
+    id: 3,
+    name: "Peserta Pelatihan",
+    desc: [
+      "Profesional yang mendalami bidang MSDM.",
+      "Konsultan MSDM.",
+      "Manajer dan Staf SDM yang berkeinginan untuk memiliki keterampilan sebagai Assessor."
+    ]
+  }
+]
+
+                },
+                {
+                    id: 5,
+                    item: "Certified Human Resource Manager",
+                    details: [
+  {
+    id: 1,
+    name: "Certified Human Resource Manager",
+    desc: [
+      "Organisasi membutuhkan tenaga manajer SDM yang unggul untuk memastikan keberlanjutan operasional dan pertumbuhan yang sehat.",
+      "Certified Human Resource Manager (CHRM) adalah program pelatihan yang dirancang untuk membekali para profesional SDM dengan keterampilan dan pengetahuan yang mendalam dalam mengelola aspek-aspek kritis, termasuk rekrutmen, pelatihan, dan manajemen kinerja.",
+      "Pelatihan persiapan uji sertifikasi CHRM melibatkan pembelajaran 15 unit kompetensi yang akan diuji oleh Lembaga Sertifikasi Profesi.",
+      "Ini mencakup aspek-aspek seperti perencanaan strategis SDM, kebijakan ketenagakerjaan, dan inovasi dalam pengelolaan sumber daya manusia."
+    ]
+  },
+  {
+    id: 2,
+    name: "Topik",
+    desc: [
+      "Menyusun Uraian Jabatan.",
+      "Analisis beban Kerja.",
+      "Menyusun Standar Operasional Prosedur (SOP) MSDM.",
+      "Grading Jabatan.",
+      "Proses Perumusan Indikator Kinerja Individu.",
+      "Kebutuhan Pembelajaran dan Pengembangan.",
+      "Merumuskan Strategi dan Kebijakan Manajemen Sumber Daya Manusia (MSDM).",
+      "Proses Bisnis serta Tugas dan Fungsi dalam Organisasi.",
+      "Menyusun kebutuhan SDM.",
+      "Sistem Remunerasi.",
+      "Menentukan Upah pekerja.",
+      "Merancang Program Pembelajaran dan Pengembangan.",
+      "Mengelola Program suksesi.",
+      "Menyusun Peraturan perusahaan dan/ atau perjanjian Kerja Bersama.",
+      "Membangun Komunikasi Organisasi yang efektif."
+    ]
+  },
+  {
+    id: 3,
+    name: "Peserta Pelatihan",
+    desc: [
+      "Para profesional di bidang MSDM yang telah berpengalaman sebagai Manajer SDM, namun masih memerlukan pendalaman konsep yang lebih komprehensif tentang Manajemen SDM dalam lingkup sebagai seorang Manajer."
+    ]
+  },
+  {
+    id: 4,
+    name: "Persyaratan Peserta Ujian",
+    desc: [
+      "Minimal S1.",
+      "Pengalaman kerja sebagai berikut:",
+      "a. Minimal 3 Tahun sebagai Supervisor/Analis SDM, atau",
+      "b. Minimal 2 Tahun sebagai Kepala Bagian/ Analis Senior SDM, atau",
+      "c. Minimal 1 Tahun sebagai Manajer SDM.",
+      "Memiliki sertifikat pelatihan berbasis kompetensi."
+    ]
+  },
+  {
+    id: 5,
+    name: "Ujian Sertifikasi",
+    desc: [
+      "Observasi & wawancara atas portofolio/bukti kerja yang dimiliki selama 2-3 jam."
+    ]
+  }
+]
+                },
+                {
+                    id: 6,
+                    item: "Certified Human Resource Supervisor",
+                    details: [
+  {
+    id: 1,
+    name: "Certified Human Resource Supervisor",
+    desc: [
+      "Organisasi memerlukan tenaga supervisor SDM yang unggul untuk mengelola sumber daya manusia dengan efektif.",
+      "Kehadiran Certified Human Resource Supervisor (CHRS) menjadi solusi dalam membangun kompetensi kunci bagi para supervisor SDM yang menghadapi tuntutan kompleks dalam pengelolaan tenaga kerja.",
+      "Peraturan Kepmennaker No.115 tahun 2022 mewajibkan pelaku SDM memiliki sertifikasi kompetensi SDM, memperkuat pentingnya standar kompetensi tinggi dalam manajemen sumber daya manusia.",
+      "Dalam konteks ini, sertifikasi CHRS menjadi relevan dan mendukung organisasi untuk memenuhi regulasi yang berlaku."
+    ]
+  },
+  {
+    id: 2,
+    name: "Topik",
+    desc: [
+      "Menyusun Uraian Jabatan.",
+      "Menyusun Standar Operasioanal Prosedur (SOP) MSDM.",
+      "Menyusun Sistem Remunerasi.",
+      "Menyusun kebutuhan Pembelajaran dan Pengembangan.",
+      "Membuat Kesepakatan kerja."
+    ]
+  },
+  {
+    id: 3,
+    name: "Peserta Pelatihan",
+    desc: [
+      "Para profesional di bidang MSDM yang telah berpengalaman sebagai Supervisor SDM, namun masih memerlukan pendalaman konsep yang lebih komprehensif tentang Manajemen SDM dalam lingkup sebagai seorang supervisor."
+    ]
+  },
+  {
+    id: 4,
+    name: "Persyaratan Peserta Ujian",
+    desc: [
+      "Min. D3.",
+      "Pengalaman kerja sebagai berikut:",
+      "a. Min 2 Tahun sebagai Staf SDM, atau",
+      "b. Min. 6 Bulan sebagai Supervisor SDM.",
+      "Memiliki sertifikat pelatihan berbasis kompetensi."
+    ]
+  },
+  {
+    id: 5,
+    name: "Ujian Sertifikasi",
+    desc: [
+      "Observasi & wawancara atas portofolio/bukti kerja yang dimiliki (1-2 jam)."
+    ]
+  }
+]
+                },
+                {
+                    id: 7,
+                    item: "Certified Learning & Development Manager",
+                    details: [
+  {
+    id: 1,
+    name: "Certified Learning & Development Manager",
+    desc: [
+      "Organisasi membutuhkan seorang manajer pembelajaran dan pengembangan yang unggul untuk efektivitas pembelajaran dan pengembangan karyawan.",
+      "Peraturan Kepmennaker No.115 tahun 2022 mewajibkan sertifikasi kompetensi SDM, memperkuat kebutuhan akan profesionalisme dalam manajemen sumber daya manusia.",
+      "Pelatihan persiapan uji Certified Learning & Development Manager (CLDM) melibatkan pembelajaran 15 unit kompetensi yang diuji oleh Lembaga Sertifikasi Profesi.",
+      "Topik pelatihan diantaranya mencakup merancang, melaksanakan, dan mengevaluasi program pembelajaran, hingga bagaimana merancang model dan kamus kompetensi."
+    ]
+  },
+  {
+    id: 2,
+    name: "Topik",
+    desc: [
+      "Menyusun Uraian Jabatan.",
+      "Melaksanakan Analisis Beban Kerja.",
+      "Menyusun Standar Operasional Prosedur (SOP) MSDM.",
+      "Menyusun Grading Jabatan.",
+      "Mengelola Proses Perumusan Indikator Kinerja Individu.",
+      "Menyusun Kebutuhan Pembelajaran dan Pengembangan.",
+      "Menindaklanjuti Hasil Penilaian Kinerja Individu.",
+      "Merancang Program Pembelajaran dan Pengembangan.",
+      "Melaksanakan Kegiatan Pembelajaran dan Pengembangan.",
+      "Mengevaluasi Pelaksanaan Program Pembelajaran dan Pengembangan.",
+      "Merancang Model dan Kamus Kompetensi.",
+      "Menyusun Kelompok Pekerja Bertalenta (Talent Pool).",
+      "Mengelola Program Pengembangan Kelompok Pekerja Bertalenta (Talent Pool).",
+      "Merancang Jalur Karir Pekerja.",
+      "Mengelola Program Suksesi."
+    ]
+  },
+  {
+    id: 3,
+    name: "Peserta Pelatihan",
+    desc: [
+      "Para profesional di bidang MSDM yang telah berpengalaman sebagai Manajer Pembelajaran & Pengembangan, namun masih memerlukan pendalaman konsep yang lebih komprehensif tentang Pembelajaran & Pengembangan dalam lingkup sebagai seorang Manajer."
+    ]
+  },
+  {
+    id: 4,
+    name: "Persyaratan Peserta Ujian",
+    desc: [
+      "Minimal S1.",
+      "Pengalaman kerja sebagai berikut:",
+      "a. Minimal 3 Tahun sebagai Supervisor/Analis SDM, atau",
+      "b. Minimal 1 tahun sebagai Manajer Pelatihan dan Pengembangan, atau",
+      "c. Minimal 2 tahun sebagai Kepala Bagian.",
+      "Memiliki sertifikat pelatihan berbasis kompetensi."
+    ]
+  },
+  {
+    id: 5,
+    name: "Ujian Sertifikasi",
+    desc: [
+      "Observasi & wawancara atas portofolio/bukti kerja yang dimiliki selama 2-3 Jam."
+    ]
+  }
+]
+                },
+                {
+                    id: 8,
+                    item: "Certified Remuneration Manager",
+                    details: [
+  {
+    id: 1,
+    name: "Certified Remuneration Manager",
+    desc: [
+      "Manajer remunerasi yang memiliki kompetensi unggul menjadi kunci penting bagi organisasi dalam mengelola kebijakan penggajian dan insentif.",
+      "Dalam konteks regulasi, peraturan Kepmennaker No.115 tahun 2022 mewajibkan pelaku SDM memiliki sertifikasi kompetensi SDM, termasuk di dalamnya manajer remunerasi, untuk memastikan standar keprofesionalan yang tinggi.",
+      "Pelatihan persiapan uji Certified Remuneration Manager (CRM) memberikan pemahaman mendalam melalui pembelajaran 15 unit kompetensi yang diuji oleh Lembaga Sertifikasi Profesi.",
+      "Materi pelatihan diantaranya mencakup penyusunan sistem remunerasi, penentuan upah pekerja, hingga merumuskan program insentif dan bonus. Pelatihan sertifikasi ini memastikan manajer remunerasi memiliki keterampilan yang komprehensif."
+    ]
+  },
+  {
+    id: 2,
+    name: "Topik",
+    desc: [
+      "Menyusun Uraian Jabatan.",
+      "Melaksanakan Analisis Beban Kerja.",
+      "Menyusun Standar Operasional Prosedur (SOP) MSDM.",
+      "Menyusun Grading Jabatan.",
+      "Mengelola Proses Perumusan Indikator Kinerja Individu.",
+      "Menyusun Kebutuhan Pembelajaran dan Pengembangan.",
+      "Merumuskan Strategi dan Kebijakan Manajemen Sumber Daya Manusia (MSDM).",
+      "Menyusun Sistem Remunerasi.",
+      "Menentukan Upah Pekerja.",
+      "Merumuskan Program Insentif dan/atau Bonus.",
+      "Mengelola Proses Monitoring Pencapaian Kinerja Individu.",
+      "Mengelola Proses Pemberian Umpan Balik Kinerja Individu.",
+      "Mengelola Proses Penilaian Kinerja Individu.",
+      "Menindaklanjuti Hasil Penilaian Kinerja Individu.",
+      "Menyiapkan Data Penyusunan Anggaran Tahunan SDM."
+    ]
+  },
+  {
+    id: 3,
+    name: "Peserta Pelatihan",
+    desc: [
+      "Peserta yang membutuhkan sertifikasi kompetensi SDM sektor Dunia Usaha baik Swasta maupun Pemerintahan/BUMN, Dunia Pendidikan dan Pelatihan, Asosiasi Profesi dan juga seiring dengan regulasi pemerintah yang mencanangkan Indonesia ke arah SDM Unggul."
+    ]
+  },
+  {
+    id: 4,
+    name: "Persyaratan Peserta Ujian",
+    desc: [
+      "Minimal S1.",
+      "Pengalaman kerja sebagai berikut:",
+      "a. Minimal 3 Tahun sebagai Supervisor/Analis SDM, atau",
+      "b. Minimal 1 Tahun sebagai Manajer Remunerasi, atau",
+      "c. Minimal 2 tahun sebagai Kepala Bagian.",
+      "Memiliki sertifikat pelatihan berbasis kompetensi."
+    ]
+  },
+  {
+    id: 5,
+    name: "Ujian Sertifikasi",
+    desc: [
+      "Observasi & wawancara atas Portofolio/ bukti kerja yang dimiliki (2-3 Jam)."
+    ]
+  }
+]
+                },
+                {
+                    id: 9,
+                    item: "Certified Industial Relations Manager",
+                    details: [
+  {
+    id: 1,
+    name: "Certified Industrial Relations Manager",
+    desc: [
+      "Manajer hubungan industrial yang memiliki kompetensi unggul menjadi sangat penting bagi keberlanjutan operasional dan keseimbangan hubungan antara pekerja dan pengusaha dalam suatu organisasi.",
+      "Sejalan dengan regulasi, peraturan Kepmennaker No.115 tahun 2022 mewajibkan pelaku SDM, termasuk manajer hubungan industrial, untuk memiliki sertifikasi kompetensi SDM guna memastikan tingkat keprofesionalan yang optimal.",
+      "Pelatihan persiapan uji Certified Industrial Relation Manager (CIRM) memberikan landasan kuat melalui pembelajaran 15 unit kompetensi yang diuji oleh Lembaga Sertifikasi Profesi.",
+      "Materi pelatihan mencakup penyusunan peraturan perusahaan, perjanjian kerja bersama, kerjasama Tripartit, hingga penanganan mogok kerja dan lock out, memastikan manajer hubungan industrial memiliki keterampilan terkini."
+    ]
+  },
+  {
+    id: 2,
+    name: "Topik",
+    desc: [
+      "Menyusun Uraian Jabatan.",
+      "Melaksanakan Analisis Beban Kerja.",
+      "Menyusun Standar Operasional Prosedur (SOP) MSDM.",
+      "Menyusun Grading Jabatan.",
+      "Mengelola Proses Perumusan Indikator Kinerja Individu.",
+      "Menyusun Kebutuhan Pembelajaran dan Pengembangan.",
+      "Menyusun Peraturan Perusahaan dan/atau Perjanjian Kerja Bersama.",
+      "Membangun Komunikasi Organisasi yang Efektif.",
+      "Menjalin Kerjasama Pengusaha dan Pekerja.",
+      "Menjalin Kerjasama Tripartit.",
+      "Menangani Keluhan Pekerja.",
+      "Mengelola Proses Pelaksanaan Tindakan Disiplin.",
+      "Memfasilitasi Pengelolaan Kepuasan dan Keterlekatan Pekerja.",
+      "Mengelola Pelaksanaan Alihdaya atau Outsourcing.",
+      "Menyelesaikan Mogok Kerja dan/atau Lock-out."
+    ]
+  },
+  {
+    id: 3,
+    name: "Peserta Pelatihan",
+    desc: [
+      "Peserta yang membutuhkan sertifikasi kompetensi SDM sektor dunia usaha baik Swasta maupun Pemerintahan/BUMN, Dunia Pendidikan dan Pelatihan, Asosiasi Profesi dan juga seiring dengan regulasi pemerintah yang mencanangkan Indonesia ke arah SDM Unggul."
+    ]
+  },
+  {
+    id: 4,
+    name: "Persyaratan Peserta Ujian",
+    desc: [
+      "Minimal S1.",
+      "Pengalaman kerja sebagai berikut:",
+      "a. Minimal 3 Tahun sebagai Supervisor/Analis SDM, atau",
+      "b. Minimal 1 Tahun sebagai Manajer Hubungan Industrial, atau",
+      "c. Minimal 2 Tahun sebagai Kepala Bagian.",
+      "Memiliki sertifikat pelatihan berbasis kompetensi."
+    ]
+  },
+  {
+    id: 5,
+    name: "Ujian Sertifikasi",
+    desc: [
+      "Observasi & wawancara atas Portofolio/ bukti kerja yang dimiliki selama 2-3 Jam."
+    ]
+  }
+]
+                },
+                {
+                    id: 10,
+                    item: "Certified Talent Manager",
+                    details: [
                         {
                             id: 1,
-                            name: "Pengadaan Barang/Jasa Pemerintah bagi Pejabat Pembuat Komitmen (PPK) Tipe C",
+                            name: "Certified Talent Manager",
                             desc: [
-                                "PPK Memiliki fungsi strategis dalam pengelolaan keuangan negara, berwenang untuk mengambil keputusan dan tindakan yang berakibat pada pengeluaran anggaran dan bertanggung jawab atas pelaksanaan pengadaan barang /jasa. Oleh karenanya PPK harus memiliki kompetensi yang mumpuni guna menjamin pelaksanaan pengelolaan anggaran Lembaga/organisasi pengadaan barang/jasa sesuai dengan peraturan yang berlaku."
+                                "Manajer Talenta yang memiliki kompetensi unggul menjadi kunci keberhasilan organisasi dalam mengelola dan mengembangkan bakat internal. Sesuai regulasi, peraturan Kepmennaker No.115 tahun 2022 mewajibkan pelaku SDM, termasuk manajer Talenta, untuk memiliki sertifikasi kompetensi SDM guna memastikan profesionalisme yang optimal. Pelatihan persiapan uji Certified Talent Manager (CTM) memberikan landasan kuat melalui pembelajaran 15 unit kompetensi yang diuji oleh Lembaga Sertifikasi Profesi. Materi pelatihan mencakup penyusunan dan manajemen Talent Pool, perancangan jalur karir karyawan, hingga pengelolaan program suksesi, memastikan manajer Talenta memiliki keterampilan komprehensif."
                             ]
                         },
                         {
-                            id: 2, 
+                            id: 2,
                             name: "Topik",
                             desc: [
-                                "1. Perencanaan PBJ meliputi: Indentifikasi kebutuhan dan penetapan PBJ, Penyusunan Spesifikasi Teknis dan Kerangka Acuan Kerja (KAK) Jasa Konsultansi Perorangan, Penyusunan Perkiraan Harga.",
-                                "2. Pengelolaan Kontrak PBJ meliputi: perumusan kontrak dalam bentuk SPK, Pengendalian Pelaksanaan Kontrak, Pekerjaan Serah Terima Hasil PBJ, Evaluasi kinerja penyedia.",
-                                "3. Pengelolaan PBJ secara swakelola: Perencanaan, persiapan, pelaksanaan, pengawasan dan serah terima pekerjaan PBJ."
-                            ]
+                                    "Menyusun Uraian Jabatan.",
+                                    "Melaksanakan Analisis Beban Kerja.",
+                                    "Menyusun Standar Operasional Prosedur (SOP) MSDM.",
+                                    "Menyusun Grading Jabatan.",
+                                    "Mengelola Proses Perumusan Indikator Kinerja Individu.",
+                                    "Menyusun Kebutuhan Pembelajaran dan Pengembangan.",
+                                    "Merumuskan Strategi dan Kebijakan Manajemen Sumber Daya Manusia (MSDM).",
+                                    "Menindaklanjuti Hasil Penilaian Kinerja Individu.",
+                                    "Merancang Program Pembelajaran dan Pengembangan.",
+                                    "Mengevaluasi Pelaksanaan Program Pembelajaran dan Pengembangan.",
+                                    "Merancang Model dan Kamus Kompetensi.",
+                                    "Menyusun Kelompok Pekerja Bertalenta (Talent Pool).",
+                                    "Mengelola Program Pengembangan Kelompok Pekerja Bertalenta (Talent Pool).",
+                                    "Merancang Jalur Karir Pekerja.",
+                                    "Mengelola Program Suksesi."
+                                    ]
                         },
                         {
-                            id: 3, 
+                            id: 3,
                             name: "Peserta Pelatihan",
                             desc: [
-                                "Pejabat Pembuat Komitmen (PPK) yang berasal baik dari Institusi pemerintah, BUMN, BUMD & BLU yang telah memiliki Sertifikasi Pengadaan Barang/ Jasa tingkat dasar atau Level 1",
-                                "Peserta diharapkan membawa laptop."
+                                "erta yang membutuhkan sertifikasi kompetensi SDM sektor Dunia Usaha baik Swasta maupun Pemerintahan/BUMN, Dunia Pendidikan dan Pelatihan, Asosiasi Profesi dan juga seiring dengan regulasi pemerintah yang mencanangkan Indonesia ke arah SDM Unggul."
                             ]
                         },
                         {
-                            id: 4, 
-                            name: "Metode Program",
+                            id: 4,
+                            name: "Persyaratan Peserta Ujian",
                             desc: [
-                                "Metode program menggunakan Blended Learning yaitu kombinasi pembelajaran yang diawali dengan pembelajaran mandiri dalam LMS dilanjutkan dengan metode In-class/tatap muka."
+                                "Minimal S1.",
+                                "Pengalaman kerja sebagai berikut:",
+                                "a. Min 3 Tahun sebagai Supervisor/Analis SDM, atau",
+                                "b. Minimal 1 Tahun sebagai Manajer Manajemen Talenta, atau",
+                                "c. Minimal 2 Tahun sebagai Kepala Bagian.",
+                                "Memiliki sertifikat pelatihan berbasis kompetensi."
+                                ]
+                        },
+                        {
+                            id: 5,
+                            name: "Ujian Sertifikasi",
+                            desc: [
+                                "Observasi & wawancara atas Portofolio/bukti kerja yang dimiliki selama 2-3 Jam."
                             ]
                         }
                     ]
+                },
+                {
+                    id: 11,
+                    item: "Certified Professional Trainer",
+                    details: [
+  {
+    id: 1,
+    name: "Certified Professional Trainer",
+    desc: [
+      "Pelatihan sertifikasi Certified Professional Trainer (CPT) penting untuk pengembangan karir karena menghadirkan kompetensi yang diperlukan dalam praktik tenaga pelatih.",
+      "Sebagai praktisi tenaga pelatih, memiliki pemahaman mendalam tentang teknik pengajaran, desain materi, dan keterampilan komunikasi adalah kunci kesuksesan dalam membentuk dan mengembangkan individu atau kelompok.",
+      "Dalam pelatihan persiapan uji sertifikasi CPT, peserta akan mempelajari 14 unit kompetensi yang mencakup aspek-aspek esensial dari profesinya.",
+      "Ini melibatkan penguasaan metode pengajaran, analisis kebutuhan pelatihan, dan evaluasi hasil pelatihan, mempersiapkan peserta untuk menghadapi tantangan sehari-hari dalam dunia pelatihan."
+    ]
+  },
+  {
+    id: 2,
+    name: "Topik",
+    desc: [
+      "Menentukan kebutuhan pelatihan individu.",
+      "Menyusun program pelatihan kerja.",
+      "Merancang strategi pembelajaran.",
+      "Merancang penyajian materi pelatihan kerja.",
+      "Merancang evaluasi hasil pembelajaran.",
+      "Melaksanakan pelatihan tatap muka (face to face).",
+      "Menerapkan kesehatan, keselamatan kerja (K3).",
+      "Mengelola pemenuhan persyaratan bahasa, literasi dan berhitung dalam proses pembelajaran.",
+      "Mengelola bahan pelatihan.",
+      "Mengelola peralatan pelatihan.",
+      "Menilai kemajuan kompetensi peserta pelatihan secara individu.",
+      "Menyiapkan pelaksanaan pelatihan dan asesmen berbasis kompetensi.",
+      "Melaksanakan pelatihan berbasis kompetensi.",
+      "Melakukan asesmen berbasis kompetensi."
+    ]
+  },
+  {
+    id: 3,
+    name: "Persyaratan Peserta Ujian",
+    desc: [
+      "Pendidikan & Pengalaman",
+      "- Minimal S1",
+      "- Pengalaman Minimal 2 tahun sebagai pengajar/ pelatih/ instruktur",
+      "- Memiliki sertifikat pelatihan berbasis kompetensi."
+    ]
+  },
+  {
+    id: 4,
+    name: "Ujian Sertifikasi",
+    desc: [
+      "Ujian tertulis.",
+      "Observasi & wawancara atas portofolio/bukti kerja yang dimiliki."
+    ]
+  }
+]
+                },
+                {
+                    id: 12,
+                    item: "Certified Organizational Development Practitioner (CODP)",
+                    details: [
+  {
+    id: 1,
+    name: "Certified Organizational Development Practitioner (CODP)",
+    desc: [
+      "Saat ini kita menghadapi lingkungan bisnis yang menawarkan peluang sekaligus volatilitas, ketidakpastian, kompleksitas, dan ketidakjelasan atau yang dikenal dengan Opportunity-Volatility-Uncertainty-Complexity-Ambiguity (O-VUCA).",
+      "Untuk menghadapi lingkungan bisnis tersebut, Anda sebagai pimpinan perusahaan harus menguasai berbagai kompetensi di bidang bisnis yang beragam.",
+      "Namun, kompetensi-kompetensi tersebut tidak dapat berguna jika tidak mampu mengintegrasikan 4 Pilar Organisasi (Strategy, Structure, Process, dan People) dan mengoptimalkan keterampilan berpikir secara utuh (The Whole Mindset) sehingga strategi pengembangan organisasi yang Anda rencanakan dapat berjalan dengan optimal.",
+      "Certified Organization Development Practitioner (CODP) merupakan sertifikasi kompetensi internasional yang membantu para pimpinan perusahaan mengembangkan organisasi.",
+      "Sertifikat CODP diterbitkan oleh Academy of Finance & Management Australia (AFMA).",
+      "CODP menggunakan pendekatan manajemen terbaru, The Whole Mindset, sehingga setiap pimpinan perusahaan dapat lebih mudah memahami pengembangan dan perubahan organisasi (Strategic Thinking)."
+    ]
+  },
+  {
+    id: 2,
+    name: "Topik",
+    desc: [
+      "Pola pikir organisasi yang meliputi Organisasi Hari Ini, Pola Pikir Utuh, Strategi Pikiran Utuh, Kepemimpinan, dan Budaya Pikiran Utuh.",
+      "Transformasi organisasi yang meliputi Reengineering Struktur Organisasi, Restrukturisasi Proses Organisasi, dan Strategi Intervensi OD."
+    ]
+  },
+  {
+    id: 3,
+    name: "Peserta Pelatihan",
+    desc: [
+      "Para Pemilik bisnis dan pimpinan organisasi yang ingin memenangkan persaingan di era bisnis disruptive."
+    ]
+  },
+  {
+    id: 4,
+    name: "Persyaratan Peserta Ujian",
+    desc: [
+      "Pendidikan Min S1.",
+      "Menjabat sebagai pimpinan tim / unit kerja / pemilik bisnis atau OD Specialist."
+    ]
+  }
+]
                 }
             ]
         },
@@ -1180,6 +2048,240 @@ const zillientEducation = {
     desc: [
       "Mengikuti 35 jam program pelatihan persiapan ujian.",
       "Pendidikan Min. S1 dengan pengalaman min 3 tahun sebagai project leader."
+    ]
+  }
+]
+                },
+                {
+                    id: 2,
+                    item: "Certified Supply Chain Manager (CSCM)",
+                    details: [
+  {
+    id: 1,
+    name: "Certified Supply Chain Manager (CSCM)",
+    desc: [
+      "Kemampuan manajemen Supply Chain yang unggul menjadi kunci keberhasilan operasional dan ketahanan bisnis.",
+      "Organisasi memerlukan manajer Supply Chain yang kompeten untuk mengelola efisiensi, kualitas, dan ketahanan rantai pasok.",
+      "Keberadaan Certified Supply Chain Manager (CSCM) memberikan solusi untuk meningkatkan kualifikasi dan keterampilan para profesional dalam mengelola Supply Chain secara efektif.",
+      "Program CSCM mengacu pada sistem standarisasi internasional TLI50410 Diploma of Logistics, Transport & Logistics Industry Skills Council, Australian Government serta Peraturan Presiden No.26 Tahun 2012 Tentang Cetak Biru Pengembangan Sistem Logistik Nasional."
+    ]
+  },
+  {
+    id: 2,
+    name: "Topik",
+    desc: [
+      "Manajemen Supply Chain (Pengelolaan & Pengawasan Supply Chain).",
+      "Manajemen Logistik & Transportasi.",
+      "Manajemen Pengadaan dan Partnership.",
+      "Manajemen Layanan dalam Supply Chain dan Kepemiminan yang Unggul.",
+      "Pengelolaan Anggaran dalam Supply Chain.",
+      "Manajemen Risiko Supply Chain."
+    ]
+  },
+  {
+    id: 3,
+    name: "Peserta Pelatihan",
+    desc: [
+      "Supervisor",
+      "Asisten Manajer",
+      "Manajer Praktisi bidang rantai pasok/logistik/pergudangan."
+    ]
+  },
+  {
+    id: 4,
+    name: "Persyaratan Peserta Ujian",
+    desc: [
+      "Pendidikan minimal S1.",
+      "Peserta pelatihan Manajer Supply Chain dengan melampirkan sertifikat pelatihan terkait.",
+      "Memiliki pengalaman dalam pengelolaan sistem manajemen Supply Chain atau bidang manajemen logistik minimal 3 tahun (dibuktikan dengan surat pengalaman bekerja dari perusahaan)."
+    ]
+  },
+  {
+    id: 5,
+    name: "Ujian Sertifikasi",
+    desc: [
+      "Uji Tertulis (90 Menit).",
+      "Uji Presentasi & Wawancara (60 menit)."
+    ]
+  }
+]
+                },
+                {
+                    id: 3, 
+                    item: "Certified Warehouse Manager (CWM)",
+                    details: [
+  {
+    id: 1,
+    name: "Certified Warehouse Manager (CWM)",
+    desc: [
+      "Manajer gudang yang unggul menjadi kunci keberhasilan operasional organisasi dalam mengelola rantai pasok.",
+      "Mereka memastikan efisiensi, keamanan, dan integritas barang di seluruh proses pergudangan.",
+      "Keberadaan kompetensi manajer gudang yang tinggi memastikan pengelolaan inventaris yang efektif dan pengiriman yang tepat waktu, memenuhi standar tinggi dalam industri.",
+      "Program Certified Warehouse Manager (CWM) merujuk pada sistem standarisasi Internasional, seperti TLI50410 Diploma of Logistics dari Transport & Logistics Industry Skills Council, Australian Government, dan Peraturan Presiden No.26 Tahun 2012 Tentang Cetak Biru Pengembangan Sistem Logistik Nasional.",
+      "Hal ini memastikan bahwa para peserta mendapatkan pelatihan yang selaras dengan praktik global dan standar Nasional."
+    ]
+  },
+  {
+    id: 2,
+    name: "Topik",
+    desc: [
+      "Manajemen rantai pasok.",
+      "Peran strategis manajemen pergudangan.",
+      "Peran pergudangan dalam rantai pasok.",
+      "Manajemen Logistik dan Transportasi.",
+      "Manajemen Pengadaan.",
+      "Kepemimpinan yang unggul dalam pengelolaan pergudangan.",
+      "Manajemen mutu di pergudangan.",
+      "Manajemen risiko di pergudangan.",
+      "Praktik pergudangan yang baik."
+    ]
+  },
+  {
+    id: 3,
+    name: "Peserta Pelatihan",
+    desc: [
+      "Supervisor",
+      "Asisten Manajer",
+      "Manajer Praktisi bidang rantai pasok/logistik/pergudangan."
+    ]
+  },
+  {
+    id: 4,
+    name: "Persyaratan Peserta Ujian",
+    desc: [
+      "Pendidikan minimal S1.",
+      "Peserta pelatihan Manajer Gudang dengan melampirkan sertifikat pelatihan terkait.",
+      "Memiliki pengalaman dalam pengelolaan sistem manajemen rantai pasok, manajemen logistik, dan/atau manajemen pergudangan minimal 1 tahun (dibuktikan dengan surat pengalaman bekerja dari perusahaan)."
+    ]
+  },
+  {
+    id: 5,
+    name: "Ujian Sertifikasi",
+    desc: [
+      "Uji Tertulis (120 Menit).",
+      "Uji Presentasi dan wawancara (60 Menit)."
+    ]
+  }
+]
+                },
+                {
+                    id: 4, 
+                    item: "Certified Logistic Manager (CLM)",
+                    details: [
+  {
+    id: 1,
+    name: "Certified Logistic Manager (CLM)",
+    desc: [
+      "Manajer logistik yang memiliki kompetensi tinggi adalah pilar utama dalam kesuksesan operasional suatu organisasi.",
+      "Mereka tidak hanya bertanggung jawab atas kelancaran rantai pasok, tetapi juga memainkan peran penting dalam mencapai efisiensi, penurunan biaya, dan kepuasan pelanggan.",
+      "Organisasi membutuhkan manajer logistik yang tidak hanya memahami aspek internasional, tetapi juga mampu beradaptasi dengan peraturan dan praktik terkini di tingkat nasional.",
+      "Certified Logistic Manager (CLM) menjadi jalan terdepan untuk mengembangkan kompetensi manajer logistik.",
+      "Program ini merujuk pada standar internasional, seperti TLI50410 Diploma of Logistics dari Transport & Logistics Industry Skills Council, Australian Government, dan juga selaras dengan regulasi nasional, seperti Peraturan Presiden No.26 Tahun 2012 tentang Cetak Biru Pengembangan Sistem Logistik Nasional.",
+      "Dengan demikian, peserta tidak hanya mendapatkan pemahaman mendalam tentang praktik global, tetapi juga relevansi dengan konteks logistik nasional."
+    ]
+  },
+  {
+    id: 2,
+    name: "Topik",
+    desc: [
+      "Pengantar logistik & transportasi.",
+      "Analisis dan pengembangan kegiatan logistik & transportasi operasional perusahaan.",
+      "Memimpin kelompok atau tim kerja logistik & transportasi.",
+      "Bekerja secara efektif dalam industri logistik & transportasi.",
+      "Manajemen menjalankan pemeriksaan kendaraan.",
+      "Memelihara, memonitor dan meningkatkan sistem operasional logistik & transportasi.",
+      "Mengembangkan business plan logistik & transportasi.",
+      "Mengembangkan dan memelihara prosedur operasional untuk perusahaan logistik & transportasi.",
+      "Melakukan negosiasi dan pengelolaan kontrak.",
+      "Memonitor dan mengevaluasi kinerja pemasok logistik.",
+      "Menyusun dan mengelola anggaran (Financial Budgeting)."
+    ]
+  },
+  {
+    id: 3,
+    name: "Peserta Pelatihan",
+    desc: [
+      "Asisten Manajer",
+      "Manajer",
+      "Senior Manajer Praktisi bidang rantai pasok/logistik/pergudangan."
+    ]
+  },
+  {
+    id: 4,
+    name: "Persyaratan Peserta Ujian",
+    desc: [
+      "Pendidikan minimal S1 semua jurusan.",
+      "Peserta pelatihan Manajer logistik dengan melampirkan sertifikat pelatihan terkait.",
+      "Memiliki pengalaman dalam pengelolaan sistem manajemen rantai pasok atau bidang manajemen logistik minimal 3 tahun (dibuktikan dengan surat pengalaman bekerja dari perusahaan)."
+    ]
+  },
+  {
+    id: 5,
+    name: "Ujian Sertifikasi",
+    desc: [
+      "Uji Tertulis (90 Menit).",
+      "Uji Presentasi & Wawancara (60 menit)."
+    ]
+  }
+]
+                },
+                {
+                    id: 5, 
+                    item: "Certified Logistic Supervisor (CLS)",
+                    details: [
+  {
+    id: 1,
+    name: "Certified Logistic Manager (CLM)",
+    desc: [
+      "Manajer logistik yang memiliki kompetensi tinggi adalah pilar utama dalam kesuksesan operasional suatu organisasi.",
+      "Mereka tidak hanya bertanggung jawab atas kelancaran rantai pasok, tetapi juga memainkan peran penting dalam mencapai efisiensi, penurunan biaya, dan kepuasan pelanggan.",
+      "Organisasi membutuhkan manajer logistik yang tidak hanya memahami aspek internasional, tetapi juga mampu beradaptasi dengan peraturan dan praktik terkini di tingkat nasional.",
+      "Certified Logistic Manager (CLM) menjadi jalan terdepan untuk mengembangkan kompetensi manajer logistik.",
+      "Program ini merujuk pada standar internasional, seperti TLI50410 Diploma of Logistics dari Transport & Logistics Industry Skills Council, Australian Government, dan juga selaras dengan regulasi nasional, seperti Peraturan Presiden No.26 Tahun 2012 tentang Cetak Biru Pengembangan Sistem Logistik Nasional.",
+      "Dengan demikian, peserta tidak hanya mendapatkan pemahaman mendalam tentang praktik global, tetapi juga relevansi dengan konteks logistik nasional."
+    ]
+  },
+  {
+    id: 2,
+    name: "Topik",
+    desc: [
+      "Pengantar logistik & transportasi.",
+      "Analisis dan pengembangan kegiatan logistik & transportasi operasional perusahaan.",
+      "Memimpin kelompok atau tim kerja logistik & transportasi.",
+      "Bekerja secara efektif dalam industri logistik & transportasi.",
+      "Manajemen menjalankan pemeriksaan kendaraan.",
+      "Memelihara, memonitor dan meningkatkan sistem operasional logistik & transportasi.",
+      "Mengembangkan business plan logistik & transportasi.",
+      "Mengembangkan dan memelihara prosedur operasional untuk perusahaan logistik & transportasi.",
+      "Melakukan negosiasi dan pengelolaan kontrak.",
+      "Memonitor dan mengevaluasi kinerja pemasok logistik.",
+      "Menyusun dan mengelola anggaran (Financial Budgeting)."
+    ]
+  },
+  {
+    id: 3,
+    name: "Peserta Pelatihan",
+    desc: [
+      "Asisten Manajer",
+      "Manajer",
+      "Senior Manajer Praktisi bidang rantai pasok/logistik/pergudangan."
+    ]
+  },
+  {
+    id: 4,
+    name: "Persyaratan Peserta Ujian",
+    desc: [
+      "Pendidikan minimal S1 semua jurusan.",
+      "Peserta pelatihan Manajer logistik dengan melampirkan sertifikat pelatihan terkait.",
+      "Memiliki pengalaman dalam pengelolaan sistem manajemen rantai pasok atau bidang manajemen logistik minimal 3 tahun (dibuktikan dengan surat pengalaman bekerja dari perusahaan)."
+    ]
+  },
+  {
+    id: 5,
+    name: "Ujian Sertifikasi",
+    desc: [
+      "Uji Tertulis (90 Menit).",
+      "Uji Presentasi & Wawancara (60 menit)."
     ]
   }
 ]
@@ -1242,7 +2344,6 @@ const zillientEducation = {
     ]
   }
 ]
-
                 },
                 {
                     id: 2,
