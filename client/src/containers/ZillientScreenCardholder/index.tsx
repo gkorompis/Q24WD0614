@@ -26,7 +26,7 @@ const ZillientCardHolder = () =>{
     const serviceList:any = (businessDetail && businessDetail.serviceList) || [{id: 0, service: ""}];
     
     const data = serviceList.filter((service:any)=>service.id==`${serviceId}`)[0];
-    console.log(">>>",{data, serviceList});
+    // console.log(">>>",{data, serviceList});
     const businessDetailImages = businessDetail && businessDetail.images;
     // const businessDetailImagesImg = businessDetailImages && businessDetailImages.screenBannerImg;
 
@@ -58,7 +58,7 @@ const ZillientCardHolder = () =>{
     const dataListTitle = (data && data.service) || "List of Items";
     const dataImage = (businessDetailImages && businessDetailImages.screenBannerImg) || {src: "", alt: ""};
     const dataList = (data && data.list) || [{id: 1, item: "item", details: [{desc:[""]}]}];
-    console.log(">>>cardholder", {data})
+    // console.log(">>>cardholder", {data})
     const componentData = {
         background: {
             image: {

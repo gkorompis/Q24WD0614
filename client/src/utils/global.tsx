@@ -1139,41 +1139,52 @@ const zillientEducation = {
             list: [
                 {
                     id: 1,
-                    item: "Project Management Professional (PMP): A Guide to PMBOK ** Exercise (Self Learning via Learning Management System)",
+                    item: "Project Management Professional (PMP): A Guide to PMBOK",
                     details: [
-                        {
-                            id: 1,
-                            name: "Pengadaan Barang/Jasa Pemerintah bagi Pejabat Pembuat Komitmen (PPK) Tipe C",
-                            desc: [
-                                "PPK Memiliki fungsi strategis dalam pengelolaan keuangan negara, berwenang untuk mengambil keputusan dan tindakan yang berakibat pada pengeluaran anggaran dan bertanggung jawab atas pelaksanaan pengadaan barang /jasa. Oleh karenanya PPK harus memiliki kompetensi yang mumpuni guna menjamin pelaksanaan pengelolaan anggaran Lembaga/organisasi pengadaan barang/jasa sesuai dengan peraturan yang berlaku."
-                            ]
-                        },
-                        {
-                            id: 2, 
-                            name: "Topik",
-                            desc: [
-                                "1. Perencanaan PBJ meliputi: Indentifikasi kebutuhan dan penetapan PBJ, Penyusunan Spesifikasi Teknis dan Kerangka Acuan Kerja (KAK) Jasa Konsultansi Perorangan, Penyusunan Perkiraan Harga.",
-                                "2. Pengelolaan Kontrak PBJ meliputi: perumusan kontrak dalam bentuk SPK, Pengendalian Pelaksanaan Kontrak, Pekerjaan Serah Terima Hasil PBJ, Evaluasi kinerja penyedia.",
-                                "3. Pengelolaan PBJ secara swakelola: Perencanaan, persiapan, pelaksanaan, pengawasan dan serah terima pekerjaan PBJ."
-                            ]
-                        },
-                        {
-                            id: 3, 
-                            name: "Peserta Pelatihan",
-                            desc: [
-                                "Pejabat Pembuat Komitmen (PPK) yang berasal baik dari Institusi pemerintah, BUMN, BUMD & BLU yang telah memiliki Sertifikasi Pengadaan Barang/ Jasa tingkat dasar atau Level 1",
-                                "Peserta diharapkan membawa laptop."
-                            ]
-                        },
-                        {
-                            id: 4, 
-                            name: "Metode Program",
-                            desc: [
-                                "Metode program menggunakan Blended Learning yaitu kombinasi pembelajaran yang diawali dengan pembelajaran mandiri dalam LMS dilanjutkan dengan metode In-class/tatap muka."
-                            ]
-                        }
-                    ]
+  {
+    id: 1,
+    name: "Project Management Professional (PMP): A Guide to PMBOK",
+    desc: [
+      "Pelatihan yang membekali peserta dengan semua Manajemen proyek yang unggul menjadi kunci keberhasilan organisasi dalam mengelola proyek-proyek kompleks. Organisasi membutuhkan tenaga manajemen proyek yang memiliki kompetensi tinggi untuk memastikan proyek diselesaikan tepat waktu, dalam anggaran, dan sesuai dengan tujuan yang ditetapkan. Tenaga manajemen proyek yang handal dapat mengoptimalkan sumber daya, mengatasi risiko, dan meningkatkan efisiensi operasional. Program Project Management Professional (PMP) menjadi jawaban bagi para profesional yang ingin meningkatkan kompetensi manajemen proyek mereka. PMP adalah program sertifikasi yang diakui secara global dan mengacu pada praktik terbaik dalam manajemen proyek. Program ini mencakup 10 topik bahasan, mulai dari kerangka kerja manajemen proyek hingga manajemen pengadaan proyek dan manajemen stakeholder. Latihan-latihan soal dalam program ini juga akan memberikan persiapan yang komprehensif untuk menghadapi uji sertifikasi."
+    ]
+  },
+  {
+    id: 2,
+    name: "Topik",
+    desc: [
+      "Kerangka Kerja Manajemen Proyek.",
+      "Grup Proses Manajemen Proyek dan Area Pengetahuan Manajemen Proyek.",
+      "Manajemen Integrasi Proyek.",
+      "Manajemen Lingkup Proyek.",
+      "Manajemen Jadwal Proyek.",
+      "Manajemen Biaya Proyek.",
+      "Manajemen Kualitas Proyek.",
+      "Manajemen Sumber Daya Manusia Proyek.",
+      "Manajemen Komunikasi Proyek.",
+      "Manajemen Resiko Proyek.",
+      "Manajemen Pengadaan Proyek.",
+      "Manajemen stakeholder proyek.",
+      "Persiapan ujian dengan latihan-latihan soal."
+    ]
+  },
+  {
+    id: 3,
+    name: "Peserta Pelatihan",
+    desc: [
+      "Manajer proyek, kepala proyek, dan juga koordinator proyek yang memiliki tujuan untuk mendapatkan sertifikasi Project Management Professional (PMP) dari PMI."
+    ]
+  },
+  {
+    id: 4,
+    name: "Persyaratan Peserta Ujian",
+    desc: [
+      "Mengikuti 35 jam program pelatihan persiapan ujian.",
+      "Pendidikan Min. S1 dengan pengalaman min 3 tahun sebagai project leader."
+    ]
+  }
+]
                 }
+
             ]
         },
         {
@@ -1184,38 +1195,97 @@ const zillientEducation = {
                     id: 1,
                     item: "Certified New Product Development Manager (NPDM)",
                     details: [
-                        {
-                            id: 1,
-                            name: "Pengadaan Barang/Jasa Pemerintah bagi Pejabat Pembuat Komitmen (PPK) Tipe C",
-                            desc: [
-                                "PPK Memiliki fungsi strategis dalam pengelolaan keuangan negara, berwenang untuk mengambil keputusan dan tindakan yang berakibat pada pengeluaran anggaran dan bertanggung jawab atas pelaksanaan pengadaan barang /jasa. Oleh karenanya PPK harus memiliki kompetensi yang mumpuni guna menjamin pelaksanaan pengelolaan anggaran Lembaga/organisasi pengadaan barang/jasa sesuai dengan peraturan yang berlaku."
-                            ]
-                        },
-                        {
-                            id: 2, 
-                            name: "Topik",
-                            desc: [
-                                "1. Perencanaan PBJ meliputi: Indentifikasi kebutuhan dan penetapan PBJ, Penyusunan Spesifikasi Teknis dan Kerangka Acuan Kerja (KAK) Jasa Konsultansi Perorangan, Penyusunan Perkiraan Harga.",
-                                "2. Pengelolaan Kontrak PBJ meliputi: perumusan kontrak dalam bentuk SPK, Pengendalian Pelaksanaan Kontrak, Pekerjaan Serah Terima Hasil PBJ, Evaluasi kinerja penyedia.",
-                                "3. Pengelolaan PBJ secara swakelola: Perencanaan, persiapan, pelaksanaan, pengawasan dan serah terima pekerjaan PBJ."
-                            ]
-                        },
-                        {
-                            id: 3, 
-                            name: "Peserta Pelatihan",
-                            desc: [
-                                "Pejabat Pembuat Komitmen (PPK) yang berasal baik dari Institusi pemerintah, BUMN, BUMD & BLU yang telah memiliki Sertifikasi Pengadaan Barang/ Jasa tingkat dasar atau Level 1",
-                                "Peserta diharapkan membawa laptop."
-                            ]
-                        },
-                        {
-                            id: 4, 
-                            name: "Metode Program",
-                            desc: [
-                                "Metode program menggunakan Blended Learning yaitu kombinasi pembelajaran yang diawali dengan pembelajaran mandiri dalam LMS dilanjutkan dengan metode In-class/tatap muka."
-                            ]
-                        }
-                    ]
+  {
+    "id": 1,
+    "name": "Certified New Product Development Manager (NPDM)",
+    "desc": [
+      "Manajer Pengembangan Produk Baru (NPDM) yang unggul memegang peran kunci dalam inovasi dan pertumbuhan organisasi. Mereka bertanggung jawab mengelola proses pengembangan produk mulai dari analisis kebutuhan pelanggan hingga peluncuran produk baru ke pasar. Kompetensi tinggi dalam bidang pengembangan produk baru menjadi landasan penting dalam menjaga daya saing dan memenuhi tuntutan pasar yang terus berkembang. Program sertifikasi NPDM merujuk pada Standar Kompetensi Kerja Nasional Indonesia (SKKNI) yang telah ditetapkan, seperti Keputusan Menteri Ketenagakerjaan RI No. 389 tahun 2013, No. 136 tahun 2016, dan No. 610 Tahun 2012. Ini memastikan bahwa peserta tidak hanya mendapatkan pengetahuan global, tetapi juga sesuai dengan konteks bisnis Nasional."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Topik",
+    "desc": [
+      "Analisis kebutuhan pelanggan dan bisnis.",
+      "Konsep dasar bauran pemasaran dan dimensi kualitas pelayanan.",
+      "Strategi portofolio produk.",
+      "Spesifikasi, konsep, desain dan regulasi produk.",
+      "Komunikasi efektif.",
+      "Analisis biaya produk baru.",
+      "Laporan untuk produk baru."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Peserta Pelatihan",
+    "desc": [
+      "Praktisi Pemasaran (Supervisor, Asisten Manajer, Manajer).",
+      "Praktisi Produksi (Supervisor, Asisten Manajer, Manajer).",
+      "Pemilik Usaha."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Persyaratan Peserta Ujian",
+    "desc": [
+      "Pendidikan minimal S1.",
+      "Peserta pelatihan New Product Development Manager dengan melampirkan sertifikat pelatihan terkait.",
+      "Memiliki pengalaman dalam pengembangan produk atau inovasi produk baru (dibuktikan dengan surat pengalaman bekerja dari perusahaan)."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Ujian Sertifikasi",
+    "desc": [
+      "Uji Tertulis (120 Menit).",
+      "Uji Presentasi & Wawancara (60 Menit)."
+    ]
+  }
+]
+
+                },
+                {
+                    id: 2,
+                    item: "New Product Development Professional (NPDP)",
+                    details: [
+  {
+    id: 1,
+    name: "New Product Development Professional (NPDP)",
+    desc: [
+      "Kompetensi unggul dalam Pengembangan Produk Baru menjadi kunci untuk menghadapi tantangan dalam inovasi dan pertumbuhan bisnis. Manajer yang memahami proses pengembangan produk dapat membantu organisasi untuk merespons perubahan pasar dan menciptakan produk yang sesuai dengan kebutuhan pelanggan. Sertifikasi New Product Development Professional (NPDP) yang dikembangkan oleh PDMA (The Product Development and Management Association), menjadi standar global untuk para praktisi pengembangan produk baru. Program ini menawarkan panduan komprehensif dan mendalam untuk memahami strategi pengembangan produk, manajemen portofolio, proses produk baru, serta riset pasar dan siklus hidup produk."
+    ]
+  },
+  {
+    id: 2,
+    name: "Topik",
+    desc: [
+      "Strategi: Terkait kerangka dan alat mencapai tujuan perusahaan yang terintegrasi dengan inovasi dan pengembangan produk beserta ruang lingkup dan level penerapannya.",
+      "Manajemen Portofolio: Terkait optimalisasi pengelolaan portofolio produk dan aspek-aspek terkait yang mendorong peningkatan kinerja produk secara keseluruhan.",
+      "Proses Produk (dan Jasa) Baru: Terkait konsep fundamental dan praktek terbaik dari variasi proses pengembangan produk termasuk para pemangku kepentingan dan sumber daya yang terlibat.",
+      "Metrik dan Alat Bantu: Terkait upaya pengukuran kinerja dan proses serta berbagai alat bantu pendukung peningkatan efektivitas dan efisiensi secara sistematis dan berkesinambungan.",
+      "Riset Pasar: Terkait metodologi dan sistematika dalam pengambilan dan pengolahan data serta informasi mengenai pelanggan, pasar, kompetisi, dan lainnya sebagai dasar pengambilan keputusan.",
+      "Tim, Budaya, dan Organisasi: Terkait pengembangan sumber daya manusia berkinerja tinggi baik sebagai individu maupun tim dengan melibatkan pertimbangan aspek keorganisasian seperti budaya dan struktur perusahaan.",
+      "Siklus Hidup Produk (dan Jasa): Terkait strategi dan manajemen pengelolaan produk dan jasa pada berbagai fase daur hidupnya sehingga memberikan manfaat berkelanjutan."
+    ]
+  },
+  {
+    id: 3,
+    name: "Peserta Pelatihan",
+    desc: [
+      "Professional bidang pengembangan / Inovasi Produk."
+    ]
+  },
+  {
+    id: 4,
+    name: "Persyaratan Peserta Ujian",
+    desc: [
+      "Pendidikan minimal S1.",
+      "Berpengalaman Min 2 tahun dalam bidang pengembangan produk.",
+      "Mengikuti Pelatihan NPDP."
+    ]
+  }
+]
+
                 }
             ]
         },
@@ -1229,36 +1299,143 @@ const zillientEducation = {
                     details: [
                         {
                             id: 1,
-                            name: "Pengadaan Barang/Jasa Pemerintah bagi Pejabat Pembuat Komitmen (PPK) Tipe C",
+                            name: "Certified Professional Marketer (CPM) Asia",
                             desc: [
-                                "PPK Memiliki fungsi strategis dalam pengelolaan keuangan negara, berwenang untuk mengambil keputusan dan tindakan yang berakibat pada pengeluaran anggaran dan bertanggung jawab atas pelaksanaan pengadaan barang /jasa. Oleh karenanya PPK harus memiliki kompetensi yang mumpuni guna menjamin pelaksanaan pengelolaan anggaran Lembaga/organisasi pengadaan barang/jasa sesuai dengan peraturan yang berlaku."
+                                "Dalam menghadapi persaingan bisnis yang semakin ketat, organisasi perlu melibatkan karyawan yang memiliki keahlian di bidang manajemen pemasaran. Keberhasilan suatu perusahaan tidak hanya ditentukan oleh kualitas produk atau layanan yang ditawarkan, tetapi juga oleh kemampuan dalam merumuskan strategi pemasaran yang efektif. Karyawan dengan kompetensi di riset pasar, komunikasi pemasaran, dan strategi pemasaran mampu menjadi katalisator kesuksesan dalam meningkatkan visibilitas merek dan menarik pelanggan. Certified Professional Marketer (CPM) Asia menjadi rujukan utama bagi para profesional pemasaran. Sertifikasi ini, yang diakui di tingkat Asia, memberikan pedoman dan standar tinggi dalam praktik manajemen pemasaran. Melibatkan diri dalam program ini membuka peluang bagi para praktisi untuk memahami secara lebih mendalam berbagai aspek pemasaran, dari riset pasar hingga manajemen pemasaran di lingkungan bisnis yang semakin global."
                             ]
                         },
                         {
                             id: 2, 
                             name: "Topik",
-                            desc: [
-                                "1. Perencanaan PBJ meliputi: Indentifikasi kebutuhan dan penetapan PBJ, Penyusunan Spesifikasi Teknis dan Kerangka Acuan Kerja (KAK) Jasa Konsultansi Perorangan, Penyusunan Perkiraan Harga.",
-                                "2. Pengelolaan Kontrak PBJ meliputi: perumusan kontrak dalam bentuk SPK, Pengendalian Pelaksanaan Kontrak, Pekerjaan Serah Terima Hasil PBJ, Evaluasi kinerja penyedia.",
-                                "3. Pengelolaan PBJ secara swakelola: Perencanaan, persiapan, pelaksanaan, pengawasan dan serah terima pekerjaan PBJ."
+                            desc:[
+                                "Marketing Research.",
+                                "Marketing Communications.",
+                                "Marketing Strategy.",
+                                "Asia Business.",
+                                "Asia Marketing Management"
                             ]
                         },
                         {
                             id: 3, 
                             name: "Peserta Pelatihan",
                             desc: [
-                                "Pejabat Pembuat Komitmen (PPK) yang berasal baik dari Institusi pemerintah, BUMN, BUMD & BLU yang telah memiliki Sertifikasi Pengadaan Barang/ Jasa tingkat dasar atau Level 1",
-                                "Peserta diharapkan membawa laptop."
+                                "Praktisi dan akademisi bidang pemasaran."
                             ]
                         },
                         {
                             id: 4, 
-                            name: "Metode Program",
+                            name: "Persyaratan Peserta Ujian",
                             desc: [
-                                "Metode program menggunakan Blended Learning yaitu kombinasi pembelajaran yang diawali dengan pembelajaran mandiri dalam LMS dilanjutkan dengan metode In-class/tatap muka."
+                                "Pendidikan Mininal S1 dengan Pengalaman Minimal 5 tahun Bidang Marketing."
+                            ]
+                        },
+                        {
+                            id: 5,
+                            name: "Ujian Sertifikasi",
+                            desc: [
+                                "Waktu ujian selama 5 hari, @2 jam untuk setiap modul.",
+                                "Metode ujian berupa ujian tertulis, soal-soal dalam bentuk essay yang terdiri dari 3 modul dasar dan 2 modul wajib. Modul dasar dijawab menggunakan B. Indonesia dan modul wajib menggunakan B. inggris."
                             ]
                         }
                     ]
+                },
+                                {
+                    id: 2,
+                    item: "Certified Digital Marketing",
+                    details: [
+                        {
+                            id: 1,
+                            name: "Certified Digital Marketing",
+                            desc: [
+                                "Dalam era digital yang terus berkembang, organisasi memerlukan karyawan dengan kompetensi di bidang pemasaran digital untuk tetap relevan dan bersaing secara efektif. Individu yang menguasai strategi pemasaran online, analisis data digital, dan pemanfaatan platform media sosial dapat membantu meningkatkan visibilitas dan interaksi merek dengan pelanggan. Certified Digital Marketing menjadi rujukan bagi para profesional pemasaran digital. Sertifikasi ini menetapkan standar tinggi untuk pemahaman dan keterampilan praktisi pemasaran dalam konteks digital. Dengan sertifikasi ini, mereka dapat membuktikan keahlian mereka di berbagai aspek pemasaran secara digital."
+                            ]
+                        },
+                        {
+                            id: 2, 
+                            name: "Topik",
+                            desc:[
+                                "Mengidentifikasi Elemen Pemasaran Perusahaan (Marketing Mix ).",
+                                "Melakukan Pendekatan Kepada Calon Pelanggan (Market Reseach).",
+                                "Melaksanakan Keterampilan Penjualan.",
+                                "Menyusun Rencana Aktifitas Penjualan.",
+                                "Menyusun Rencana Aktifitas Penjualan.",
+                                "Melakukan Perencanaan Periklanan (Digital Advertising).",
+                                "Merancang Strategi dan Pembuatan Iklan.",
+                                "Merancang Strategi dan pembelian Media.",
+                                "Menggunakan Perangkat Komputer.",
+                                "Menggunakan Penelusur Situs Web.",
+                                "Menggunakan Aplikasi media Sosial (Sosial Media Marketing)."
+                            ]
+                        },
+                        {
+                            id: 3, 
+                            name: "Peserta Pelatihan",
+                            desc: [
+                                "Para praktisi/akademisi bidang marketing yang membutuhkan peningkatan pengetahuan serta pengakuan kompetensi bidang digital marketing."
+                            ]
+                        },
+                        {
+                            id: 4, 
+                            name: "Persyaratan Peserta Ujian",
+                            desc: [
+                                "Pendidikan minimal SMA sederajat dan memiliki pengalaman kerja minimal 1 tahun dibidang Pemasaran Digital (Digital Marketing)."
+                            ]
+                        },
+                        {
+                            id: 5,
+                            name: "Ujian Sertifikasi",
+                            desc: [
+                                "Wawancara Portofolio/ Bukti kerja selama 1 Jam."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    id: 3,
+                    item: "Certified Sales Manager",
+                    details: [
+  {
+    "id": 1,
+    "name": "Certified Sales Manager",
+    "desc": [
+      "Manajer penjualan yang memiliki kompetensi yang kuat menjadi kunci utama keberhasilan strategi penjualan suatu organisasi. Mereka memainkan peran integral dalam meningkatkan pendapatan dan membangun hubungan yang langgeng dengan pelanggan. Organisasi memerlukan pemimpin penjualan yang dapat mengarahkan tim dengan efektif, menganalisis pasar, dan merumuskan strategi penjualan yang berhasil. Certified Sales Manager menjadi standar yang diakui untuk menilai kemampuan dan pengetahuan seorang manajer penjualan. Sertifikasi ini membuktikan bahwa seseorang memiliki pemahaman mendalam tentang analisis lingkungan bisnis, penyusunan elemen pemasaran, perencanaan penjualan, manajemen akun, serta pelaksanaan pelatihan dan konseling kepada tim penjualan."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Topik",
+    "desc": [
+      "Melakukan Analisa lingkungan bisnis.",
+      "Menyusun elemen pemasaran.",
+      "Menyusun rencana penjualan (sales plan).",
+      "Menyusun rencana pengelolaan akun.",
+      "Melaksanakan pembinaan (coaching) dan penyuluhan (counselling) terhadap tenaga penjual."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Peserta Pelatihan",
+    "desc": [
+      "Para praktisi/akademisi bidang pemasaran yang membutuhkan peningkatan pengetahuan serta pengakuan kompetensi bidang pemasaran."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Persyaratan Peserta Ujian",
+    "desc": [
+      "Pendidikan minimal D3.",
+      "Berpengalaman kerja dan memiliki minimal 1 tahun sebagai manajer penjualan."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Ujian Sertifikasi",
+    "desc": [
+      "Wawancara portofolio/tugas/bukti kerja"
+    ]
+  }
+]
+
                 }
             ]
         }
@@ -1301,8 +1478,8 @@ const zillientConstruction = {
                     details: [
                         {
                             id: 1,
-                            name: "",
-                            desc: [""]
+                            name: "Jasa Bangun dan Renovasi Bangunan",
+                            desc: ["no description"]
                         }
                     ]
                 }
@@ -1318,8 +1495,8 @@ const zillientConstruction = {
                     details: [
                         {
                             id: 1,
-                            name: "",
-                            desc: [""]
+                            name: "Jasa Desain Arsitektur",
+                            desc: ["no description"]
                         }
                     ]
                 }
@@ -1335,8 +1512,8 @@ const zillientConstruction = {
                     details: [
                         {
                             id: 1,
-                            name: "",
-                            desc: [""]
+                            name: "Jasa Desain Interior",
+                            desc: ["no description"]
                         }
                     ]
                 }
@@ -1344,16 +1521,16 @@ const zillientConstruction = {
         },
         {
             id: 4,
-            service: "Jasa Penyedia Tukang/pekerja",
+            service: "Jasa Penyedia Tukang/Pekerja",
             list: [
                 {
                     id: 1,
-                    item: "Jasa Penyedia Tukang/pekerja​",
+                    item: "Jasa Penyedia Tukang/Pekerja​",
                     details: [
                         {
                             id: 1,
-                            name: "",
-                            desc: [""]
+                            name: "Jasa Penyedia Tukang/Pekerja​",
+                            desc: ["no descpription"]
                         }
                     ]
                 }
@@ -1400,6 +1577,30 @@ const zillientTour = {
                             id: 1,
                             name: "10-Day Turkey Tour",
                             desc: ["This 10-day Turkey tour package will take you to the best selected destinations in Turkey"]
+                        },
+                        {
+                            id: 2,
+                            name: "Routes",
+                            desc: [
+                                    "Grand Mosque Bursa",
+                                    "Turkish Delight Shop",
+                                    "Green Mausoleum and Green Mosque",
+                                    "Silk Market",
+                                    "Leather Factory Outlet & Fashion Show",
+                                    "Explore the Ancient City of Ephesus",
+                                    "Visit the Ancient City of Hierapolis and the Cotton Castle",
+                                    "Textile Outlet and Mevlana Mausoleum",
+                                    "Sultanhani Caravanserai",
+                                    "Stay in Cappadocia",
+                                    "Tuz Golu (Acid Lake)",
+                                    "Attaturk Mausoleum",
+                                    "Hippodrome, Blue Mosque, and Hagia Sophia",
+                                    "Topkapi Palace",
+                                    "Grand Bazaar",
+                                    "Bosphorus Cruise",
+                                    "Ortokoy Village",
+                                    "Taksim Square and Spice Bazaar"
+                                ]
                         }
                     ]
                 },
@@ -1411,7 +1612,26 @@ const zillientTour = {
                             id: 1,
                             name: "6-Day Korea exotrip Tour",
                             desc: ["This Exotrip Korea tour package will take you to the best selected destinations in South Korea."]
-                        }
+                        },
+                        {
+                            id: 2,
+                            name: "Route",
+                            desc: [
+                                    "Pochen Bidulginang Falls",
+                                    "Pocheon Hangtan River Sky Bridge",
+                                    "Nami Island",
+                                    "Mt Sorak",
+                                    "Cheonggyecheon Stream",
+                                    "Dongdaemun",
+                                    "Bukchon Hanok Village",
+                                    "Itaewon Mosque",
+                                    "COEX Mall",
+                                    "Gyeongbok Palace & National Folkfore Museum",
+                                    "Shopping Tour (Ginseng Museum, Red Pine Shop, Duty Free Shop)",
+                                    "N Seoul Tower & Love Lock",
+                                    "Myeongdong Street"
+                                    ]
+                                                            }
                     ]
                 },
                 {
@@ -1422,9 +1642,132 @@ const zillientTour = {
                             id: 1,
                             name: "6-Day taiwan Tour",
                             desc: ["Taiwan, a beautiful Asian country with stunning natural landscapes, historic sites, and a variety of attractions, makes an excellent travel destination."]
+                        },
+                        {
+                            id: 2,
+                            name: "Route",
+                            desc: [
+                                    "Sun Moon Lake",
+                                    "Wen Wu Temple",
+                                    "King of Mao Cultural Tribe Shop",
+                                    "Fengjia Night Market",
+                                    "Chiang Kai Sek Memorial Hall",
+                                    "Yehliu Geopark",
+                                    "Jiufen Old Street",
+                                    "Dongmen Night Market",
+                                    "Taroko Gorge National Park",
+                                    "Ji-An Shrine",
+                                    "East Gate Night Market",
+                                    "Taipei 101",
+                                    "Ximending Area, Pinnaple Cake",
+                                    "Shihlin Night Market"
+                                    ]
+                        }
+                    ]
+                },
+                {
+                    id: 4,
+                    item: "4d3n bangkok pattaya Tour",
+                    details: [
+                        {
+                            id: 1,
+                            name: "Route",
+                            desc: [
+                                    "Honey Bee Farm",
+                                    "Great & Grand Sweet Destination",
+                                    "Nongnooch Village (Thai Culture Show & Elephant Show)",
+                                    "Laser Budha Hill",
+                                    "Erawadee Herbal Shop",
+                                    "Pattaya Floating Market",
+                                    "Pattaya Beach",
+                                    "Gems Gallery",
+                                    "Chaophraya River Cross By Boat to Wat Arun (Temple Of The Dawn)",
+                                    "MBK Mall",
+                                    "Asiatique Night Market"
+                                    ]
+
+                        }
+                    ]
+                },
+                {
+                    id: 5,
+                    item: "6d japan tokyo mt. fuji",
+                    details: [
+                        {
+                            id: 1,
+                            name: "Route",
+                            desc: [
+                                    "Mt. Fuji",
+                                    "Gotemba Premium Outlet",
+                                    "Lake Ashi Cruise",
+                                    "Hakone",
+                                    "Owakudahi Hell Valley",
+                                    "Asakusa Kannon Temple / Sensoji",
+                                    "Tokyo Tower (Foot Town) - Photostop",
+                                    "Ginza",
+                                    "Shinjuku, Ikebukuro, and Shibuya Crossing street",
+                                    "Hachiko Statue"
+                                    ]
+
+                        }
+                    ]
+                },
+                {
+                    id: 6,
+                    item: "Vietnam 5D4N + 1N On Cruise",
+                    details: [
+                        {
+                            id: 1,
+                            name: "Route",
+                            desc: [
+                                    "Ho Chi Minh Complex",
+                                    "Temple Of Literature",
+                                    "Halong Bay – UNESCO World Heritage site",
+                                    "Tai-chi Class",
+                                    "Bai Tho",
+                                    "Water Puppet Show",
+                                    "Hoa Lu",
+                                    "Tam Coc"
+                                    ]
+                        }
+                    ]
+                },
+                {
+                    id: 7,
+                    item: "3 country tour",
+                    details: [
+                        {
+                            id: 1,
+                            name: "Route",
+                            desc: [
+                                "Malaysia (Merdeka Square, Batu Caves – Shopping for Malaysian Souvenirs, Genting Highland, Malaysia's Administrative Center Putrajaya)",
+                                "Singapore (Universal Studios – Merlion Park – Gardens by the Bay – Orchard Road - Red House - King’s Palace - Twin Tower - Kedah Via Highway)",
+                                "Malaysia–Thailand border (Wat Huathanon - Sleeping Buddha – Samila Beach – Shopping for Thai Souvenirs)"
+                                ]
+                        }
+                    ]
+                },
+                {
+                    id: 8,
+                    item: "12-Day Turkey + dubai Tour",
+                    details: [
+                        {
+                            id: 1,
+                            name: "12-Day Turkey + dubai Tour",
+                            desc: ["This 10-day Turkey tour package will take you to the best selected destinations in Turkey and Dubai."]
+                        },
+                        {
+                            id: 2,
+                            name: "Route",
+                            desc: [
+                                "Turki (Hagia Sophia, Cappadocia, Ephesus)",
+                                "Dubai (Burj Al Arab, Dubai Marina Walk, Burj Khalifa, Jumeirah Mosque, Enjoy the sunset in the middle of the desert)"
+                                ]
                         }
                     ]
                 }
+                 
+                
             ]
         },
         {
@@ -1433,37 +1776,316 @@ const zillientTour = {
             list: [
                 {
                     id: 1,
-                    item: "10-Day Turkey Tour​",
+                    item: "The Beauty of Bali​",
                     details: [
                         {
                             id: 1,
-                            name: "10-Day Turkey Tour",
-                            desc: ["This 10-day Turkey tour package will take you to the best selected destinations in Turkey"]
+                            name: "The Beauty of Bali",
+                            desc: ["Explore the island's iconic and beautiful spots with a friendly English-speaking driver-guide, who will take you comfortably by car to each location, providing information, ample time for strolling, and a lunch break to ensure you stay refreshed."]
+                        },
+                        {
+                            id: 2,
+                            name: "Route",
+                            desc: [
+                                    "Tamblingan Lake",
+                                    "Jatiluwih Rice Terraces",
+                                    "Bali Handara Kosaido gate",
+                                    "Pura Ulun Danu Temple"
+                                    ]
                         }
                     ]
                 },
                 {
                     id: 2,
-                    item: "6-Day Korea exotrip Tour",
+                    item: "The Lost World of East Java",
                     details: [
                         {
                             id: 1,
-                            name: "6-Day Korea exotrip Tour",
-                            desc: ["This Exotrip Korea tour package will take you to the best selected destinations in South Korea."]
+                            name: "The Lost World of East Java",
+                            desc: ["Embark on a thrilling journey through Java's volcanoes, acid lakes, waterfalls, and jeep rides, perfect for adventurous travelers seeking unforgettable outdoor experiences with friends, as a couple, or solo, alongside energetic and interesting companions."]
+                        },{
+                            id: 2,
+                            name: "Route",
+                            desc: [
+                                    "The Ijen Volcano with Largest Acid Lake",
+                                    "The Magnificent Bromo Volcano",
+                                    "Indonesia’s Largest Waterfall - Tumpak Sewu",
+                                    "The Stunning Madakaripura Waterfall",
+                                    "The Village Beneath The Lava - Lumajang",
+                                    "An Acid Waterfall"
+                                    ]
                         }
                     ]
                 },
                 {
                     id: 3,
-                    item: "6-Day taiwan Tour",
+                    item: "GILI - THE ISLAND OF FREEDOM",
                     details: [
                         {
                             id: 1,
-                            name: "6-Day taiwan Tour",
-                            desc: ["Taiwan, a beautiful Asian country with stunning natural landscapes, historic sites, and a variety of attractions, makes an excellent travel destination."]
+                            name: "GILI - THE ISLAND OF FREEDOM",
+                            desc: ["Escape the crowds and traffic of Bali by visiting the Gili Islands, where you can enjoy white sandy beaches, a peaceful atmosphere without cars or motorbikes, and the charm of exploring by bicycle, cart, or horse, making it the perfect place to unwind and recharge."]
+                        },
+                        {
+                            id: 2,
+                            name: "Route",
+                            desc: [
+                                    "Gili Trawangan",
+                                    "Gili Meno",
+                                    "Gili Air"
+                                    ]
                         }
                     ]
-                }
+                },
+                {
+                    id: 4,
+                    item: "RAFTING",
+                    details: [
+                        {
+                            id: 1,
+                            name: "RAFTING",
+                            desc: ["Join our expert-guided rafting adventure, complete with all necessary equipment and steep river descents through breathtaking landscapes, where you'll create unforgettable memories and bond with your team while enjoying the thrill and beauty of nature."]
+                        },
+                        {
+                            id: 2,
+                            name: "Route",
+                            desc: [
+                                    "The Ayung River - The most stormy river in Bali and 14 kilometers long",
+                                    "The Telaga River - Start at the Agung Volcano and 14 kilometers long"
+                                    ]
+                        }
+                    ]
+                },
+                {
+                    id: 5,
+                    item: "FABULOUS BUKIT",
+                    details: [
+                        {
+                            id: 1,
+                            name: "FABULOUS BUKIT",
+                            desc: ["Explore Bukit's luxurious coastlines, wild cliffs, and ideal parasailing spots with a friendly English-speaking driver-guide, enjoying ample time at each location for strolling and taking pictures, and a lunch stop to keep you refreshed."]
+                        },
+                        {
+                            id: 2,
+                            name: "Route",
+                            desc: [
+                                    "Turtle Rescue Center",
+                                    "Parasailing",
+                                    "Devil’s Tears",
+                                    "Airplane Cafe",
+                                    "Garuda Wisnu Kencana Cultural Park"
+                                    ]
+                        }
+                    ]
+                },
+                {
+                    id: 6,
+                    item: "1-Day Adventure Package in Jogja",
+                    details: [
+                        {
+                            id: 1,
+                            name: "1-Day Adventure Package in Jogja",
+                            desc: ["Tour suitable for both children and adults."]
+                        },
+                        {
+                            id: 2,
+                            name: "Route Option 01",
+                            desc: [
+                                    "Prambanan Temple",
+                                    "Merapi Lava Tour Jeep",
+                                    "Bumi Merapi"
+                                    ]
+                        },
+                        {
+                            id: 3,
+                            name: "Route Option 02",
+                            desc: [
+                                    "Borobudur Temple (Terrace)",
+                                    "VW Safari Borobudur Tour",
+                                    "Chicken Church / Svarga Bumi"
+                                    ]
+                        },
+                        {
+                            id: 4,
+                            name: "Route Option 03",
+                            desc: [
+                                    "Kalibiru National Park / Pule Payung",
+                                    "VW Safari Omah Cantrik",
+                                    "Gamplong Natural Studio"
+                                    ]
+                        },
+                        {
+                            id: 5,
+                            name: "Route Option 04",
+                            desc: [
+                                    "Gembiraloka Zoo",
+                                    "Tebing Breksi Jeep Tour",
+                                    "Obelix Hills"
+                                    ]
+                        },
+                        {
+                            id: 6,
+                            name: "Route Option 05",
+                            desc: [
+                                    "Gembiraloka Zoo",
+                                    "Tebing Breksi Jeep Tour",
+                                    "Obelix Hills",
+                                    "Little Tokyo",
+                                    "Parangtritis Beach Jeep Tour",
+                                    "Obelix Sea View"
+                                    ]
+                        },
+                        {
+                            id: 7,
+                            name: "Route Option 06",
+                            desc: [
+                                    "Gembiraloka Zoo",
+                                    "Tebing Breksi Jeep Tour",
+                                    "Obelix Hills",
+                                    "Little Tokyo",
+                                    "Parangtritis Beach Jeep Tour",
+                                    "Obelix Sea View",
+                                    "Goa Pindul Rafting",
+                                    "Sadranan Beach",
+                                    "Heha Ocean View"
+                                    ]
+                        }
+                    ]
+                },
+                {
+                    id: 7,
+                   item: "2-Day Adventure Package in Jogja",
+                    details: [
+                        {
+                            id: 1,
+                            name: "2-Day Adventure Package in Jogja",
+                            desc: ["Tour suitable for both children and adults."]
+                        },
+                        {
+                            id: 2,
+                            name: "Route Option 01",
+                            desc: [
+                                    "Lava Tour Jeep Merapi",
+                                    "Prambanan Temple",
+                                    "Obelix Hills"
+                                ]
+                        },
+                        {
+                            id: 3,
+                            name: "Route Option 02",
+                            desc: [
+                                    "Goa Pindul Rafting",
+                                    "Sadranan Beach",
+                                    "Heha Ocean View"
+                                ]
+                        }
+                    ]
+                },
+                {
+                    id: 8,
+                    item: "4-Day Adventure Package in Jogja",
+                    details: [
+                        {
+                            id: 1,
+                            name: "4-Day Adventure Package in Jogja",
+                            desc: ["Tour suitable for both children and adults."]
+                        },
+                        {
+                            id: 2,
+                            name: "Day 01",
+                            desc: [
+    "Airport/Station pick-up",
+    "Sand Dunes Tour",
+    "Beach Jeep Tour",
+    "Obelix Sea View"
+]
+                        },
+                        {
+                            id: 3,
+                            name: "Day 02",
+                            desc: [
+    "Lava Tour Jeep Merapi",
+    "Prambanan Temple",
+    "Obelix Hills"
+]
+                        },
+                        {
+                            id: 4,
+                            name: "Day 03",
+                            desc: [
+    "Goa Pindul Rafting",
+    "Sadranan Beach Snorkeling",
+    "Heha Sky View"
+]
+                        },
+                        {
+                            id: 5,
+                            name: "Day 04",
+                            desc: [
+    "VW Combrio Omah Cantrik",
+    "Studio Alam Gamplong",
+    "Malioboro"
+]
+                        }
+                    ]
+                },
+                {
+                    id: 9,
+                   item: "5-Day Adventure Package in Jogja",
+                    details: [
+                        {
+                            id: 1,
+                            name: "4-Day Adventure Package in Jogja",
+                            desc: ["Tour suitable for both children and adults."]
+                        },
+                        {
+                            id: 2,
+                            name: "Day 01",
+                            desc: [
+    "Pick-up from Yogyakarta area",
+    "Sunset at Obelix Hills",
+    "Check-in at hotel"
+]
+                        },
+                        {
+                            id: 3,
+                            name: "Day 02",
+                            desc: [
+    "Goa Pindul Rafting",
+    "Timang Beach",
+    "Heha Ocean View"
+]
+                        },
+                        {
+                            id: 4,
+                            name: "Day 03",
+                            desc: [
+    "VW Safari at Omah Cantrik",
+    "Studio Alam Gamplong",
+    "Alun-alun Kidul"
+]
+                        },
+                        {
+                            id: 5,
+                            name: "Day 04",
+                            desc: [
+    "Borobudur Temple",
+    "Lava Tour Jeep Merapi",
+    "Bumi Merapi",
+    "Malioboro"
+]
+                        },
+                        {
+                            id: 6,
+                            name: "Day 05",
+                            desc: [
+    "Kraton (Sultan's Palace)",
+    "Taman Sari (Water Castle)",
+    "Drop-off at station/airport"
+]
+                        }
+                    ]
+                },
             ]
         }
     ],
@@ -1505,9 +2127,20 @@ const zillientConsultation = {
                     details: [
                         {
                             id: 1,
-                            name: "",
-                            desc: [""]
+                            name: "Badan Hukum",
+                            desc: ["Pendaftaran perusahaan sebagai badan hukum, seperti perseroan terbatas (PT), firma, atau komanditer."]
+                        },
+                        {
+                            id: 2,
+                            name: "Nama Perusahaan",
+                            desc: ["Pendaftaran nama perusahaan untuk mendapatkan hak eksklusif atas nama tersebut."]
+                        },
+                        {
+                            id: 3,
+                            name: "Nomor Pokok Wajib Pajak (NPWP)",
+                            desc: ["Pendaftaran untuk memperoleh NPWP perusahaan."]
                         }
+                       
                     ]
                 },
                 {
@@ -1516,8 +2149,18 @@ const zillientConsultation = {
                     details: [
                         {
                             id: 1,
-                            name: "",
-                            desc: [""]
+                            name: "Izin Usaha",
+                            desc: ["Pengurusan izin usaha sesuai dengan jenis dan lokasi usaha, seperti izin usaha mikro kecil menengah (UMKM) atau izin usaha perdagangan."]
+                        },
+                        {
+                            id: 2,
+                            name: "Izin Lokasi",
+                            desc: ["Izin untuk menggunakan lokasi tertentu untuk kegiatan usaha."]
+                        },
+                        {
+                            id: 3,
+                            name: "Izin Mendirikan Bangunan (IMB)",
+                            desc: ["Pengurusan izin untuk membangun atau merenovasi gedung."]
                         }
                     ]
                 },
@@ -1527,8 +2170,18 @@ const zillientConsultation = {
                     details: [
                         {
                             id: 1,
-                            name: "",
-                            desc: [""]
+                            name: "Sertifikasi Produk",
+                            desc: ["Pengurusan sertifikasi untuk produk agar memenuhi standar kualitas dan keamanan tertentu."]
+                        },
+                        {
+                            id: 2,
+                            name: "Sertifikasi ISO",
+                            desc: ["Sertifikasi untuk standar internasional seperti ISO 9001 (manajemen mutu) atau ISO 14001 (manajemen lingkungan)."]
+                        },
+                        {
+                            id: 3,
+                            name: "Kepatuhan Regulasi",
+                            desc: ["Bantuan dalam memenuhi persyaratan regulasi industri spesifik, seperti regulasi BPOM untuk produk makanan dan obat."]
                         }
                     ]
                 },
@@ -1538,12 +2191,90 @@ const zillientConsultation = {
                     details: [
                         {
                             id: 1,
-                            name: "",
-                            desc: [""]
+                            name: "Pembuatan Kontrak",
+                            desc: ["Penyusunan dan peninjauan kontrak, termasuk kontrak kerja, perjanjian sewa, dan kontrak bisnis lainnya."]
+                        },
+                        {
+                            id: 2,
+                            name: "Notaris",
+                            desc: ["Jasa notaris untuk pembuatan akta dan dokumen hukum lainnya yang memerlukan legalisasi."]
+                        }
+                    ]
+                },
+                {
+                    id: 5,
+                    item: "Pengurusan Hak Kekayaan Intelektual​",
+                    details: [
+                        {
+                            id: 1,
+                            name: "Paten",
+                            desc: ["Pengurusan hak paten untuk penemuan baru."]
+                        },
+                        {
+                            id: 2,
+                            name: "Merek Dagang",
+                            desc: ["Pendaftaran merek dagang untuk perlindungan nama atau logo produk."]
+                        },
+                        {
+                            id: 3,
+                            name: "Hak Cipta",
+                            desc: ["Pendaftaran hak cipta untuk karya kreatif seperti buku, musik, dan perangkat lunak."]
+                        }
+                    ]
+                },
+                {
+                    id: 6,
+                    item: "Layanan Hukum dan Konsultasi​",
+                    details: [
+                        {
+                            id: 1,
+                            name: "Konsultasi Hukum",
+                            desc: ["Konsultasi untuk memahami kewajiban hukum dan peraturan yang berlaku."]
+                        },
+                        {
+                            id: 2,
+                            name: "Representasi Hukum",
+                            desc: ["erwakilan hukum dalam perselisihan atau proses hukum."]
+                        }
+                    ]
+                },
+                {
+                    id: 7,
+                    item: "Pendaftaran dan Pengurusan Dokumen Pemerintahan​",
+                    details: [
+                        {
+                            id: 1,
+                            name: "Akta Kelahiran dan Kematian",
+                            desc: ["Pengurusan akta kelahiran dan kematian untuk keperluan administratif."]
+                        },
+                        {
+                            id: 2,
+                            name: "Kartun Identitas",
+                            desc: ["Pendaftaran untuk kartu identitas seperti KTP dan SIM."]
+                        }
+                    ]
+                },
+//                  Penyusunan dan Pengelolaan Dokumen Korporasi
+// Rapat Umum Pemegang Saham (RUPS): Penyusunan dokumen dan notulensi untuk RUPS dan rapat lainnya.
+// Laporan Tahunan: Penyusunan laporan tahunan untuk perusahaan sesuai dengan persyaratan hukum.
+                {
+                    id: 8,
+                    item: "Penyusunan dan Pengelolaan Dokumen Korporasi​",
+                    details: [
+                        {
+                            id: 1,
+                            name: "Rapat Umum Pemegang Saham (RUPS)",
+                            desc: ["Penyusunan dokumen dan notulensi untuk RUPS dan rapat lainnya."]
+                        },
+                        {
+                            id: 2,
+                            name: "Laporan Tahunan",
+                            desc: ["Penyusunan laporan tahunan untuk perusahaan sesuai dengan persyaratan hukum."]
                         }
                     ]
                 },
             ]
+
         } 
     ],
     serviceNotes: [

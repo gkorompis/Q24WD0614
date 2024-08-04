@@ -9,10 +9,10 @@ const BusinessZillient = () =>{
     const businessZillient = globalStates && globalStates.businessZillient;
     const businessDetail = businessZillient && businessZillient[`${businessId}`];
 
-    console.log({
-        businessId,
-        businessDetail
-    })
+    // console.log({
+    //     businessId,
+    //     businessDetail
+    // })
 
     return (
         <div className="business-zillient">

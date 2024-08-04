@@ -21,7 +21,7 @@ const AppNavbar = () =>{
 
 
     const handleHoverBusinessSubmenu = (trigger:any)=>{
-        console.log("hover", trigger)
+        // console.log("hover", trigger)
         if(trigger==="enter"){
             setIsHover({
                 businessSubmenu: true

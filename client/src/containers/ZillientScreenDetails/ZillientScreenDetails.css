@@ -97,10 +97,10 @@
 .w-pc-zillient-screen-details>.wrapper>.content.display>.cardholder>.grid-item>.card.display-col>h3{
     font-size: 2vw;
     text-align: justify;
+    margin-bottom: 1.5vw;
 }
 .w-pc-zillient-screen-details>.wrapper>.content.display>.cardholder>.grid-item>.card.display-col>p {
     font-size: 1.3vw;
-    margin-top: 1.5vw;
-    text-align: 50;
+    margin-bottom: 0.8vw;
     text-align: justify;
 }

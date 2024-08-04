@@ -62,7 +62,7 @@
 .w-pc-zillient-cardholder>.wrapper>.content.display>.cardholder{
     display: grid;
     grid-template-columns: repeat(auto-fit, 30vw);
-    grid-auto-rows: 25vw;
+    grid-auto-rows: 30vw;
     box-sizing: border-box;
     padding-block: 4vh;
     width: 95%;
@@ -109,6 +109,6 @@
     justify-content: start;
 }
 .w-pc-zillient-cardholder>.wrapper>.content.display>.cardholder>.grid-item>.card.grid-y>.text>h2{
-    font-size: 1.3vw;
+    font-size: 1.2vw;
     text-overflow: ellipsis;
 }

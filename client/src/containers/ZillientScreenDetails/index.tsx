@@ -24,7 +24,7 @@ const ZillientScreenDetails = () =>{
     const data = dataServiceDetails.filter((serviceDetail:any)=>serviceDetail.id==`${cardId}`)[0];
 
     // const data = dataServiceDetailsDesc && dataServiceDetailsDesc.details; 
-    console.log(">>>",{data, serviceList, dataServiceList, dataServiceDetails});
+    // console.log(">>>",{data, serviceList, dataServiceList, dataServiceDetails});
     const businessDetailImages = businessDetail && businessDetail.images;
 
     
@@ -111,11 +111,11 @@ const ZillientScreenDetails = () =>{
                                 return (
                                     <div key={index} className="grid-item">
                                         <div className="card display-col">
-                                            <h3>{`${cardId}. ${cardName}` }</h3>
+                                            <h3>{`${cardName}` }</h3>
                                             {
-                                                cardDesc.map((text:any, indexChild: any)=>{
+                                                cardDesc.map((text:any, index: any)=>{
                                                     return(
-                                                        <p key={indexChild}>
+                                                        <p key={index}>
                                                             {`${text}`}
                                                         </p>
                                                     )
