@@ -162,7 +162,7 @@ const ContactsScreen1 = () =>{
                                     <div className="submit-button">
                                         <button  type="submit" >Submit</button>
                                     </div>
-                                </form>
+                            </form>
                             </div>
                         </div>
                         

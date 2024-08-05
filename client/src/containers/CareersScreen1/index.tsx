@@ -37,7 +37,7 @@ const CareersScreen1 = () =>{
         <div ref={screenCareer1Ref} className={`${windowWidthClass}-careers-screen1`}>
             <div className="wrapper">
                 <div className="background">
-                    <img alt="legal" src={ImgProjectLegal} />
+                    {/* <img alt="legal" src={ImgProjectLegal} /> */}
                 </div>
                 <div className="shield">
 
