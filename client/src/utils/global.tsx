@@ -7,6 +7,12 @@ const zillientFarm = {
     title: "Zillient Farm",
     code: "Farm",
     description: "Create 1 million modern farmers, breeders, and fishermen in Indonesia, helping partners with capital, input requirements, cultivation guidance, and marketing.",
+    custom: {
+        style: {
+            backgroundColor: '#08ae5e',
+            color: '#fff'
+        }
+    },
     images: {
         screenBannerImg: {
             src: ImgBusinessFarm,
@@ -803,6 +809,12 @@ const zillientEducation = {
     title: "Zillient Education",
     code: "Education",
     description: "Focuses on providing training, certification and consultation to partners personally and non-personally as well as supporting and connecting the skills development of Indonesian youth on an international scale.",
+    custom: {
+        style: {
+            backgroundColor: '#2e8fc7',
+            color: '#fff'
+        }
+    },
     images: {
         screenBannerImg: {
             src: ImgBusinessEdu,
@@ -2550,6 +2562,13 @@ const zillientConstruction = {
     title: "Zillient Construction",
     code: "Construction",
     description: "Provide construction service based on professional, hight integrity, and dedicated to partners orientation excellence.",
+    
+    custom: {
+        style: {
+            backgroundColor: '#85502f',
+            color: '#fff'
+        }
+    },
     images: {
         screenBannerImg: {
             src: ImgBusinessConstruction,
@@ -2647,6 +2666,12 @@ const zillientTour = {
     title: "Zillient Tour",
     code: "Tour",
     description: "Create one village one youtuber, introducing the potential and natural beauty of every village corner, providing collaborative tourism services to lift the tourism sector of Indonesia.",
+    custom: {
+        style: {
+            backgroundColor: '#d7b242',
+            color: '#fff'
+        }
+    },
     images: {
         screenBannerImg: {
             src: ImgBusinessTour,
@@ -3199,6 +3224,13 @@ const zillientConsultation = {
     title: "Zillient Consultation",
     code: "Consultation",
     description: "Providing consultations to partners regarding legality and building an inclusive and integrated business that has an impact on the environment.",
+    custom: {
+        style: {
+            backgroundColor: '#ff914d',
+            color: '#fff'
+        }
+    },
+    
     images: {
         screenBannerImg: {
             src: ImgBusinessConsultation,

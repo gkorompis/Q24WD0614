@@ -43,8 +43,11 @@ const ZillientScreenCollage = ({data}:any) =>{
                     alt: ""
                 }
             }
+            
         },
     }
+
+    const customStyle= data && data.custom['style'];
 
     const itemLength = (componentData.screen.services.length) || 1;
     const heightFactor = Math.ceil(+itemLength/3);
@@ -105,7 +108,9 @@ const ZillientScreenCollage = ({data}:any) =>{
 
                                 return (
                                     <div key={index} className="item">
-                                        <div className="card">  
+                                        <div className="card"
+                                            style={customStyle}
+                                        >  
                                             <h3
                                                 onClick={()=>handleNavigate(businessId, serviceId)}
                                             >{serviceValue}</h3>

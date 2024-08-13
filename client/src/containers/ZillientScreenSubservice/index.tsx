@@ -1,9 +1,10 @@
-import { useContext, useEffect, useRef } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import globalStates from "../../utils/global";
 import "./ZillientScreenSubservice.css";
 import { useNavigate, useParams } from "react-router-dom";
 import { AppNavbar } from "../../components";
 import { BannerScreen2 } from "..";
+import { IconArrow } from "../../assets";
 // import { BannerCoffee1, BannerCoffee2 } from "../../assets";
 
 const ZillientScreenSubservice = () =>{
@@ -22,7 +23,7 @@ const ZillientScreenSubservice = () =>{
     
     const businessZillient = globalStates && globalStates.businessZillient;
     const businessDetail = businessZillient && businessZillient[`${businessId}`];
-
+    const customStyle = businessDetail && businessDetail.custom["style"]
     const serviceList:any = (businessDetail && businessDetail.serviceList) || [{id: 0, service: ""}];
     
     const data = serviceList.filter((service:any)=>service.id==`${serviceId}`)[0];
@@ -76,6 +77,33 @@ const ZillientScreenSubservice = () =>{
             }
         }
     };
+
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const totalBoxes = 5; // Number of .box elements
+    console.log(">>>currentIndex", currentIndex)
+    const handleKeyDown = (e:any) => {
+        if (e.key === 'ArrowRight') {
+        setCurrentIndex((prevIndex:any) => (prevIndex + 1) % totalBoxes);
+        } else if (e.key === 'ArrowLeft') {
+        setCurrentIndex((prevIndex:any) => (prevIndex - 1 + totalBoxes) % totalBoxes);
+        }
+    };
+
+    const conveyorRef:any = useRef(null);
+
+    const scrollLeft = () => {
+        if (conveyorRef.current) {
+            console.log(">>>left", -conveyorRef.current.clientWidth)
+            conveyorRef.current.scrollBy({ left: -conveyorRef.current.clientWidth, behavior: 'smooth' });
+        }
+    };
+
+    const scrollRight = () => {
+        if (conveyorRef.current) {
+            console.log(">>>right", conveyorRef.current.clientWidth)
+            conveyorRef.current.scrollBy({ left: conveyorRef.current.clientWidth, behavior: 'smooth' });
+        }
+    };
     
     return(<>
     <AppNavbar/>
@@ -96,35 +124,54 @@ const ZillientScreenSubservice = () =>{
                 <div className="shield">
                     
                 </div>
-                <div className="content display">
-                    
-                    {/* <h1>{dataListTitle}</h1> */}
-                    <div className="cardholder">
+                <div className="content display"
+                style={customStyle}
+                >
+                    <div className="scroll-wrapper frame left" onClick={scrollLeft}>
+                        <img src={IconArrow} alt=""/>
+                    </div>
+                    <div className="scroll-wrapper  frame right">
+                        <img src={IconArrow} alt="" onClick={scrollRight}/>
+                    </div>
+                    <div className="wrapper grid" ref={conveyorRef}>
+                        
                         {
-                            dataList.map((card:any, index:any)=>{
-                                const cardId = card && card.id;
-                                const cardItem = card && card.item;
-                                const businessId = businessDetail && businessDetail.businessId;
-                                const sid = serviceId as any;
-                                // const cardImg = dataImage;
-
+                            dataList.map((service:any, index:any)=>{
+                                const {title, desc, image, handler, details, item} = service;
+                                console.log(">>detils", details)
                                 return (
-                                    <div key={index} className="grid-item">
-                                        <div className="card grid-y"
-                                            onClick={()=>handleNavigate(businessId, sid, cardId)}
-                                        >
-                                            <div className="frame">
-                                                {/* <img 
-                                                    alt = {componentData.content.screen.image.alt}
-                                                    src = {componentData.content.screen.image.src}
-                                                /> */}
+                                    <div className="item" >
+                                        <div className="card">
+                                            <div className="object-wrapper">
+                                                <div className="frame">
+                                                    <img 
+                                                    alt = {dataImage.alt}
+                                                    src = {dataImage.src}
+                                                    onClick={handler}
+                                                    />
+                                                </div>
+                                                <h2>{item.toUpperCase()}</h2>
                                             </div>
-                                            <div className="text">
-                                                <h2>
-                                                    {
-                                                        `${cardId}. ${cardItem}`
-                                                    }
-                                                </h2>
+                                            <div className="text-wrapper">
+                                                {
+                                                    details.map((detail:any, index:any)=>{
+                                                        const {id, name, desc} = detail
+                                                        return (
+                                                            <div key={index} className="text-section">
+                                                                <h3>{`${name}`}</h3>
+                                                                {
+                                                                    desc.map((text:any, index:any)=>{
+                                                                        return (
+                                                                            <p key={index}>{text}</p>
+                                                                        )
+                                                                    })
+                                                                }
+                                                            </div>
+                                                        )
+                                                    })
+                                                }
+                                                {/* <h2>{title.toUpperCase()}</h2> */}
+                                                {/* <p>{desc}</p> */}
                                             </div>
                                         </div>
                                     </div>
@@ -132,6 +179,21 @@ const ZillientScreenSubservice = () =>{
                             })
                         }
                     </div>
+                    
+                    {/* <div className="slider-container" tabIndex={0} onKeyDown={handleKeyDown}>
+                        <div 
+                        ref={conveyorRef} 
+                        className="slider-wrapper" 
+                        // style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+                        >
+                            <div className="box-slider">Box 1</div>
+                            <div className="box-slider">Box 2</div>
+                            <div className="box-slider">Box 3</div>
+                            <div className="box-slider">Box 4</div>
+                            <div className="box-slider">Box 5</div>
+                        </div>
+                    </div> */}
+                  
                 </div>
             </div>
         </div>

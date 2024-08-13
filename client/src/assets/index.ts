@@ -90,3 +90,5 @@ export { default as ImgBusinessZillientEducation } from './img/business/business
 export { default as ImgBusinessZillientConstruction } from './img/business/business_const.png';
 export { default as ImgBusinessZillientTour } from './img/business/business_tour.png';
 export { default as ImgBusinessZillientConsultation } from './img/business/business_consu.png';
+
+export { default as IconArrow } from './img/icons/IconArrow.png'
