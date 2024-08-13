@@ -1,5 +1,5 @@
 import { AppFooter, AppNavbar } from "../../components";
-import { BannerScreen, BusinessScreen1, ZillientScreenBanner, ZillientScreenList } from "../../containers";
+import { BannerScreen, BusinessScreen1, ZillientScreenBanner, ZillientScreenCollage, ZillientScreenList } from "../../containers";
 import globalStates from "../../utils/global";
 import "./BusinessZillient.css";
 import { useParams } from 'react-router-dom'
@@ -26,7 +26,8 @@ const BusinessZillient = () =>{
                 }
             }} />
             <ZillientScreenBanner data={businessDetail}/>
-            <ZillientScreenList data={businessDetail}/>
+            {/* <ZillientScreenList data={businessDetail}/> */}
+            <ZillientScreenCollage data={businessDetail}/>
             <AppFooter/>
         </div>
     )

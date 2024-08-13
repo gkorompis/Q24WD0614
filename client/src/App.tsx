@@ -8,7 +8,7 @@ import { About, Home, Careers, Contacts, Businesses } from './pages';
 import { ScrollToTop } from './components';
 import BusinessZillient from './pages/BusinessZillient';
 import ZillientCardHolder from './containers/ZillientScreenCardholder';
-import { ZillientScreenDetails } from './containers';
+import { ZillientScreenDetails, ZillientScreenSubservice } from './containers';
 
 
 function App() {
@@ -54,7 +54,7 @@ function App() {
             <Route path="/contacts" element={<Contacts/>} />
             <Route path="/businesses" element={<Businesses/>} />
             <Route path="/businesses/:businessId" element={<BusinessZillient/>}/>
-            <Route path="/service-list/:businessId/:serviceId" element={<ZillientCardHolder/>} />
+            <Route path="/service-list/:businessId/:serviceId" element={<ZillientScreenSubservice/>} />
             <Route path="/details-list/:businessId/:serviceId/:cardId" element={<ZillientScreenDetails />} />
           </Routes>
         </BrowserRouter>

@@ -37,7 +37,7 @@ const HomeScreen3 = () =>{
         },
         {
             title: "Zillient Counseling",
-            label: "Cons",
+            label: "Consl",
             imgSrc: ImgBusinessConsultation,
             iconSrc: IconLabelCons
         },

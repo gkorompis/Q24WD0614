@@ -16,7 +16,7 @@ const Home = () =>{
             <HomeScreen5alt/>
             <HomeScreen5b/>
             <HomeScreen6alt/>
-            {/* <AppFooter/> */}
+            <AppFooter/>
         </div>
     )
 };

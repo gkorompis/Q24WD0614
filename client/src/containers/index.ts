@@ -42,3 +42,7 @@ export { default as ZillientScreenCardholder } from './ZillientScreenCardholder'
 export { default as ZillientScreenDetails } from './ZillientScreenDetails';
 
 export { default as ContactScreen1Alt } from './ContactScreen1Alt'
+
+
+export { default as ZillientScreenCollage } from './ZillientScreenCollage';
+export { default as ZillientScreenSubservice } from './ZillientScreenSubservice';

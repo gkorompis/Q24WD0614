@@ -33,10 +33,10 @@
 
 
 .w-pc-home-screen5-alt>.wrapper>.section>.text-wrapper>h2{
-    font-size: 12.5vh;
+    font-size: 8vw;
     /* font-family: "CustomPoppinsBold"; */
-    line-height: 13.5vh;
-    margin-bottom: 5vh;
+    line-height: 8vw;
+    margin-bottom: 4vw;
     color: #0a97d9;
 }
 .w-pc-home-screen5-alt>.wrapper>.section>.text-wrapper>p {
@@ -53,7 +53,7 @@
 }
 
 .w-pc-home-screen5-alt>.wrapper>.section>img{
-    height: 70vh;
+    height: 40vw;
 }
 
 

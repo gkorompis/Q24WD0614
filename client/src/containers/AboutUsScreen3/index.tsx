@@ -63,7 +63,7 @@ const AboutUsScreen3 = () =>{
                                         </div>
                                     </div>
                                     <div className="grid-item text">
-                                        <p>{componentData && componentData.content.objectWrapper.text.value} 
+                                        <p><i>{componentData && componentData.content.objectWrapper.text.value} </i>
                                             <b>{componentData && componentData.content.objectWrapper.text.value2} </b>
                                         </p>
                                     </div>
