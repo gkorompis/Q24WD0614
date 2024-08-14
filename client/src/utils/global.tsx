@@ -3415,6 +3415,48 @@ const zillientConsultation = {
     ]
 }
 
+
+const zillientCareers = [
+  {
+    location: "Jakarta",
+    role: "Commercial Sales",
+    division: "Commercial",
+    employmentType: "Permanent"
+  },
+  {
+    location: "Surabaya",
+    role: "IT Project Manager",
+    division: "Technology",
+    employmentType: "Permanent"
+  },
+  {
+    location: "Jakarta",
+    role: "Product Manager",
+    division: "Product",
+    employmentType: "Permanent"
+  },
+  {
+    location: "Surabaya",
+    role: "Sales Manager",
+    division: "Marketing",
+    employmentType: "Permanent"
+  },
+  {
+    location: "Bali",
+    role: "Finance Manager",
+    division: "Operating",
+    employmentType: "Permanent"
+  },
+  {
+    location: "Bali",
+    role: "Chief of Technology",
+    division: "CEO Office",
+    employmentType: "Permanent"
+  }
+];
+
+
+
 const businessZillient = {
     "zillient-farm": zillientFarm,
     "zillient-education": zillientEducation,
@@ -3427,7 +3469,8 @@ const businessZillient = {
 const GlobalContext = createContext(null);
 const globalStates =  {
     globalContext: GlobalContext,
-    businessZillient
+    businessZillient,
+    zillientCareers
 };
 
 export default globalStates as any;
