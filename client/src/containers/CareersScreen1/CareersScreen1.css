@@ -105,6 +105,104 @@
     width: 23vw;
 }
 
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background-color: #043639a3;
+    backdrop-filter: blur(8px);
+    height: 40vh;
+    width: 90%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-inline: 1vw;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section{
+    width: 100%;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-1{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 1vw;
+    width: 100%;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-1>.form-group{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-1>.form-group.location{
+    padding-right: 0.5vw;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-1>.form-group.division{
+    padding-left: 0.5vw;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-1>.form-group>select{
+    box-sizing: border-box;
+    /* border: 1px solid yellow; */
+    padding: 1vw;
+    margin: 0;
+    color: rgb(19, 19, 19);
+    font-size: 0.9vw;
+    width: 100%;
+}
+/* .w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-1>.form-group>#division>option{
+    color: red ;
+    font-size: 12px;
+} */
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-2{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-2>.form-group.roles{
+    box-sizing: border-box;
+    padding-bottom: 1vw;
+    /* border: 1px solid yellow; */
+}
+
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-2>.form-group.roles>input{
+    border: 0;
+    padding-block: 1vw;
+    padding-inline: 0.6vw;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    
+}
+
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-button{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-button>button{
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    padding-block: 0.8vw;
+    padding-inline: 0.7vw;
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* tab view */
 .w-tab-careers-screen1 {

@@ -110,36 +110,40 @@ const CareersScreen1 = () =>{
                             <button type="submit">Submit</button>
                             </form> */}
                         <form className="form-container" onSubmit={handleSubmit}>
-                            <div className="form-group">
-                                <label htmlFor="location">Location:</label>
-                                <select id="location" value={location} onChange={handleLocationChange}>
-                                <option value="">Select Location</option>
-                                <option value="Jakarta">Jakarta</option>
-                                <option value="Surabaya">Surabaya</option>
-                                <option value="Bali">Bali</option>
-                                </select>
+                            <div className="form-section box-1">
+                                 <div className="form-group wrapper location">
+                                    {/* <label htmlFor="location">Location:</label> */}
+                                    <select id="location" value={location} onChange={handleLocationChange}>
+                                        <option value="">All Locations</option>
+                                        <option value="Jakarta">Jakarta</option>
+                                        <option value="Surabaya">Surabaya</option>
+                                        <option value="Bali">Bali</option>
+                                    </select>
+                                </div>
+                                <div className="form-group wrapper division">
+                                    {/* <label htmlFor="division">All Divisions:</label> */}
+                                    <select id="division" value={division} onChange={handleDivisionChange}>
+                                        <option value="">Select Division</option>
+                                        <option value="Commercial">Commercial</option>
+                                        <option value="Technology">Technology</option>
+                                        <option value="Product">Product</option>
+                                        <option value="Marketing">Marketing</option>
+                                        <option value="Operating">Operating</option>
+                                        <option value="CEO Office">CEO Office</option>
+                                    </select>
+                                </div>
                             </div>
-                            <div className="form-group">
-                                <label htmlFor="division">Division:</label>
-                                <select id="division" value={division} onChange={handleDivisionChange}>
-                                <option value="">Select Division</option>
-                                <option value="Commercial">Commercial</option>
-                                <option value="Technology">Technology</option>
-                                <option value="Product">Product</option>
-                                <option value="Marketing">Marketing</option>
-                                <option value="Operating">Operating</option>
-                                <option value="CEO Office">CEO Office</option>
-                                </select>
-                            </div>
-                            <div className="form-group">
-                                <label htmlFor="rolePattern">Role Pattern:</label>
-                                <input
-                                type="text"
-                                id="rolePattern"
-                                value={rolePattern}
-                                onChange={handleRolePatternChange}
-                                placeholder="Enter role pattern"
-                                />
+                            <div className="form-section box-2">
+                                <div className="form-group wrapper roles">
+                                    {/* <label htmlFor="rolePattern">Role Pattern:</label> */}
+                                    <input
+                                    type="text"
+                                    id="rolePattern"
+                                    value={rolePattern}
+                                    onChange={handleRolePatternChange}
+                                    placeholder="Type your dream position"
+                                    />
+                                </div>
                             </div>
                             {/* <div className="form-group">
                                 <label>Filtered Roles:</label>
@@ -153,7 +157,10 @@ const CareersScreen1 = () =>{
                                 }
                                 </ul>
                             </div> */}
-                            <button type="submit">Submit</button>
+                            <div className="form-section box-button">
+                                <button className="form-button" type="submit">Submit</button>
+                            </div>
+                            
                             </form>
                     </div>
                 </div>
