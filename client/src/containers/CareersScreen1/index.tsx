@@ -2,17 +2,23 @@ import { useContext, useEffect, useRef, useState } from "react";
 import globalStates from "../../utils/global";
 import "./CareersScreen1.css";
 import { ImgProjectLegal } from "../../assets";
+import { useNavigate } from "react-router-dom";
 
 const CareersScreen1 = () =>{
+    const navigate = useNavigate();
 
     const context = globalStates && globalStates.globalContext;
     const globalContext:any = useContext(context);
     const windowWidthClass = globalContext && globalContext.windowWidthClass;
+    const setGlobalDynamicData = globalContext && globalContext.setGlobalDynamicData;
+    
 
     const zillientCareers  = globalStates && globalStates.zillientCareers;
 
     const screenCareer1Ref = useRef(null) as any;
     useEffect(()=>{
+        
+
         const handleScroll =()=>{
             const setScreensOffset = globalContext && globalContext.setScreensOffset;
             const screenHome1 = screenCareer1Ref.current.getBoundingClientRect();
@@ -52,12 +58,32 @@ const CareersScreen1 = () =>{
     const handleRolePatternChange = (event:any) => {
         const pattern = event.target.value;
         setRolePattern(pattern);
-        setFilteredRoles(zillientCareers.filter((career:any) => career.role.toLowerCase().includes(pattern.toLowerCase())));
+        // setFilteredRoles(zillientCareers.filter((career:any) => career.role.toLowerCase().includes(pattern.toLowerCase())));
     };
 
   const handleSubmit = (event:any) => {
     event.preventDefault();
-    alert(`Selected Location: ${location}, Selected Division: ${division}, Role Pattern: ${rolePattern}`);
+    // alert(`Selected Location: ${location}, Selected Division: ${division}, Role Pattern: ${rolePattern}`);
+
+    setFilteredRoles(zillientCareers.filter((career:any) => {
+        // career.role.toLowerCase().includes("pattern.toLowerCase()");
+        return (
+            (career.role.toLowerCase().includes(rolePattern.toLowerCase())) &&
+            (career.location.toLowerCase().includes(location.toLowerCase())) && 
+            (career.division.toLowerCase().includes(division.toLowerCase()))
+        )
+    }));
+    setGlobalDynamicData(zillientCareers.filter((career:any) => {
+        // career.role.toLowerCase().includes("pattern.toLowerCase()");
+        return (
+            (career.role.toLowerCase().includes(rolePattern.toLowerCase())) &&
+            (career.location.toLowerCase().includes(location.toLowerCase())) && 
+            (career.division.toLowerCase().includes(division.toLowerCase()))
+        )
+    }))
+
+    navigate('/careers/list')
+    // alert(`Selected Location: ${location}, Selected Division: ${division}, Role Pattern: ${rolePattern}`);
   };
     
     return(
@@ -110,6 +136,9 @@ const CareersScreen1 = () =>{
                             <button type="submit">Submit</button>
                             </form> */}
                         <form className="form-container" onSubmit={handleSubmit}>
+                            <div className="form-section box-header">
+                                <h3>Search Jobs</h3>
+                            </div>
                             <div className="form-section box-1">
                                  <div className="form-group wrapper location">
                                     {/* <label htmlFor="location">Location:</label> */}
@@ -137,13 +166,14 @@ const CareersScreen1 = () =>{
                                 <div className="form-group wrapper roles">
                                     {/* <label htmlFor="rolePattern">Role Pattern:</label> */}
                                     <input
-                                    type="text"
-                                    id="rolePattern"
-                                    value={rolePattern}
-                                    onChange={handleRolePatternChange}
-                                    placeholder="Type your dream position"
+                                        type="text"
+                                        id="rolePattern"
+                                        value={rolePattern}
+                                        onChange={handleRolePatternChange}
+                                        placeholder="Type your dream position"
                                     />
                                 </div>
+                                <button className="form-button">Search</button>
                             </div>
                             {/* <div className="form-group">
                                 <label>Filtered Roles:</label>
@@ -157,10 +187,10 @@ const CareersScreen1 = () =>{
                                 }
                                 </ul>
                             </div> */}
-                            <div className="form-section box-button">
+                            {/* <div className="form-section box-button">
                                 <button className="form-button" type="submit">Submit</button>
                             </div>
-                            
+                             */}
                             </form>
                     </div>
                 </div>

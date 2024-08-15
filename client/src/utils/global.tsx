@@ -3429,6 +3429,42 @@ const zillientCareers = [
     division: "Technology",
     employmentType: "Permanent"
   },
+    {
+    location: "Jakarta",
+    role: "Commercial Sales",
+    division: "Commercial",
+    employmentType: "Permanent"
+  },
+  {
+    location: "Surabaya",
+    role: "IT Project Manager",
+    division: "Technology",
+    employmentType: "Permanent"
+  },
+  {
+    location: "Jakarta",
+    role: "Product Manager",
+    division: "Product",
+    employmentType: "Permanent"
+  },
+  {
+    location: "Surabaya",
+    role: "Sales Manager",
+    division: "Marketing",
+    employmentType: "Permanent"
+  },
+  {
+    location: "Bali",
+    role: "Finance Manager",
+    division: "Operating",
+    employmentType: "Permanent"
+  },
+  {
+    location: "Bali",
+    role: "Chief of Technology",
+    division: "CEO Office",
+    employmentType: "Permanent"
+  },
   {
     location: "Jakarta",
     role: "Product Manager",
