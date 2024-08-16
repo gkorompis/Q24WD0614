@@ -56,8 +56,16 @@
     justify-content: center;
 }
 .w-pc-careers-screen1>.wrapper>.content>.screen.tagline>h1{
-    font-size: 7vh;
+    font-size: 8vh;
     font-weight: bolder;
+    line-height: 130%;
+    font-family: 'CustomPoppinsBold';
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.tagline>h2 {
+    font-size: 3vh;
+    font-weight: bolder;
+    line-height: 140%;
+    /* font-family: 'CustomPoppinsBold'; */
 }
 
 .w-pc-careers-screen1>.wrapper>.content>.screen.form {
@@ -314,6 +322,7 @@
     font-size: 4vh;
     font-weight: bolder;
 }
+
 
 .w-tab-careers-screen1>.wrapper>.content>.screen.form {
     height: 100%;

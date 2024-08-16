@@ -97,7 +97,8 @@ const CareersScreen1 = () =>{
                 </div>
                 <div className="content">
                     <div className="screen tagline">
-                        <h1>START YOUR CAREER WITH ZILLIENT FOR ACHIEVE BEST FUTURE</h1>
+                        <h1>{"Join Zillient Group today".toUpperCase()}</h1>
+                        <h2>{"and become a part of a passionate and talented team driving a more sustainable future.".toUpperCase()}</h2>
                     </div>
                     <div className="screen form">
                         {/* <div className="form">

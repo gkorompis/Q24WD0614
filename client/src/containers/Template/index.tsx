@@ -65,13 +65,8 @@ const Template = () =>{
                 <div className="shield">
                     
                 </div>
-                <div className="content">
-                    <div className="frame">
-                        <img 
-                            alt = {componentData.content.screen.image.alt}
-                            src = {componentData.content.screen.image.src}
-                        />
-                    </div>
+                <div className="content display">
+                    <h1>New Screen Content</h1>
                 </div>
             </div>
         </div>

@@ -1,18 +1,18 @@
-.w-pc-about-us-template {
+.w-pc-career-division-collage {
     /* background-color: rgb(226, 226, 226); */
     height: 100vh;
     width: 100%;
     box-sizing: border-box;
 }
 
-.w-pc-about-us-template>.wrapper {
+.w-pc-career-division-collage>.wrapper {
     height: 100%;
     width: 100%;
     /* background-color: wheat; */
     position: relative;
 }
 
-.w-pc-about-us-template>.wrapper>.background {
+.w-pc-career-division-collage>.wrapper>.background {
     position: absolute;
     top: 0;
     left: 0;
@@ -23,17 +23,17 @@
     z-index: 101;
 }
 
-.w-pc-about-us-template>.wrapper>.background>.frame {
+.w-pc-career-division-collage>.wrapper>.background>.frame {
     height: 100%;
     width: 100%;
     overflow: hidden;
 }
 
-.w-pc-about-us-template>.wrapper>.background>.frame>img {
+.w-pc-career-division-collage>.wrapper>.background>.frame>img {
     width: 100%;
 }
 
-.w-pc-about-us-template>.wrapper>.shield {
+.w-pc-career-division-collage>.wrapper>.shield {
     position: absolute;
     top: 0;
     left: 0;
@@ -44,7 +44,7 @@
     z-index: 102;
 }
 
-.w-pc-about-us-template>.wrapper>.content {
+.w-pc-career-division-collage>.wrapper>.content {
     position: absolute;
     top: 0;
     left: 0;
@@ -54,9 +54,23 @@
     box-sizing: border-box;
     z-index: 102;
 }
-.w-pc-about-us-template>.wrapper>.content.display {
+.w-pc-career-division-collage>.wrapper>.content.display{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.w-pc-career-division-collage>.wrapper>.content.display>.wrapper.collage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 30vh;
+    box-sizing: border-box;
+}
+.w-pc-career-division-collage>.wrapper>.content.display>.wrapper.collage>.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px dashed black;
 }
