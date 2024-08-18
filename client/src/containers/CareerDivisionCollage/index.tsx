@@ -1,21 +1,36 @@
-import { useContext, useEffect, useRef } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import globalStates from "../../utils/global";
 import "./CareerDivisionCollage.css";
+import { useNavigate } from "react-router-dom";
 // import { BannerCoffee1, BannerCoffee2 } from "../../assets";
 
 const CareerDivisionCollage = () =>{
 
+    const navigate = useNavigate();
+
+    const [isCardHover, setIsCardHover] = useState({}) as any;
+
+    const [cardKey, setCardKey] = useState(null) as any;
+    const cardRef = useRef([]) as any;
+
     const context = globalStates && globalStates.globalContext;
     const globalContext:any = useContext(context);
     const windowWidthClass = globalContext && globalContext.windowWidthClass;
+    const setGlobalDynamicData = globalContext && globalContext.setGlobalDynamicData;
 
     const zillientCareers = globalStates && globalStates.zillientCareers;
     const divisions = zillientCareers.map((career:any) => career.division);
     const uniqueDivisions = [...new Set(divisions)];
 
+    const careerDivision = globalStates && globalStates.careerDivision;
+
     const screenCareerDivisionCollageRef = useRef(null) as any;
+    
     // console.log({})
     useEffect(()=>{
+        const cardElement = cardRef.current;
+        setCardKey(cardElement.id)
+
         const handleScroll =()=>{
             const setScreensOffset = globalContext && globalContext.setScreensOffset;
             const screenCareerDivisionCollage = screenCareerDivisionCollageRef.current.getBoundingClientRect();
@@ -52,24 +67,54 @@ const CareerDivisionCollage = () =>{
                     src: ""
                 }
             },
-            listDivision: uniqueDivisions || ["division_name"]
+            listDivision: careerDivision || uniqueDivisions || ["division_name"]
         }
     };
     
 
     const itemLength = (componentData.content.listDivision.length) || 1;
     const heightFactor = Math.ceil(+itemLength/3);
-    const autoRowHeight = 30;
-    const divHeight = +heightFactor*(autoRowHeight+10);
 
-    const templateColumnWidth = 30;
+    
+    const templateColumnWidth = 28;
+    const autoRowHeight = 28;
+    const divHeight = +heightFactor*(autoRowHeight+10);
+    
     const modHeightFactor = +itemLength % 3;
     const gridRepeat = +itemLength > 2 ? 3 : modHeightFactor;
 
+    const componentStyle={
+        height: `${divHeight}vw`
+    }
 
+    const [filteredRoles, setFilteredRoles] = useState(zillientCareers);
+    const handleSubmit = (event:any) => {
+        event.preventDefault();
+        // alert(`Selected Location: ${location}, Selected Division: ${division}, Role Pattern: ${rolePattern}`);
+
+        setFilteredRoles(zillientCareers.filter((career:any) => {
+            // career.role.toLowerCase().includes("pattern.toLowerCase()");
+            return (
+                (career.role.toLowerCase().includes("")) &&
+                (career.location.toLowerCase().includes("")) && 
+                (career.division.toLowerCase().includes(""))
+            )
+        }));
+        setGlobalDynamicData(zillientCareers.filter((career:any) => {
+            // career.role.toLowerCase().includes("pattern.toLowerCase()");
+            return (
+                (career.role.toLowerCase().includes("")) &&
+                (career.location.toLowerCase().includes("")) && 
+                (career.division.toLowerCase().includes(""))
+            )
+        }))
+
+        navigate('/careers/list')
+        // alert(`Selected Location: ${location}, Selected Division: ${division}, Role Pattern: ${rolePattern}`);
+    };
     return(
         <div ref={screenCareerDivisionCollageRef} className={`${windowWidthClass}-career-division-collage`}
-            style={{height: `${divHeight}vw`}}
+            style={componentStyle}
         >
             <div className="wrapper">
                 <div className="background display">
@@ -84,7 +129,7 @@ const CareerDivisionCollage = () =>{
                     
                 </div>
                 <div className="content display">
-                    <h1>career division collage</h1>
+                    <h2>Start your journey here</h2>
                     <div className="wrapper collage"
                         style={
                         {
@@ -95,11 +140,51 @@ const CareerDivisionCollage = () =>{
                     >
                     {
                         componentData.content.listDivision.map((division: any, index:any)=>{
+                            const {title, image} = division;
+                
                             return (
-                                <div key={index} className="item">
-                                    <div className="collage">
+                                <div id={index} ref={(el:any)=>(cardRef.current[index]=el)} key={index} className="item">
+
+                                    <div className="card wrapper-relative"
+                                        onClick={handleSubmit}
+                                        onMouseEnter={()=>{
+                                            // alert(hoverIndex)
+                                            // alert(cardRef.current[index].id);
+                                            setCardKey(cardRef.current[index].id);
+
+                                            let temp:any = {};
+                                            temp[index] = true;
+                                         
+                                            // setCardKey(index)
+                                            setIsCardHover((prev:any)=>{return({...prev, ...temp})})
+                                            
+                                        }}
+                                        onMouseLeave={()=>{
+                                            // setIsCardHover(false)
+                                            // setCardKey(cardRef.current[index].id);
+                                            let temp:any = {};
+                                            temp[index] = false;
+                                            setCardKey(null)
+                                            setIsCardHover((prev:any)=>{return({...prev, ...temp})})
+                                        }}
+                                    >
+                                        <div className="card-section wrapper-abs background">
+                                            <div className="frame">
+                                                <img 
+                                                    src = {image.src}
+                                                    alt = {image.alt}
+                                                />
+                                            </div>
+                                        </div>
+                                        <div className={`card-section wrapper-abs shield ${isCardHover[index]?"hover": ""}`}>
+
+                                        </div>
+                                        <div className="card-section wrapper-abs content">
+                                            <h2>{title}</h2>
+                                            <p>7 openings</p>
+                                        </div>
                                     </div>
-                                    <p>{division}</p>
+                                    
                                 </div>
                             )
                         })

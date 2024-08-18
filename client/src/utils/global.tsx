@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import { IconBusinessConstruction, IconBusinessConsultation, IconBusinessEducation, IconBusinessFarm, IconBusinessTour, ImgBusinessConstruction, ImgBusinessConsultation, ImgBusinessEdu, ImgBusinessFarm, ImgBusinessTour, ImgBusinessZillientConstruction, ImgBusinessZillientConsultation, ImgBusinessZillientEducation, ImgBusinessZillientFarm, ImgBusinessZillientTour } from "../assets";
+import { IconBusinessConstruction, IconBusinessConsultation, IconBusinessEducation, IconBusinessFarm, IconBusinessTour, ImgBusinessConstruction, ImgBusinessConsultation, ImgBusinessEdu, ImgBusinessFarm, ImgBusinessTour, ImgBusinessZillientConstruction, ImgBusinessZillientConsultation, ImgBusinessZillientEducation, ImgBusinessZillientFarm, ImgBusinessZillientTour, ImgDivisionBox1, ImgDivisionBox2, ImgDivisionBox3, ImgDivisionBox4, ImgDivisionBox5, ImgDivisionBox6 } from "../assets";
 
 
 const zillientFarm = {
@@ -3501,12 +3501,58 @@ const businessZillient = {
     "zillient-consultation": zillientConsultation
 };
 
+const careerDivision = [
+  {
+    title: "Commercial",
+    image: {
+      src: ImgDivisionBox1,
+      alt: ""
+    }
+  },
+  {
+    title: "Technology",
+    image: {
+      src: ImgDivisionBox2,
+      alt: ""
+    }
+  },
+  {
+    title: "Product",
+    image: {
+      src: ImgDivisionBox3,
+      alt: ""
+    }
+  },
+  {
+    title: "Marketing",
+    image: {
+      src: ImgDivisionBox4,
+      alt: ""
+    }
+  },
+  {
+    title: "Operating",
+    image: {
+      src: ImgDivisionBox5,
+      alt: ""
+    }
+  },
+  {
+    title: "CEO Officer",
+    image: {
+      src: ImgDivisionBox6,
+      alt: ""
+    }
+  }
+]
+
 // use-context
 const GlobalContext = createContext(null);
 const globalStates =  {
     globalContext: GlobalContext,
     businessZillient,
-    zillientCareers
+    zillientCareers,
+    careerDivision
 };
 
 export default globalStates as any;

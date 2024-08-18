@@ -92,3 +92,10 @@ export { default as ImgBusinessZillientTour } from './img/business/business_tour
 export { default as ImgBusinessZillientConsultation } from './img/business/business_consu.png';
 
 export { default as IconArrow } from './img/icons/IconArrow.png'
+
+export { default as ImgDivisionBox6 } from './img/career/ImgDivisionBox6.jpg'
+export { default as ImgDivisionBox5 } from './img/career/ImgDivisionBox5.jpg'
+export { default as ImgDivisionBox4 } from './img/career/ImgDivisionBox4.jpg'
+export { default as ImgDivisionBox3 } from './img/career/ImgDivisionBox3.jpg'
+export { default as ImgDivisionBox2 } from './img/career/ImgDivisionBox2.jpg'
+export { default as ImgDivisionBox1 } from './img/career/ImgDivisionBox1.jpg'
