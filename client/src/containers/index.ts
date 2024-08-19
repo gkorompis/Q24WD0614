@@ -47,5 +47,7 @@ export { default as ContactScreen1Alt } from './ContactScreen1Alt'
 export { default as ZillientScreenCollage } from './ZillientScreenCollage';
 export { default as ZillientScreenSubservice } from './ZillientScreenSubservice';
 
-export { default as CareerListScreen } from './CareerListScreeen'
-export { default as CareerDivisionCollage } from './CareerDivisionCollage'
+export { default as CareerListScreen } from './CareerListScreeen';
+export { default as CareerDivisionCollage } from './CareerDivisionCollage';
+export { default as CareerMeaningful } from './CareerMeaningful';
+

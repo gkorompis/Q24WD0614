@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import { IconBusinessConstruction, IconBusinessConsultation, IconBusinessEducation, IconBusinessFarm, IconBusinessTour, ImgBusinessConstruction, ImgBusinessConsultation, ImgBusinessEdu, ImgBusinessFarm, ImgBusinessTour, ImgBusinessZillientConstruction, ImgBusinessZillientConsultation, ImgBusinessZillientEducation, ImgBusinessZillientFarm, ImgBusinessZillientTour, ImgDivisionBox1, ImgDivisionBox2, ImgDivisionBox3, ImgDivisionBox4, ImgDivisionBox5, ImgDivisionBox6 } from "../assets";
+import { IconBusinessConstruction, IconBusinessConsultation, IconBusinessEducation, IconBusinessFarm, IconBusinessTour, ImgBusinessConstruction, ImgBusinessConsultation, ImgBusinessEdu, ImgBusinessFarm, ImgBusinessTour, ImgBusinessZillientConstruction, ImgBusinessZillientConsultation, ImgBusinessZillientEducation, ImgBusinessZillientFarm, ImgBusinessZillientTour, ImgDivisionBox1, ImgDivisionBox2, ImgDivisionBox3, ImgDivisionBox4, ImgDivisionBox5, ImgDivisionBox6, ImgGalleryItem1, ImgGalleryItem2, ImgGalleryItem3, ImgGalleryItem4, ImgGalleryItem5, ImgGalleryItem6, ImgGalleryItem7, ImgGalleryItem8 } from "../assets";
 
 
 const zillientFarm = {
@@ -3546,13 +3546,81 @@ const careerDivision = [
   }
 ]
 
+const meaningfulCareerGallery = [
+  {
+    type: "small_potrait",
+    image:{
+      src: ImgGalleryItem1,
+      alt: ""
+    },
+    title: "img-1"
+  },
+  {
+    type: "small_potrait",
+    image:{
+      src: ImgGalleryItem2,
+      alt: ""
+    },
+    title: "img-1"
+  },
+  {
+    type: "small_potrait",
+    image:{
+      src: ImgGalleryItem3,
+      alt: ""
+    },
+    title: "img-1"
+  },
+  {
+    type: "small_potrait",
+    image:{
+      src: ImgGalleryItem4,
+      alt: ""
+    },
+    title: "img-1"
+  },
+  {
+    type: "small_potrait",
+    image:{
+      src: ImgGalleryItem5,
+      alt: ""
+    },
+    title: "img-1"
+  },
+  {
+    type: "small_potrait",
+    image:{
+      src: ImgGalleryItem6,
+      alt: ""
+    },
+    title: "img-1"
+  },
+  {
+    type: "small_potrait",
+    image:{
+      src: ImgGalleryItem7,
+      alt: ""
+    },
+    title: "img-1"
+  },
+  {
+    type: "small_potrait",
+    image:{
+      src: ImgGalleryItem8,
+      alt: ""
+    },
+    title: "img-1"
+  },
+
+]
 // use-context
 const GlobalContext = createContext(null);
 const globalStates =  {
     globalContext: GlobalContext,
     businessZillient,
     zillientCareers,
-    careerDivision
+    careerDivision,
+    meaningfulCareerGallery
 };
 
 export default globalStates as any;

@@ -1,5 +1,5 @@
 import { AppFooter, AppNavbar } from "../../components";
-import { CareerDivisionCollage, CareersScreen1 } from "../../containers";
+import { CareerDivisionCollage, CareerMeaningful, CareersScreen1 } from "../../containers";
 
 
 const Careers =()=>{
@@ -9,6 +9,7 @@ const Careers =()=>{
         <div className="">
             <AppNavbar/>
             <CareersScreen1/>
+            <CareerMeaningful/>
             <CareerDivisionCollage/>
             <AppFooter/>
         </div>
