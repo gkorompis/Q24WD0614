@@ -108,3 +108,10 @@ export { default as ImgGalleryItem5 } from './img/gallery/ImgGalleryItem5.jpg'
 export { default as ImgGalleryItem6 } from './img/gallery/ImgGalleryItem6.jpg'
 export { default as ImgGalleryItem7 } from './img/gallery/ImgGalleryItem7.jpg'
 export { default as ImgGalleryItem8 } from './img/gallery/ImgGalleryItem8.jpg'
+
+export { default as ImgIconProva1 } from './img/icons/ImgIconProva1.png'
+export { default as ImgIconProva2 } from './img/icons/ImgIconProva2.png'
+export { default as ImgIconProva3 } from './img/icons/ImgIconProva3.png'
+export { default as ImgIconProva4 } from './img/icons/ImgIconProva4.png'
+export { default as ImgIconProva5 } from './img/icons/ImgIconProva5.png'
+
