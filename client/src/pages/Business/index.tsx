@@ -1,5 +1,5 @@
 import { AppFooter, AppNavbar } from "../../components";
-import { BusinessScreen3, BusinessScreen1, HomeScreen3, ZillientScreenBanner, BannerScreen } from "../../containers";
+import { BusinessScreen3, BusinessScreen1, HomeScreen3, ZillientScreenBanner, BannerScreen, TestimonyConveyorNext } from "../../containers";
 import globalStates from "../../utils/global";
 
 
@@ -26,6 +26,7 @@ const Careers =()=>{
                 title: "Business",
             }} />
             <HomeScreen3/>
+            <TestimonyConveyorNext/>
             <ZillientScreenBanner data={businessDetailFarm}/>
             <ZillientScreenBanner data={businessDetailEducation}/>
             <ZillientScreenBanner data={businessDetailConstruction}/>

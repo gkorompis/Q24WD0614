@@ -51,5 +51,6 @@ export { default as CareerListScreen } from './CareerListScreeen';
 export { default as CareerDivisionCollage } from './CareerDivisionCollage';
 export { default as CareerMeaningful } from './CareerMeaningful';
 export { default as ProvaConveyor } from './ProvaConveyor';
+export { default as TestimonyConveyorNext } from './TestimonyConveyorNext';
 
 

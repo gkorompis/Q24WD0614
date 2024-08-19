@@ -115,3 +115,7 @@ export { default as ImgIconProva3 } from './img/icons/ImgIconProva3.png'
 export { default as ImgIconProva4 } from './img/icons/ImgIconProva4.png'
 export { default as ImgIconProva5 } from './img/icons/ImgIconProva5.png'
 
+export { default as ImgTestimony1 } from './img/testimony/ImgTestimony1.jpg';
+export { default as ImgTestimony2 } from './img/testimony/ImgTestimony2.jpg';
+export { default as ImgTestimony3 } from './img/testimony/ImgTestimony3.jpg'
+
