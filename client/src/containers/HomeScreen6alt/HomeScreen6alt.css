@@ -290,7 +290,7 @@
     width: 100%;
     position: relative;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .w-mob-home-screen6-alt>.wrapper>.background {
