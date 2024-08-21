@@ -62,7 +62,9 @@
     padding-top: 10vh;
     background-color: var(--screen-bg-color);
         color: var(--screen-text-color);
-    /* border: 1px solid red; */
+    /* border: 3px solid red; */
+    box-sizing: border-box;
+    /* background-color: red; */
 }
 
 .w-mob-home-screen-2>.wrapper {

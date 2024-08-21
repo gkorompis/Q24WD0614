@@ -276,8 +276,12 @@
 
 /* mobile */
 .w-mob-home-screen6-alt {
-    height: 128vh;
+    height: 100vh;
     width: 100%;
+    background-image: url("../../assets/img/homescreen6/ImgBannerHomescreen6.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     /* background-color: yellow; */
 }
 
@@ -285,6 +289,8 @@
     height: 100vh;
     width: 100%;
     position: relative;
+    box-sizing: border-box;
+    border: 1px solid red;
 }
 
 .w-mob-home-screen6-alt>.wrapper>.background {
@@ -317,7 +323,7 @@
     z-index: 1001;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 87% 42%;
+    grid-template-rows: 50% 50%;
     box-sizing: border-box;
 }
 
@@ -368,7 +374,8 @@
     box-sizing: border-box;
     padding-inline: 0vw;
     width: 100%;
-    background-color: #22939b;
+    background-color: #22939b26;
+    backdrop-filter: blur(2px);
     /* background-color: red; */
     /* border: 1px solid blue; */
 }

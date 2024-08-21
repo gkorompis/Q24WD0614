@@ -11,6 +11,7 @@
     justify-content: center;
     padding-block: 3vh;
     /* border: 1px solid red; */
+    box-sizing: border-box;
 }
 .w-pc-home-screen-2-alt>.wrapper{
     /* border: 1px solid white; */
@@ -72,6 +73,9 @@
     align-items: center;
     justify-content: center;
     padding-block: 3vh;
+    box-sizing: border-box;
+    /* border: 3px solid red; */
+    height: 100vh;
 }
 
 .w-mob-home-screen-2-alt>.wrapper {
@@ -80,6 +84,14 @@
     width: 90vw;
     overflow: hidden;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.w-mob-home-screen-2-alt>.wrapper>.frame{
+    box-sizing: border-box;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -100,4 +112,6 @@
 }
 .w-mob-home-screen-2-alt>.wrapper>.frame>img{
     width: 100%;
+    /* border: 1px solid yellow; */
+    box-sizing: border-box;
 }

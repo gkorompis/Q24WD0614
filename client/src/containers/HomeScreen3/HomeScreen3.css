@@ -90,23 +90,32 @@ img{
     transition: 0.5s ease;
 }
 
-.w-pc-home-screen3>.wrapper>.cardholder>.grid-item>.card>.label-wrapper{
+.w-pc-home-screen3>.wrapper>.cardholder>.grid-item>.card>.label{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    /* background-color: #0cacb7; */
+}
+.w-pc-home-screen3>.wrapper>.cardholder>.grid-item>.card>.label>.label-wrapper{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: baseline;
+    box-sizing: border-box;
 }
-.w-pc-home-screen3>.wrapper>.cardholder>.grid-item>.card>.label-wrapper>img{
+.w-pc-home-screen3>.wrapper>.cardholder>.grid-item>.card>.label>.label-wrapper>img{
     height: 35px;
 }
-.w-pc-home-screen3>.wrapper>.cardholder>.grid-item>.card>.label-wrapper>p.main{
+.w-pc-home-screen3>.wrapper>.cardholder>.grid-item>.card>.label>.label-wrapper>p.main{
     /* margin-top: 1vh; */
     font-size: 3.5vh;
     font-family: "CustomPoppinsBold";
     /* background-color: red; */
     /* color: #fff; */
 }
-.w-pc-home-screen3>.wrapper>.cardholder>.grid-item>.card>.label-wrapper>p.label{
+.w-pc-home-screen3>.wrapper>.cardholder>.grid-item>.card>.label>.label-wrapper>p.label{
     font-size: 2.6vh;
     /* font-family: "CustomPoppinsBold"; */
     color:#1D1D1B ;
@@ -206,18 +215,18 @@ img{
     
 }
 
-.w-tab-home-screen3>.wrapper>.cardholder>.grid-item>.card>.label-wrapper {
+.w-tab-home-screen3>.wrapper>.cardholder>.grid-item>.card>.label>.label-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: baseline;
 }
 
-.w-tab-home-screen3>.wrapper>.cardholder>.grid-item>.card>.label-wrapper>img {
+.w-tab-home-screen3>.wrapper>.cardholder>.grid-item>.card>.label>.label-wrapper>img {
     height: 1.8vh;
 }
 
-.w-tab-home-screen3>.wrapper>.cardholder>.grid-item>.card>.label-wrapper>p.main {
+.w-tab-home-screen3>.wrapper>.cardholder>.grid-item>.card>.label>.label-wrapper>p.main {
     /* margin-top: 1vh; */
     font-size: 1.4vh;
     font-family: "CustomPoppinsBold";
@@ -225,7 +234,7 @@ img{
     /* color: #fff; */
 }
 
-.w-tab-home-screen3>.wrapper>.cardholder>.grid-item>.card>.label-wrapper>p.label {
+.w-tab-home-screen3>.wrapper>.cardholder>.grid-item>.card>.label>.label-wrapper>p.label {
     font-size: 1.3vh;
     /* font-family: "CustomPoppinsBold"; */
     color: #1D1D1B;
@@ -239,9 +248,9 @@ img{
 
 /* mobile */
 .w-mob-home-screen3 {
-    /* height: 60vw; */
+    /* height: 100vh; */
 
-    padding-block: 5vh;
+    /* padding-block: 5vh; */
     color: var(--screen-text-color-alt);
     box-sizing: border-box;
     background-color: rgba(245, 245, 245, 0.461);
@@ -250,6 +259,7 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* background-color: blue; */
 
 
 }
@@ -262,7 +272,11 @@ img{
     justify-content: center;
     /* border: 1px solid green; */
     width: 100%;
+    height: 100%;
     /* padding-inline: 2vw; */
+    /* background-color: pink; */
+    padding-block: 5vh;
+    box-sizing: border-box;
 }
 
 .w-mob-home-screen3>.wrapper>h2 {
@@ -271,31 +285,41 @@ img{
 }
 
 .w-mob-home-screen3>.wrapper>.cardholder {
-    margin-top: 4vh;
-    display: grid;
-    width: 100%;
+    /* margin-top: 4vh; */
+    /* display: grid; */
+    /* width: 100%; */
 
-    grid-template-columns: repeat(auto-fit, 80%);
-    grid-auto-rows: 88vw;
-    row-gap: 2vh;
+    /* grid-template-columns: repeat(auto-fit, 80%); */
+    /* grid-auto-rows: 88vw; */
+    /* row-gap: 2vh; */
     /* border: 1px solid black; */
-    justify-content: center;
-
-}
-
-.w-mob-home-screen3>.wrapper>.cardholder>.grid-item {
-    /* border: 1px solid red; */
-    width: 100%;
+    /* justify-content: center; */
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
+    padding-inline: 3vh;
+
+}
+
+.w-mob-home-screen3>.wrapper>.cardholder>.grid-item{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
     /* width: 18vw; */
 }
 
 .w-mob-home-screen3>.wrapper>.cardholder>.grid-item>.card {
     /* overflow: hidden; */
-    width: 96%;
+    width: 100%;
     height: 100%;
     border-radius: 15px;
     cursor: pointer;
@@ -304,41 +328,64 @@ img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 1.8vh;
+    padding-bottom: 1.5vh;
+    padding-inline: 1.5vh;
+    box-sizing: border-box;
+   
 }
 
 .w-mob-home-screen3>.wrapper>.cardholder>.grid-item>.card>.frame {
     /* border: 1px solid red; */
-    height: 70%;
-    width: 80%;
+    height: 80%;
+    width: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 3vh;
+    /* margin-bottom: 3vh; */
     border-radius: 15px;
-    /* border: 1px solid black;/ */
+    /* border: 1px solid black; */
+    
+    box-sizing: border-box;
 
 }
 
 .w-mob-home-screen3>.wrapper>.cardholder>.grid-item>.card>.frame>img {
-    height: 100%;
+    width: 100%;
     border-radius: 5px;
     transition: 0.5s ease;
 
 }
 
-.w-mob-home-screen3>.wrapper>.cardholder>.grid-item>.card>.label-wrapper {
+.w-mob-home-screen3>.wrapper>.cardholder>.grid-item>.card>.label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 20%;
+    box-sizing: border-box;
+    /* padding-block: 1vh; */
+    margin-top: 1vh;
+    /* background-color: gray; */
+}
+.w-mob-home-screen3>.wrapper>.cardholder>.grid-item>.card>.label>.label-wrapper{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: baseline;
+    box-sizing: border-box;
+    /* border: 1px solid yellow; */
 }
 
-.w-mob-home-screen3>.wrapper>.cardholder>.grid-item>.card>.label-wrapper>img {
+.w-mob-home-screen3>.wrapper>.cardholder>.grid-item>.card>.label>.label-wrapper>img{
     height: 4vh;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
 }
 
-.w-mob-home-screen3>.wrapper>.cardholder>.grid-item>.card>.label-wrapper>p.main {
+.w-mob-home-screen3>.wrapper>.cardholder>.grid-item>.card>.label>.label-wrapper>p.main{
     /* margin-top: 1vh; */
     font-size: 4vh;
     font-family: "CustomPoppinsBold";
@@ -346,13 +393,13 @@ img{
     /* color: #fff; */
 }
 
-.w-mob-home-screen3>.wrapper>.cardholder>.grid-item>.card>.label-wrapper>p.label {
+.w-mob-home-screen3>.wrapper>.cardholder>.grid-item>.card>.label>.label-wrapper>p.label{
     font-size: 3vh;
     /* font-family: "CustomPoppinsBold"; */
     color: #1D1D1B;
 }
 
-.w-mob-home-screen3>.wrapper>.cardholder>.grid-item>.card>.frame>img:hover {
-    height: 110%;
+.w-mob-home-screen3>.wrapper>.cardholder>.grid-item>.card>.frame>img:hover{
+    transform: scale(1.1);
     transition: 0.5s ease;
 }

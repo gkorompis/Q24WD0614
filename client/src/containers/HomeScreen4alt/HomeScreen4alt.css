@@ -446,20 +446,22 @@ img{
 
 /* mobile */
 .w-mob-home-screen4-alt {
-
     color: var(--screen-text-color);
-    /* padding-bottom: 10vh; */
+    box-sizing: border-box;
+    /* padding-block: 2vh; */
+    /* background-color: #22939b; */
+
 
 }
 
 .w-mob-home-screen4-alt>.section.header {
-    padding-block: 5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-inline: 3vw;
+    padding-inline: 3vh;
     box-sizing: border-box;
     background-color: #22939b;
+    padding-block: 5vh;
     /* border: 1px solid red; */
 }
 
@@ -468,23 +470,35 @@ img{
     font-family: "CustomPoppinsBold";
 }
 
+
 .w-mob-home-screen4-alt>.section.header>.wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 2vh;
+    box-sizing: border-box;
     /* border: 1px solid red; */
     width: 100%;
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        /* background-color: yellow; */
+        margin-top: 1vh;
 }
 
 .w-mob-home-screen4-alt>.section.header>.wrapper>.desc {
-    font-size: 2vw;
-    width: 40%;
+    font-size: 1.8vh;
+    width: 80%;
+    box-sizing: border-box;
+    padding-right: 2.5vw;
+    
     /* line-height: 4.3vh; */
 }
 
 .w-mob-home-screen4-alt>.section.header>.wrapper>.button {
-    /* padding-block: 1vh; */
+    padding-block: 1vh;
     padding-inline: 3vw;
 
     background-color: var(--screen-bg-color);
@@ -493,15 +507,16 @@ img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2vh;
     font-weight: 700;
     border-radius: 30px;
     cursor: pointer;
     color: #22939b;
     background-color: #fff;
     transition: 0.3s ease;
-    height: 4vw;
-
+    height: 80%;
+    width: 20vw;
+    text-align: center;
 }
 
 .w-mob-home-screen4-alt>.section.header>.wrapper>.button:hover {
@@ -511,32 +526,33 @@ img{
 
 
 .w-mob-home-screen4-alt>.section.ladders {
-    padding-block: 5vh;
+    padding-block: 10vw;
     display: grid;
     grid-template-columns: repeat(auto-fit, 100%);
-    grid-template-rows: repeat(5, 110vw);
-    height: 560vw;
+    grid-template-rows: repeat(5, 216vw);
+    height: 1100vw;
+    /* 1080+20*/
     background-color: var(--screen-bg-color);
     box-sizing: border-box;
 }
 
-.w-mob-home-screen4-alt>.section.ladders>.grid-item {
+.w-mob-home-screen4-alt>.section.ladders>.grid-item{
     display: grid;
     grid-template-columns: repeat(auto-fit, 100%);
-    grid-template-rows: 10% 90%;
+    grid-template-rows: 7% 93%;
     /* border: 0.3px solid white; */
     box-sizing: border-box;
     padding-block: 1.8vh;
     padding-inline: 5vw;
+    /* background-color: yellow; */
 
 }
 
 
 
-.w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.tab {
-    width: 20vw;
+.w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.tab{
+    width:50vw;
     background-color: #f8f8f8;
-
     height: 100%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -551,24 +567,36 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    width: 100%;
     /* background-color: red; */
+    /* background-color: black; */
 }
 
 .w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.tab>.label-wrapper>img {
-    height: 3.3vw;
+    height: 5vh;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.tab>.label-wrapper>.text-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
 }
 
-.w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.tab>.label-wrapper>p.main {
+.w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.tab>.label-wrapper>.text-wrapper>p.main {
     /* margin-top: 1vh; */
-    font-size: 2.5vw;
+    font-size: 2vh;
     font-family: "CustomPoppinsBold";
     color: #22939b;
     /* background-color: red; */
     /* color: #fff; */
 }
 
-.w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.tab>.label-wrapper>p.label {
+.w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.tab>.label-wrapper>.text-wrapper>p.label{
     font-size: 2vw;
     /* font-family: "CustomPoppinsBold"; */
     color: #1D1D1B;
@@ -661,7 +689,10 @@ img{
 }
 
 .w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.content>.section>.text-wrapper>p {
-    font-size: 2vw;
+    font-size: 4vw;
+    box-sizing: border-box;
+    line-height: 140%;
+
 }
 
 .w-mob-home-screen4-alt>.section.ladders>.grid-item>.folder>.content>.section>.text-wrapper>p.button {

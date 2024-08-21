@@ -58,11 +58,14 @@ const HomeScreen3 = () =>{
                                         <div className="frame">
                                             <img alt={title + "zillient.com"} src={imgSrc}/>
                                         </div>
-                                        <div className="label-wrapper">
-                                            <img alt={`${title}`} src={iconSrc} />
-                                            <p className="main">Zillient</p>
-                                            <p className="label">{label}</p>
+                                        <div className="label">
+                                            <div className="label-wrapper">
+                                                <img alt={`${title}`} src={iconSrc} />
+                                                <p className="main">Zillient</p>
+                                                <p className="label">{label}</p>
+                                            </div>
                                         </div>
+                                        
                                         
                                     </div>
                                     
