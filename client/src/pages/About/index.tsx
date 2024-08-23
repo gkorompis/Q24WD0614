@@ -20,10 +20,10 @@ const About = () => {
             <AboutUsScreen3/>
             <AboutUsScreen4Alt/>
             {/* <AboutUsScreen4/> */}
-            {/* <AboutUsScreen5Alt/> */}
-            {/* <AboutUsScreen6/> */}
-            {/* <AboutUsScreen7/> */}
-            {/* <AppFooter/> */}
+            <AboutUsScreen5Alt/>
+            <AboutUsScreen6/>
+            <AboutUsScreen7/>
+            <AppFooter/>
         </div>
     )
 };

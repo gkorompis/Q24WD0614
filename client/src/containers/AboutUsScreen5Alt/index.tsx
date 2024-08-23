@@ -41,19 +41,19 @@ const AboutUsScreen5Alt = () =>{
                 </div>
                 <div className="content display">
                    <div className="screen object-wrapper">
-                            <div className="grid-item image">
-                                <div className="frame">
-                                    <img 
-                                    src={componentData.background.image.src}
-                                    alt={componentData.background.image.alt} />
+                        <div className="grid-item image">
+                            <div className="frame">
+                                <img 
+                                src={componentData.background.image.src}
+                                alt={componentData.background.image.alt} />
+                            </div>
+                        </div>
+                        <div className="grid-item text">
+                                <div className="text-wrapper">
+                                    <h2>{componentData.content.screen.title}</h2>
+                                    <p>{componentData.content.screen.text}</p>
                                 </div>
-                            </div>
-                            <div className="grid-item text">
-                                    <div className="text-wrapper">
-                                        <h2>{componentData.content.screen.title}</h2>
-                                        <p>{componentData.content.screen.text}</p>
-                                    </div>
-                            </div>
+                        </div>
                    </div>
                 </div>
             </div>
