@@ -47,7 +47,6 @@ const AboutUsScreen3 = () =>{
                         </div>
                     </div>
                     <div className="grid-item right display">
-                  
                             <div className="child-background">
                                  <div className="frame"> 
                                     <img alt="bendera merah putih" src={ImgAboutUsScreen3} />
@@ -69,8 +68,6 @@ const AboutUsScreen3 = () =>{
                                     </div>
                                 </div>
                             </div>
-                
-                       
                     </div>
                 </div>
             </div>

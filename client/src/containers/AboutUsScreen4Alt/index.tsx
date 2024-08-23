@@ -1,7 +1,7 @@
 import { useContext, useEffect, useRef } from "react";
 import globalStates from "../../utils/global";
 import "./AboutUsScreen4Alt.css";
-import { ImgAboutUsScreen4Bg, ImgAboutUsSCreen4Logo, ImgAboutUsScreen4ss } from "../../assets";
+import { ImgAboutUsScreen4Bg, ImgAboutUsScreen4BgMob, ImgAboutUsSCreen4Logo } from "../../assets";
 // import { BannerCoffee1, BannerCoffee2 } from "../../assets";
 
 const AboutUsScreen4Alt = () =>{
@@ -10,9 +10,11 @@ const AboutUsScreen4Alt = () =>{
     const globalContext:any = useContext(context);
     const windowWidthClass = globalContext && globalContext.windowWidthClass;
 
+    
+
     const componentData = {
         alt: "background",
-        imgSrcBackground : ImgAboutUsScreen4Bg,
+        imgSrcBackground :  windowWidthClass==="w-mob"? ImgAboutUsScreen4BgMob : ImgAboutUsScreen4Bg,
         tagline: "Heartfull to make you smile",
 
         content: {

@@ -76,6 +76,7 @@ export { default as ImgAboutUsScreen6 } from './img/aboutusscreen6/ImgAboutUsScr
 export { default as ImgAboutUsScreen7 } from './img/aboutusscreen7/ImgAboutUsScreen7.png'
 export { default as ImgAboutUsScreen3Peter } from './img/aboutusscreen3/ImgAboutUsScreen3Peter.png';
 export { default as ImgAboutUsScreen4Bg } from './img/aboutusscreen4/ImgAboutUsScreen4Bg.png';
+export { default as ImgAboutUsScreen4BgMob } from './img/aboutusscreen4/ImgAboutUsScreen4BgMob.png';
 export { default as ImgAboutUsSCreen4Logo } from './img/aboutusscreen4/zilliengrouplogo.png';
 export { default as ImgAboutUsScreen6Chart } from './img/aboutusscreen6/ImgOrgChart.png';
 
@@ -117,5 +118,6 @@ export { default as ImgIconProva5 } from './img/icons/ImgIconProva5.png'
 
 export { default as ImgTestimony1 } from './img/testimony/ImgTestimony1.jpg';
 export { default as ImgTestimony2 } from './img/testimony/ImgTestimony2.jpg';
-export { default as ImgTestimony3 } from './img/testimony/ImgTestimony3.jpg'
+export { default as ImgTestimony3 } from './img/testimony/ImgTestimony3.jpg';
+
 

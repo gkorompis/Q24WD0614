@@ -16,8 +16,9 @@ const About = () => {
             <AboutUsScreen1Alt/>
             {/* <AboutUsScreen1/> */}
             {/* <AboutUsScreen2/> */}
-            {/* <AboutUsScreen3/> */}
-            {/* <AboutUsScreen4Alt/> */}
+
+            <AboutUsScreen3/>
+            <AboutUsScreen4Alt/>
             {/* <AboutUsScreen4/> */}
             {/* <AboutUsScreen5Alt/> */}
             {/* <AboutUsScreen6/> */}
