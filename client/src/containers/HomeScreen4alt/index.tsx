@@ -1,9 +1,15 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import globalStates from "../../utils/global";
 import "./HomeScreen4alt.css";
 import { IconLabelCons, IconLabelConstr, IconLabelEduc, IconLabelFarm, IconLabelTour, ImgProjectCons, ImgProjectEdu, ImgProjectFarm, ImgProjectLegal, ImgProjectTour } from "../../assets";
+import { useNavigate } from "react-router-dom";
+import { prettyFormat } from "@testing-library/react";
+
+
 
 const HomeScreen4 = ()=>{
+
+    const navigate = useNavigate();
     
     const context = globalStates && globalStates.globalContext;
     const globalContext:any = useContext(context);
@@ -56,14 +62,31 @@ const HomeScreen4 = ()=>{
             iconSrc: IconLabelCons
         }
     ]
+
+    const [popUpView, setPopUpView] = useState(false);
+    const [popIndex, setPopIndex] = useState(0);
+
+
     
+    const handleViewAll = () =>{
+        navigate("/businesses")
+    };
+
+    const handleViewDetails = (text:any) =>{
+        setPopIndex(text);
+        setPopUpView(true);
+    };
+
+    
+
     return(
+        <>
         <div className={`${windowWidthClass}-home-screen4-alt`}>
             <div className="section header">
                 <h2>OUR PROJECTS</h2>
                 <div className="wrapper">
                     <p className="desc">Explore our projects that illustrate the success of our client partnering with us</p>
-                    <p className="button">view all</p>
+                    <p className="button" onClick={handleViewAll}>view all</p>
                 </div>
             </div>
             <div className="section ladders">
@@ -104,9 +127,39 @@ const HomeScreen4 = ()=>{
                                                     <h2>{projectName}</h2>
                                                     <h3>{highlight}</h3>
                                                     <p>{desc}</p>
-                                                    <p className="button">view details</p>
+                                                    <p className="button" onClick={()=>handleViewDetails(index)}>view details</p>
                                                 </div>
                                             </div>
+                                            {
+                                                popUpView ?
+                                                (
+                                                    <div className={`${windowWidthClass}-pop-up-view`}
+                                                      
+                                                    >
+                                                        <div className="content">
+                                                            <div className="wrapper">
+                                                                <div className="section image">
+                                                                    <div className="frame">
+                                                                        <img alt={`banner ${business}`} src={dataProjects[popIndex][`imgSrc`]}  />
+                                                                    </div>
+                                                                </div>
+                                                                <div className="section text">
+                                                                    <div className="text-wrapper">
+                                                                        <h2>{dataProjects[popIndex][`projectName`]}</h2>
+                                                                        <h3>{dataProjects[popIndex][`highlight`]}</h3>
+                                                                        <p>{dataProjects[popIndex][`desc`]}</p>
+                                                                        <p className="button close" onClick={()=>setPopUpView(!popUpView)}>close</p>
+                                                                    </div>
+                                                                 
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                ):
+                                                (
+                                                    <></>
+                                                )
+                                            }
                                         </div>
                                    </div>
                                 </div>  
@@ -116,6 +169,8 @@ const HomeScreen4 = ()=>{
             </div>
            
         </div>
+        
+        </>
     )
 };
 
